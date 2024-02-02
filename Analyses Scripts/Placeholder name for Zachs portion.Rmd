@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+A change
+
 This markdown file will be used to clip the datasets we have to include only regions in the delta. For now we will also include the parts of Alameda county that are in the delta region, but we may exclude those later.
 
 We will first load our packages. A secondary goal of this script will be to explain clearly the code being used so that an audience unfamiliar with R and Markdown can follow along easily.
@@ -1176,6 +1178,7 @@ park_use_data_meadows= park_use_data_meadows %>%
 
 ```{r}
 acs5_vars = load_variables(2021, 'acs5', cache = T)
+acs1_vars = load_variables(2022, 'acs1', cache = T)
 #age_vars = pull(acs5_vars[c(282:304, 306:328),1]) #we have to use pull because we 
 #want a vector of values, not a sublist -- this isn't too important but if you're unfamiliar with R you might get a bit confused by this part
 
