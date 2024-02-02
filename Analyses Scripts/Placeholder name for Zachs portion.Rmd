@@ -484,10 +484,6 @@ hunting_licenses_delta_total = hunting_licenses_delta %>%
 hunting_licenses_delta_total$delta_total / as.numeric(hunting_licenses_state$total_state) * 100
 ```
 
-```{r}
-
-```
-
 ## Farming and Agriculture
 
 For methods note that we used the shapefiles in the `Datasets` folder and followed a similar procedure as the previous report.
@@ -559,8 +555,7 @@ perc_land_farming_primary = perc_land_farming_primary %>%
   group_by(Farming) %>%
   summarize(acre = sum(Acreage)) %>%
   ungroup() %>%
-  mutate(percentage = acre / sum(acre)) #get percentage of land for farming vs not farming
-percentage of land for farming vs not farming
+  mutate(percentage = acre / sum(acre)) #get percentage of land for farming vs not farming percentage of land for farming vs not farming
 
 
 #same as above but for secondary zone:
