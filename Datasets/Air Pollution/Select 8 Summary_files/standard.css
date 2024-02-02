@@ -1,0 +1,87 @@
+SPAN.navbar { font-size: 10pt; font-family: arial narrow, helvetica, sans-serif; }
+SPAN.navbarsmall { font-size: 8pt; font-family: arial, helvetica, sans-serif; }
+SPAN.navbarxsmall { font-size: 7pt; font-family: arial, helvetica, sans-serif; }
+SPAN.navlabel { font-size: 8pt; font-family: arial, helvetica, sans-serif; color: white; }
+SPAN.welcomehead { font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000; font-weight: bold; text-indent: 9px; }
+SPAN.welcomesub { font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #990000; text-indent: 9px; }
+SPAN.heading { font-size: 11pt; font-family: arial, helvetica, sans-serif; color: #000000; font-weight: bold; text-indent: 9px; }
+SPAN.headingni { font-size: 11pt; font-family: arial, helvetica, sans-serif; color: #000000; font-weight: bold; }
+SPAN.headingsub { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-style: italic; color: #000000; font-weight: bold; }
+SPAN.subheading { font-size: 11pt; font-family: arial, helvetica, sans-serif; color: #990000; font-weight: bold; }
+SPAN.header { font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #000000; font-weight: bold; }
+SPAN.subheader { font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #990000; }
+SPAN.subheaderb { font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #990000; font-weight: bold; }
+SPAN.text { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #ffffff; }
+SPAN.textdim { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: normal; font-style: italic; color: #ffffff; }
+SPAN.textblack { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #000000; }
+SPAN.textblackind { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #000000; text-indent: 9px; }
+SPAN.textblackb { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #000000; font-weight: bold; }
+SPAN.textblacki { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #000000; font-style: italic; }
+SPAN.textblackbi { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #000000; font-style: italic; font-weight: bold; }
+SPAN.textunoffbi { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #000099; font-style: italic; font-weight: bold; }
+SPAN.textwhite { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #ffffff; }
+SPAN.textyellow { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #ffff00; }
+SPAN.textorange { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #ffb700; }
+SPAN.textdimyellow { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: normal; font-style: italic; color: #ffff00; }
+SPAN.textdimorange { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: normal; font-style: italic; color: #ffb700; }
+SPAN.textred { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #990000; }
+SPAN.textblue { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #003399; }
+SPAN.textalt1 { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #ccffff; }
+SPAN.textalt2 { font-size: 9pt; font-family: arial, helvetica, sans-serif; font-weight: bold; color: #ccff99; }
+SPAN.links { font-family: arial, helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #ffffff; }
+SPAN.linksdead { font-family: arial, helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #cccccc; }
+SPAN.faqforhome { font-family: arial, helvetica, sans-serif; font-size: 7pt; font-weight: bold; color: #ffffff; }
+SPAN.faqs { font-family: arial, helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #cccccc; }
+SPAN.popup { font-family: arial, helvetica, sans-serif; font-size: 9pt; font-weight: normal; color: #333333; text-indent: 10px; }
+SPAN.year { font-family: arial, helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #333333; }
+SPAN.yeardim { font-family: arial, helvetica, sans-serif; font-size: 9pt; font-weight: normal; font-style: italic; color: #333333; }
+SPAN.footnote { font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #333333; }
+SPAN.footnotei { font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #333333; font-style: italic; }
+SPAN.footnotebi { font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #000099; font-style: italic; font-weight: bold; }
+SPAN.footnoteyellow { background-color: #003399; font-weight: bold; color: #ffff00; }
+SPAN.footnoteorange { background-color: #003399; font-weight: bold; color: #ffd699; }
+SPAN.footnotedim { background-color: #003399; color: #ffffff; font-weight: normal; font-style: italic; }
+SPAN.footnotedimorange { background-color: #003399; color: #ffd699; font-weight: normal; font-style: italic; }
+SPAN.error { font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #990000; font-weight: bold; }
+SPAN.suberror { font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #003399; font-weight: bold; }
+SPAN.regionlabel { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #990000; text-decoration: underline; }
+SPAN.basinlabel { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #003399; }
+SPAN.textblacks { font-size: 8pt; font-family: arial, helvetica , sans-serif; color: #000000; }
+SPAN.textblacksr { font-size: 8pt; font-family: arial, helvetica , sans-serif; color: #990000; }
+SPAN.textblacksb { font-size: 8pt; font-family: arial, helvetica, sans-serif; color: #000000; font-weight: bold; }
+SPAN.notelabel { font-size: 11pt; font-weight: bold; }
+SPAN.aaqshead { font-size: 20pt; font-family: arial, helvetica, sans-serif; color: #0000cc; font-weight: bold; }
+SPAN.aaqscell { font-size: 9pt; font-family: arial, helvetica, sans-serif; color: #0000cc; font-weight: bold; }
+
+A:link { color: white; text-decoration: none; }
+A:visited { color: white; text-decoration: none; }
+A:hover { color: #ffff66; text-decoration: none; }
+A:active { color: yellow; text-decoration: none; }
+A.welcome:link { color: #333333; text-decoration: none; }
+A.welcome:visited { color: #333333; text-decoration: none; }
+A.welcome:hover { color: #990000; text-decoration: none; }
+A.welcome:active { color: #990000; text-decoration: none; }
+A.faqlinks:link { color: #990000; text-decoration: none; }
+A.faqlinks:visited { color: #990000; text-decoration: none; }
+A.faqlinks:hover { color: #666666; text-decoration: none; }
+A.faqlinks:active { color: #666666; text-decoration: none; }
+A.faqlist:link { color: #000000; text-decoration: none; }
+A.faqlist:visited { color: #000000; text-decoration: none; }
+A.faqlist:hover { color: #990000; text-decoration: none; }
+A.faqlist:active { color: #990000; text-decoration: none; }
+A.faqs:link { color: #000000; text-decoration: underline; }
+A.faqs:visited { color: #000000; text-decoration: underline; }
+A.faqs:hover { color: #990000; text-decoration: underline; }
+A.faqs:active { color: #990000; text-decoration: underline; }
+A.fnote:link { color: #003399; text-decoration: underline; }
+A.fnote:visited { color: #003399; text-decoration: underline; }
+A.fnote:hover { color: #990000; text-decoration: underline; }
+A.fnote:active { color: #990000; text-decoration: underline; }
+A.stats:link { color: #000000; text-decoration: none; }
+A.stats:visited { color: #000000; text-decoration: none; }
+A.stats:hover { color: #990000; text-decoration: underline; }
+A.stats:active { color: #990000; text-decoration: underline; }
+
+SELECT { font-family: arial, helvetica, sans-serif; font-size: 9pt; }
+
+TD.wborder { border: 1px solid #cccccc; background: #ffff00; }

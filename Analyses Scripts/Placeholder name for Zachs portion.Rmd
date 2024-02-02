@@ -1,0 +1,1266 @@
+---
+title: "Cleaning Data"
+author: "Zachary Houghton"
+date: "2023-09-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This markdown file will be used to clip the datasets we have to include only regions in the delta. For now we will also include the parts of Alameda county that are in the delta region, but we may exclude those later.
+
+We will first load our packages. A secondary goal of this script will be to explain clearly the code being used so that an audience unfamiliar with R and Markdown can follow along easily.
+
+```{r}
+if (!require("tidyverse")) install.packages("tidyverse")
+if (!require("scales")) install.packages("scales")
+if (!require("tidycensus")) install.packages("tidycensus")
+```
+
+The lines above check to see if the packages are installed locally and install them if not. It will also automatically load the packages, but if we know they're installed we can load them manually using the following code:
+
+```{r}
+library(tidyverse)
+library(tidycensus)
+library(ggpubr)
+```
+
+## Delta Counties
+
+We will want a dataframe that includes that a list of the counties we care about:
+
+```{r}
+delta_counties = c('Alameda', 'Contra Costa', 'Sacramento', 'San Joaquin', 'Solano', 'Yolo')
+```
+
+For census tracts, we'll use the list that Chris sent. We'll include them as a dataframe
+
+```{r}
+delta_tracts_primary_secondary = readxl::read_xlsx('zonesTractsSeparated2020.updated.xlsx')
+delta_tracts_no_leading_zero = pull(delta_tracts_primary_secondary[,2]) #see below for why we're using the function `pull` here
+
+delta_tracts_primary_secondary = delta_tracts_primary_secondary %>%
+  group_by(zone) %>%
+  distinct()
+#getwd()
+#write_csv(delta_tracts_primary_secondary, 'delta_tracts_no_duplicates.csv')
+```
+
+## Tidycensus
+
+We'll be using tidycensus for some of the education and population data since it's convenient. If you're unfamiliar with Tidycensus, you can following along with this link <https://walker-data.com/census-r/an-introduction-to-tidycensus.html>.
+
+The first thing you need to do is get a key from this website: <https://api.census.gov/data/key_signup.html>.
+
+Once you get the key, you should run the following code, replacing the key with your own (mine is not included here for security reasons):
+
+## Population
+
+### age groups
+
+We'll start by getting the data for different age groups. We will use the code `get_acs()` for this.
+
+First let's determine what the variable codes are. First we'll gather the variables for population by age groups for male and female individuals.
+
+```{r}
+acs5_vars = load_variables(2021, 'acs5', cache = T)
+#age_vars = pull(acs5_vars[c(282:304, 306:328),1]) #we have to use pull because we 
+#want a vector of values, not a sublist -- this isn't too important but if you're unfamiliar with R you might get a bit confused by this part
+
+#age_vars = c('B06001_002', 'B06001_003', 'B06001_004', 'B06001_005', 'B06001_006', 'B06001_007', 'B06001_008', 'B06001_009', 'B06001_010', 'B06001_011', 'B06001_012')
+
+
+age_vars = c('B06001_002', 'B01001_003', 'B01001_004', 'B01001_005', 'B01001_006', 'B01001_007', 'B01001_008', 'B01001_009', 'B01001_010', 'B01001_011', 'B01001_012', 'B01001_013', 'B01001_014','B01001_015','B01001_016', 'B01001_017','B01001_018', 'B01001_019', 'B01001_020', 'B01001_021', 'B01001_022', 'B01001_023', 'B01001_024', 'B01001_025','B01001_028', 'B01001_029', 'B01001_030','B01001_031', 'B01001_032', 'B01001_033', 'B01001_034', 'B01001_035', 'B01001_036', 'B01001_037', 'B01001_038', 'B01001_039', 'B01001_040', 'B01001_041', 'B01001_042', 'B01001_043', 'B01001_044', 'B01001_045', 'B01001_046', 'B01001_047', 'B01001_048', 'B01001_049')
+
+summary_var_age1 = 'B06001_001'
+summary_var_age2 = 'B01001_001'
+#in principle, B06001_001 and B01001_001 should yield the same numbers, but I want to normalize the numbers based on the same dataset, so for B06001_002, we will divide by B06001_001 to get the percentage, and for B01001_X, we will divide by B01001_001.
+
+age_vars_key = acs5_vars %>%
+  filter(name %in% age_vars)
+
+age_vars_key = age_vars_key %>%
+  separate_wider_regex(label, c(var1 = '.*!!', var2 = '.*[years]'))
+```
+
+Okay, so reading the documentation it looks like we will have to filter by GEOID after loading in the dataframe. It's a bit unfortunate that we can't do this before loading it as a variable, but it's not a huge deal (we could hypothetically sort by zipcode before loading it into memory using the zcta argument I think, but we already have the GEOIDs, so we might as well just filter it).
+
+```{r}
+age_groups_filtered = get_acs(geography = 'tract', state = 'CA', variables = age_vars, summary_var = summary_var_age1, county = delta_counties) 
+
+age_groups_filtered2 = get_acs(geography = 'tract', state = 'CA', variables = age_vars, summary_var = summary_var_age2, county = delta_counties) 
+```
+
+Note that our tracts are missing a leading zero, so let's go ahead and fix that:
+
+```{r}
+delta_tracts = delta_tracts_no_leading_zero
+```
+
+Now we can filter by census tracts
+
+```{r}
+
+delta_tracts = paste0(0, delta_tracts)
+age_groups_filtered = age_groups_filtered %>%
+  filter(GEOID %in% delta_tracts) #include any value in delta_tracts
+
+age_groups_filtered2 = age_groups_filtered2 %>%
+  filter(GEOID %in% delta_tracts) #include any value in delta_tracts
+
+population_delta = age_groups_filtered %>%
+  group_by(variable) %>%
+  distinct(GEOID, .keep_all = T) %>%
+  ungroup() %>%
+  group_by(GEOID) %>%
+  slice_head(n = 1) %>%
+  ungroup() %>%
+  summarize(num_people = sum(summary_est))
+
+population_delta2 = age_groups_filtered2 %>%
+  group_by(variable) %>%
+  distinct(GEOID, .keep_all = T) %>%
+  ungroup() %>%
+  group_by(GEOID) %>%
+  slice_head(n = 1) %>%
+  ungroup() %>%
+  summarize(num_people = sum(summary_est))
+
+
+```
+
+Finally, let's confirm that all the census tracts are included in this:
+
+```{r}
+length(unique(delta_tracts))
+length(unique(age_groups_filtered$GEOID)) #these should be the same
+```
+
+We'll join it with our `age_vars_key` dataframe so that we know what the variables mean, we'll then group by age and summarize by adding it (so that we'll have the total values for men and women combined).
+
+```{r}
+age_groups = age_groups_filtered %>%
+  left_join(age_vars_key, by = c('variable' = 'name')) %>%
+  group_by(GEOID, var2) %>%
+  summarize(estimate = sum(estimate))
+
+population_delta = age_groups_filtered %>%
+  left_join(age_vars_key, by = c('variable' = 'name')) %>%
+  group_by(GEOID) %>%
+  slice_head(n = 1) %>%
+  summarize(population = summary_est)
+
+age_groups = age_groups %>% 
+  full_join(population_delta) %>%
+  mutate(percent = estimate / population * 100)
+
+
+```
+
+And let's join with our delta tracts key
+
+```{r}
+delta_tracts_primary_secondary$tract = paste0(0, delta_tracts_primary_secondary$tract)
+delta_tracts_primary_secondary$tract = as.character(delta_tracts_primary_secondary$tract)
+
+age_groups_tracts = delta_tracts_primary_secondary %>%
+  full_join(age_groups, by = c('tract' = 'GEOID'))
+
+
+population_primary = age_groups_tracts %>%
+  filter(zone == 1) %>%
+  group_by(var2) %>%
+  distinct(tract, .keep_all = T) %>%
+  ungroup() %>%
+  group_by(tract) %>%
+  slice_head(n = 1) %>%
+  ungroup() %>%
+  summarize(num_people = sum(population))
+
+
+population_secondary = age_groups_tracts %>%
+  filter(zone == 2) %>%
+  group_by(var2) %>%
+  distinct(tract, .keep_all = T) %>%
+  ungroup() %>%
+  group_by(tract) %>%
+  slice_head(n = 1) %>%
+  ungroup() %>%
+  summarize(num_people = sum(population))
+  
+#delta population
+population_primary
+population_secondary
+population_delta2
+
+population_delta2 == population_primary + population_secondary
+```
+
+#### Graphs
+
+```{r}
+age_plot_data = age_groups_tracts %>%
+  group_by(zone, var2) %>%
+  summarize(num_people = sum(estimate, na.rm = T), num_population = sum(population, na.rm = T)) %>%
+  na.omit()
+
+full_delta = age_plot_data %>%
+  ungroup() %>%
+  group_by(var2) %>%
+  summarize(num_people = sum(num_people)) %>%
+  mutate(zone = as.double('3')) 
+
+full_delta_pop = age_groups %>%
+  ungroup() %>%
+  distinct(GEOID, .keep_all = T) %>%
+  summarize(num_population = sum(population))
+
+full_delta_pop = pull(full_delta_pop[1,1])
+
+full_delta$num_population = full_delta_pop
+full_delta$zone = as.character(full_delta$zone)
+
+#colnames(full_delta)[4] = 'num_population'
+
+age_plot_data$zone = as.factor(as.numeric(age_plot_data$zone))
+
+age_plot_data = age_plot_data %>%
+  full_join(full_delta) %>%
+  mutate(percentage = num_people / num_population * 100)
+
+
+
+colnames(age_plot_data)[2] = 'age'
+
+age_plot_data = age_plot_data %>% #we could use a single line, but keeping them separate here makes the code more easily readable
+  mutate(age = str_replace(age, 'years', '')) %>%
+  mutate(age = str_replace(age, ' to ', '-')) %>%
+  mutate(age = str_replace(age, ' and ', '-'))
+
+```
+
+Let's remove the errorbars and collapse the ages so that they match the original socioeconomic report.
+
+In order to bin the ages as the same, we can create a vectorized list with two items per entry. For example, bin one is less than 5, which remains the same. Bin 2 is ages 5-9 and Bin 3 is 10-14, both of which can stay the same. Bin 4, however, should be 15-19, and in our dataframe we have two different rows: 15-17; 18-19. Thus our first entry can be `c('15-17', '18-19'`. We'll then use `ifelse` replacement to change the bins. The code will be clearer than my words, so I'll just include the code below:
+
+First, let's note the bins that should change:
+
+15-17; 18-19 --\> 15-19
+
+20; 21; 22-24 --\> 20-24
+
+25-29; 30-34 --\> 25-34
+
+35-39; 40-44 --\> 35-44
+
+45-49; 50-54 --\> 49-54
+
+60-61; 62-64 --\> 60-64
+
+65-66; 67-69; 70-74 --\> 65-74
+
+75-79; 80-84 --\> 75-84
+
+```{r}
+age_plot_data = na.omit(age_plot_data)
+bin1 = c('15-17 ', '18-19 ')
+bin2 = c('20 ','21 ', '22-24 ')
+bin3 = c('25-29 ', '30-34 ')
+bin4 = c('35-39 ', '40-44 ')
+bin5 = c('45-49 ', '50-54 ')
+bin6 = c('60-61 ', '62-64 ')
+bin7 = c('65-66 ', '67-69 ', '70-74 ')
+bin8 = c('75-79 ', '80-84 ')
+
+bins = list(bin1, bin2, bin3, bin4, bin5, bin6, bin7, bin8)
+names_bins = c('15-19', '20-24','25-34', '35-44', '45-54', '60-64', '65-69', '75-84')
+
+for(i in 1:length(bins)) {
+  age_plot_data = age_plot_data %>%
+    mutate(age = replace(age, age %in% bins[[i]], names_bins[i]))
+ 
+  
+}
+
+
+```
+
+And now the plot:
+
+```{r}
+age_plot_data$age = factor(age_plot_data$age, levels = c('Under 5 ', '5-9 ', '10-14 ', '15-19', '20-24', '25-34', '35-44', '45-54', '55-59 ', '60-64', '65-69', '75-84', '85 -over'))
+
+
+zone_pop = age_plot_data %>%
+  group_by(zone) %>%
+  slice_head(n=1)
+zone_pop = zone_pop[,c(1,4)]
+
+age_plot_data = age_plot_data %>%
+  group_by(zone, age) %>%
+  summarize(percentage = sum(percentage), num_people = sum(num_people)) %>%
+  full_join(zone_pop)
+
+age_plot_data = age_plot_data %>%
+  mutate(zone = ifelse(zone == 1, 'Primary', ifelse(zone == 2, 'Secondary', 'Delta')))
+
+plot2 = ggplot(data = age_plot_data) +
+  geom_bar(aes(x = age, y = percentage, fill = zone), stat = 'identity', position = 'dodge') +
+  #geom_errorbar(aes(x = age, ymin = mean-se, ymax = mean+se, fill = zone), position='dodge') + #probably best to drop the errorbars here, they don't add much
+  theme_bw()
+plot2 +
+  scale_fill_brewer(palette = 'OrRd') + ggtitle('Population by Age 2017-2021')
+
+#write_csv(age_plot_data, './Data_for_plots/age_plot_data.csv')
+```
+
+### High School Graduation Rates
+
+```{r}
+grad_data = read_csv('../Datasets/High School Graduation Rates/graduates2021.csv')
+```
+
+Now we need to get a list of our school districts that we care about and which zones they're in (primary vs secondary). Luckily, we have a csv file with this information included.
+
+```{r}
+school_zones = read_csv('../Datasets/High School Graduation Rates/school zones.csv')[1:32,]
+```
+
+The first thing we're going to do is narrow down our data only to the districts we care about. We can get a list of those districts from our `school_zones` data, with one caveat: the names are slightly different. We need to modify our names so that they're the same. Luckily this should be easy enough to do:
+
+```{r}
+school_zones = school_zones %>% 
+  mutate('School District' = str_replace(`School District`, ' School District', ''))
+
+grad_data_delta = grad_data %>%
+  filter(`District Name` %in% school_zones$`School District`)
+
+```
+
+Next we can see if we're missing any school districts
+
+```{r}
+length(unique(school_zones$`School District`))
+length(unique(grad_data_delta$`District Name`))
+
+sort(unique(school_zones$`School District`))
+sort(unique(grad_data_delta$`District Name`))
+```
+
+It appears that a few of them have slightly different names than we have, so we'll change these to reflect that. For example "Byron Union" is actually "Byron Union Elementary". The changes are listed below, and we'll use a rather crude bit of code to change this. Ultimately, this naming scheme probably should have been changed at the data level rather than at the analysis level, but I'm feeling a bit lazy.
+
+> Brentwood Union (**Missing)**
+>
+> Byron Union --\> Byron Union Elementary
+>
+> Galt Joint Union Elementary --\> Galt Joint Union High
+>
+> Knightsen Elementary (**Missing)**
+>
+> New Hope Elementary (**Missing**)
+>
+> Oakley Union Elementary (**Missing)**
+>
+> Tracy Unified --\> Tracy Joint Unified
+
+It looks like only four are missing, I'll look into this to see why that is, but in the mean time we'll work with the data we have.
+
+```{r}
+school_zones = school_zones %>%
+  mutate('School District' = str_replace_all(`School District`, 
+                                             c('Byron Union' = 'Byron Union Elementary', 
+                                               'Galt Joint Union Elementary' = 'Galt Joint Union High',
+                                               'Tracy Unified' = 'Tracy Joint Unified')))
+  
+
+grad_data_delta = grad_data %>%
+  filter(`District Name` %in% school_zones$`School District`) %>%
+  full_join(school_zones, by = c('District Name' = 'School District')) 
+
+grad_data_summary = grad_data_delta %>%
+  group_by(Zones) %>%
+  summarize(mean = mean(`One-Year 
+Graduate Count`, na.rm = T))
+
+grad_data_summary$Zones = as.factor(as.numeric(grad_data_summary$Zones))
+```
+
+#### Summary Information
+
+#### Graphs
+
+```{r}
+ggplot(data = grad_data_summary) +
+  geom_bar(aes(x = `Zones`, y = mean), stat = 'identity', position = 'dodge', fill = 'skyblue', width = 0.4) + 
+  theme_bw()
+```
+
+### School District Poverty
+
+Let's load in our data:
+
+```{r}
+column_names = c('State code', 'District ID', 'District Name', 'Total Population', 'Population of Relevant Children (5-17 years of age)', 'Estimated Number of Relevant Children in Poverty (5-17 years of age)', 'file name', 'date of creation')
+
+poverty_data = read_fwf('../Datasets/School District Poverty/saipe_datasets_2021_2021-school-districts_sd21-ca.txt')
+
+colnames(poverty_data) = column_names
+
+head(poverty_data)
+```
+
+We can use a similar process to filter out schools we don't care about. In fact, we should be able to use the same list as before.
+
+```{r}
+
+poverty_zones = read_csv('../Datasets/High School Graduation Rates/school zones.csv')[1:32,]
+poverty_data_delta = poverty_data %>%
+  filter(`District Name` %in% poverty_zones$`School District`) %>%
+  full_join(poverty_zones, by = c('District Name' = 'School District')) 
+#missing brentwood and byron
+poverty_data_delta = poverty_data_delta[1:30,]
+
+
+num_children_in_poverty_delta = poverty_data_delta %>%
+  mutate(percentage = `Estimated Number of Relevant Children in Poverty (5-17 years of age)` / `Population of Relevant Children (5-17 years of age)`) %>%
+  summarize(mean(percentage) * 100) %>%
+  mutate(Zones = 3)
+
+num_children_in_poverty = poverty_data_delta %>%
+  group_by(Zones) %>%
+  mutate(percentage = `Estimated Number of Relevant Children in Poverty (5-17 years of age)` / `Population of Relevant Children (5-17 years of age)`) %>%
+  summarize(mean(percentage) * 100) %>%
+  full_join(num_children_in_poverty_delta)
+```
+
+#### Graphs
+
+## Tourism
+
+### Fishing Licenses
+
+```{r}
+california_zip_codes = read_csv('California_Zip_Codes.csv')
+zip_codes = read_csv('zipcodes.csv')
+zip_codes$zipcodes = as.character(zip_codes$zipcodes)
+
+fishing_licenses = read_csv('../Datasets/Sport Fishing Licenses/2022 Sport Fishing License Sales By Sales Location Zip.csv') %>%
+  select(`ZipCode/Item`,`Grand Total`) %>%
+  filter(`ZipCode/Item` %in% zip_codes$zipcodes) %>%
+  left_join(zip_codes, by = c('ZipCode/Item' = 'zipcodes'))
+
+state_fishing_licenses = read_csv('../Datasets/Sport Fishing Licenses/2022 Sport Fishing License Sales By Sales Location Zip.csv') %>%
+  select(`ZipCode/Item`,`Grand Total`) %>%
+  filter(`ZipCode/Item` %in% california_zip_codes$ZIP_CODE) %>%
+  summarize(total_state = sum(`Grand Total`, na.rm = T))
+
+sum(fishing_licenses$`Grand Total`) / sum(state_fishing_licenses$total_state)
+```
+
+### 
+
+## Hunting Licenses
+
+```{r}
+
+california_zip_codes = read_csv('California_Zip_Codes.csv')
+hunting_licenses_delta = read_csv('../Datasets/Hunting Licenses/2022 Hunting License Sales By Sales Location Zip.csv') %>%
+  select(`ZipCode/Item`,`Grand Total`) %>%
+  filter(`ZipCode/Item` %in% zip_codes$zipcodes) %>%
+  left_join(zip_codes, by = c('ZipCode/Item' = 'zipcodes'))
+
+hunting_licenses_state = as.data.frame(read_csv('../Datasets/Hunting Licenses/2022 Hunting License Sales By Sales Location Zip.csv')) %>%
+  select(`ZipCode/Item`,`Grand Total`) 
+
+hunting_licenses_state = hunting_licenses_state %>%
+  filter(`ZipCode/Item` %in% california_zip_codes$ZIP_CODE) %>%
+  summarize(total_state = sum(`Grand Total`, na.rm = T))
+
+hunting_licenses_delta_total = hunting_licenses_delta %>%
+  summarize(delta_total = sum(`Grand Total`, na.rm = T))
+
+hunting_licenses_delta_total$delta_total / as.numeric(hunting_licenses_state$total_state) * 100
+```
+
+```{r}
+
+```
+
+## Farming and Agriculture
+
+For methods note that we used the shapefiles in the `Datasets` folder and followed a similar procedure as the previous report.
+
+### Farmland Conversions
+
+Note that the 4-year comparison is from 2018 to 2022
+
+```{r}
+#primary_data_4year_comparison = read_csv('../Datasets/Farming/Primary/Compared Years/4-year comparison.csv')
+
+primary_data_2018 = read_csv('../Datasets/Farming/Primary/Raw Years/2018.csv')
+primary_data_2022 = read_csv('../Datasets/Farming/Primary/Raw Years/2022.csv')
+
+#secondary_data_4year_comparison = read_csv('../Datasets/Farming/Secondary/4-year comparison.csv')
+
+secondary_data_2018 = read_csv('../Datasets/Farming/Secondary/2018.csv')
+secondary_data_2022 = read_csv('../Datasets/Farming/Secondary/2022.csv')
+```
+
+Let's collect the following statistics for the primary and secondary zone:
+
+1.  percentage of land used for farming (including fallowed land)
+
+2.  percentage of developed land
+
+3.  top five crops by total land-cover (and the percentage of total area they cover as well as raw acreage)
+
+4.  crops that have showed the largest change in development
+
+The first 3 are easy, but the last one is a bit difficult because GEOSCAPE won't give us crop changes in the secondary zone (it returns the error: `These should be availbale CDL data in the defined area for at least two years, please define a new one`). In order to address this one, we can manually take the difference in areas for crops for the primary and secondary zone. This has the disadvantage that we won't know what caused the loss (e.g., was less corn due to more of another crop, or due to more developed land?) which the CDL analysis gives us, but oh well.
+
+First we'll get a dataframe for each zone that is the difference in acreage across years:
+
+```{r}
+primary_diff = primary_data_2018 %>%
+  left_join(primary_data_2022, by = 'Category')
+
+colnames(primary_diff) = c('Value_2018', 'Category', 'Count_2018', 'Acreage_2018', 'Value_2022', 'Count_2022', 'Acreage_2022')
+
+primary_diff = na.omit(primary_diff)
+
+primary_diff = primary_diff %>%
+  mutate('change across years (Acreage_2022 - Acreage_2018)' = Acreage_2022 - Acreage_2018)
+```
+
+Now let's do the same for the secondary zone:
+
+```{r}
+
+secondary_diff = secondary_data_2018 %>%
+  left_join(secondary_data_2022, by = 'Category')
+
+colnames(secondary_diff) = c('Value_2018', 'Category', 'Count_2018', 'Acreage_2018', 'Value_2022', 'Count_2022', 'Acreage_2022')
+
+secondary_diff = na.omit(secondary_diff)
+
+secondary_diff = secondary_diff %>%
+  mutate('change across years (Acreage_2022 - Acreage_2018)' = Acreage_2022 - Acreage_2018)
+```
+
+1.  percentage of land used for farming (including fallowed land):
+
+```{r}
+perc_land_farming_primary = primary_data_2022 %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) #classify the above groups as non-farmland
+
+perc_land_farming_primary = perc_land_farming_primary %>% 
+  group_by(Farming) %>%
+  summarize(acre = sum(Acreage)) %>%
+  ungroup() %>%
+  mutate(percentage = acre / sum(acre)) #get percentage of land for farming vs not farming
+
+#same as above but for secondary zone:
+
+perc_land_farming_secondary = secondary_data_2022 %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0))
+
+perc_land_farming_secondary = perc_land_farming_secondary %>% 
+  group_by(Farming) %>%
+  summarize(acre = sum(Acreage)) %>%
+  ungroup() %>%
+  mutate(percentage = acre / sum(acre))
+```
+
+Thus in the primary zone, the percentage of farm land is roughly `r round(filter(perc_land_farming_primary, Farming == 1)[3] * 100, 3)`% and in the secondary zone that percentage is `r round(filter(perc_land_farming_secondary, Farming == 1)[3] * 100, 3)`%.
+
+2.  Percentage of developed land:
+
+The process is going to be similar to above:
+
+```{r}
+perc_land_developed_primary = primary_data_2022 %>%
+  mutate(developed = ifelse(Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity'), 1, 0)) #classify the above groups as developed
+
+perc_land_developed_primary = perc_land_developed_primary %>% 
+  group_by(developed) %>%
+  summarize(acre = sum(Acreage)) %>%
+  ungroup() %>%
+  mutate(percentage = acre / sum(acre)) #get percentage of land that is developed vs not developed
+
+#same as above but for secondary zone:
+
+perc_land_developed_secondary = secondary_data_2022 %>%
+  mutate(developed = ifelse(Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity'), 1, 0)) #classify the above groups as developed
+
+perc_land_developed_secondary = perc_land_developed_secondary %>% 
+  group_by(developed) %>%
+  summarize(acre = sum(Acreage)) %>%
+  ungroup() %>%
+  mutate(percentage = acre / sum(acre)) #get percentage of land that is developed vs not developed
+```
+
+To summarize, the percentage of land that is developed in the primary zone is roughly `r round(filter(perc_land_developed_primary, developed == 1)[3] * 100, 3)`% and in the secondary zone that percentage is `r round(filter(perc_land_developed_secondary, developed == 1)[3] * 100, 3)`%.
+
+3.  top five crops by total land-cover (and the percentage of total area they cover as well as raw acreage):
+
+    We can do this pretty easily by just sorting by numerically descending and then using slice() to take the top five.
+
+```{r}
+top_five_crops_primary = primary_data_2022 %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1) %>%
+  arrange(desc(Acreage)) %>%
+  mutate(perc = Acreage / sum(Acreage) * 100) %>%
+  slice_head(n=5)
+
+top_five_crops_secondary = secondary_data_2022 %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1) %>%
+  arrange(desc(Acreage)) %>%
+  mutate(perc = Acreage / sum(Acreage) * 100) %>% 
+  slice_head(n=5) #in hindsight I could've just used slice_max() but I forgot it existed
+
+all_crops_primary = primary_data_2022 %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1 & Category != 'Fallow/Idle Cropland') %>%
+  arrange(desc(Acreage)) %>%
+  mutate(perc = Acreage / sum(Acreage) * 100) 
+
+all_crops_secondary = secondary_data_2022 %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1 & Category != 'Fallow/Idle Cropland') %>%
+  arrange(desc(Acreage)) %>%
+  mutate(perc = Acreage / sum(Acreage) * 100)
+
+all_crops_primary$perc = format(all_crops_primary$perc, scientific = F)
+all_crops_secondary$perc = format(all_crops_secondary$perc, scientific = F)
+```
+
+So the top crops in the primary zone are `r top_five_crops_primary$Category` and the top five crops in the secondary zone are `r top_five_crops_secondary$Category`.
+
+Now for the number of acres converted to crop, fallow, infill, and other
+
+```{r}
+
+other = c('Woody Wetlands', 'Open Water', 'Herbaceous Wetlands', 'Mixed Forest', 'Deciduous Forest', 'Barren', 'Evergreen Forest')
+developed = c('Developed/High Intensity', 'Developed/Low Intensity', 'Developed/Medium Intensity')
+
+conversion_data = read_csv('../Datasets/Farmland Conversion/cdl_clip_compare_20231031171359_682598908_int.csv') %>%
+  filter(To %in% developed) 
+
+crops = c('Corn', 'Cotton', 'Rice', 'Sorghum', 'Soybeans', 'Sunflowers', 'Barley', 'Winter Wheat', 'Rye', 'Oats', 'Safflower', 'Alfalfa', 'Other Hay/Non Alfalfa', 'Dry Beans', 'Potatoes', 'Watermelons', 'Onions', 'Cucumbers', 'Tomatoes', 'Herbs', 'Clover/Wildflowers', 'Sod/Grass Seed', 'Cherries', 'Peaches', 'Grapes', 'Other Tree Crops', 'Almonds', 'Walnuts', 'Pears', 'Shrubland', 'Grass/Pasture', 'Triticale', 'Carrots', 'Garlic', 'Olives', 'Oranges', 'Honeydew Melons', 'Plums', 'Strawberries', 'Squash', 'Vetch', 'Dbl Crop WinWht/Corn', 'Dbl Crop Oats/Corn', 'Pumpkins', 'Pistachios')
+
+conversion_data_plot = conversion_data %>%
+  #mutate(To = 'Developed') %>%
+  mutate(From = ifelse((From == 'Developed/Low Intensity' | From == 'Developed/Open Space') & (To == 'Developed/Medium Intensity' | To == 'Developed/High Intensity'), 'Infill', ifelse(From == 'Fallow/Idle Cropland', 'Fallow', ifelse(From %in% crops, 'Crop', ifelse(From %in% other, 'Other', From))))) %>%
+  mutate(To = 'Developed')
+
+
+conversion_data_plot = conversion_data_plot %>%
+  filter(From %in% c('Crop', 'Fallow', 'Infill', 'Other'))
+```
+
+```{r}
+farmland_conversion_plot = ggplot(data = conversion_data_plot) +
+  geom_col(aes(x = From, y = Acreage), fill = 'orange') +
+  xlab('Category') +
+  ylab('Acres') +
+  ggtitle('Land Conversion to Development', subtitle = '2018-2022: Primary Zone') +
+ #coord_flip() +
+  theme_bw()
+
+farmland_conversion_plot
+```
+
+We can't get the data for the secondary zone, but we can extrapolate this by subtracting the changes in acreage for the primary zone from the changes for the entire delta:
+
+```{r}
+farmland_conversion_full_delta = read_csv('farmland_conversion_primary_secondary.csv') 
+farmland_conversion_primary = read_csv('../Datasets/Farmland Conversion/cdl_clip_compare_20231031171359_682598908_int.csv') 
+  
+conversion_data_secondary = farmland_conversion_full_delta %>%
+  #group_by(From, To) %>%
+  full_join(farmland_conversion_primary, by = c('From', 'To'))  #Mathematically, farmland conversions in the secondary region should be equal to farmland conversions in the full-delta minus the conversions in the primary region (in other words, farmland conversions for the entire delta are equal to the sum of the conversions in the primary and the conversions in the secondary)
+
+#NA means zero in the context of here, so we can replace NA with zero:
+
+conversion_data_secondary = conversion_data_secondary %>%
+  replace_na(list(Count.y = 0, Acreage.y = 0)) %>%
+  mutate(secondary = Acreage.x - Acreage.y)
+  
+colnames(conversion_data_secondary)[c(6,7)] = c('Primary', 'Secondary')
+conversion_data_secondary_developed = conversion_data_secondary %>%
+  filter(To %in% developed) 
+
+conversion_data_plot_secondary = conversion_data_secondary_developed %>%
+  #mutate(To = 'Developed') %>%
+  mutate(From = ifelse((From == 'Developed/Low Intensity' | From == 'Developed/Open Space') & (To == 'Developed/Medium Intensity' | To == 'Developed/High Intensity'), 'Infill', ifelse(From == 'Fallow/Idle Cropland', 'Fallow', ifelse(From %in% crops, 'Crop', ifelse(From %in% other, 'Other', From))))) %>%
+  mutate(To = 'Developed')
+
+
+conversion_data_plot_secondary = conversion_data_plot_secondary %>%
+  filter(From %in% c('Crop', 'Fallow', 'Infill', 'Other'))
+
+conversion_data_plot_secondary = conversion_data_plot_secondary %>%
+  select(From, To, Primary, Secondary) %>%
+  pivot_longer(cols=c(Primary, Secondary),
+               names_to = 'Zone', 
+               values_to = 'Acres') 
+
+farmland_conversion_plot_full = ggplot(data = conversion_data_plot_secondary) +
+  geom_col(aes(x = From, y = Acres, fill = Zone), position = 'dodge') +
+  xlab('Category') +
+  ylab('Acres') +
+  ggtitle('Land Conversion to Development by Zone', subtitle = '2018-2022') +
+ #coord_flip() +
+  theme_bw()
+
+farmland_conversion_plot_full
+
+#ggarrange(farmland_conversion_plot, farmland_conversion_plot_secondary)
+
+#write_csv(conversion_data_plot_secondary, './Data_for_plots/land_conversion_data.csv')
+```
+
+### Graphs
+
+As usual, we start by preparing our data:
+
+```{r}
+acreage_diff_primary_min = primary_diff %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1 & Category != 'Fallow/Idle Cropland') %>%
+  slice_min(`change across years (Acreage_2022 - Acreage_2018)`, n = 5)
+
+acreage_diff_primary_max = primary_diff %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1 & Category != 'Fallow/Idle Cropland') %>%
+  slice_max(`change across years (Acreage_2022 - Acreage_2018)`, n = 5)
+
+acreage_diff_primary = acreage_diff_primary_min %>%
+  full_join(acreage_diff_primary_max)
+
+### same with secondary ###
+
+acreage_diff_secondary_min = secondary_diff %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1 & Category != 'Fallow/Idle Cropland') %>%
+  slice_min(`change across years (Acreage_2022 - Acreage_2018)`, n = 5)
+
+acreage_diff_secondary_max = secondary_diff %>%
+  mutate(Farming = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands'), 1, 0)) %>% #classify the above groups as non-farmland
+  filter(Farming == 1 & Category != 'Fallow/Idle Cropland') %>%
+  slice_max(`change across years (Acreage_2022 - Acreage_2018)`, n = 5)
+
+acreage_diff_secondary = acreage_diff_secondary_min %>%
+  full_join(acreage_diff_secondary_max)
+
+colnames(acreage_diff_primary)[8] = 'diff'
+colnames(acreage_diff_secondary)[8] = 'diff'
+```
+
+Now for the plots:
+
+```{r}
+acreage_diff_primary_plot = ggplot(data = acreage_diff_primary) +
+  geom_col(aes(x = reorder(Category, -diff), y = diff), fill = 'orange') +
+  xlab('Category') +
+  ylab('Change in Acres between 2018 and 2022') +
+  ggtitle('Primary Zone Crop Acreage: Expansion and Reduction', subtitle = '2018-2022') +
+  coord_flip() +
+  theme_bw()
+
+#acreage_diff_primary_plot
+
+acreage_diff_secondary_plot = ggplot(data = acreage_diff_secondary) +
+  geom_col(aes(x = reorder(Category, -diff), y = diff), fill = 'orange') +
+  xlab('Category') +
+  ylab('Change in Acres between 2018 and 2022') +
+  ggtitle('Secondary Zone Crop Acreage: Expansion and Reduction', subtitle = '2018-2022') +
+  coord_flip() +
+  theme_bw()
+
+#acreage_diff_secondary_plot
+library(ggpubr)
+
+ggarrange(acreage_diff_primary_plot, acreage_diff_secondary_plot, nrow = 2)
+
+
+#write_csv(acreage_diff_primary, './Data_for_plots/acreage_diff_primary.csv')
+#write_csv(acreage_diff_secondary, './Data_for_plots/acreage_diff_secondary.csv')
+```
+
+Let's prepare the data for our next plot:
+
+```{r}
+land_use_2022_primary = primary_data_2022 %>%
+  mutate(Land_type = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands', 'Fallow/Idle Cropland'), 'Crop', ifelse(Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity'), 'Urban', ifelse(Category == 'Fallow/Idle Cropland', 'Fallow/Idle', 'Other')))) %>%  
+  group_by(Land_type) %>%
+  summarize(sum(Acreage)) %>%
+  mutate(year = 2022)
+
+land_use_2018_primary = primary_data_2018 %>%
+  mutate(Land_type = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands', 'Fallow/Idle Cropland'), 'Crop', ifelse(Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity'), 'Urban', ifelse(Category == 'Fallow/Idle Cropland', 'Fallow/Idle', 'Other')))) %>%  
+  group_by(Land_type) %>%
+  summarize(sum(Acreage)) %>%
+  mutate(year = 2018)
+
+
+land_use_change_primary = land_use_2018_primary %>%
+  full_join(land_use_2022_primary)
+  
+### same for secondary
+
+land_use_2022_secondary = secondary_data_2022 %>%
+  mutate(Land_type = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands', 'Fallow/Idle Cropland'), 'Crop', ifelse(Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity'), 'Urban', ifelse(Category == 'Fallow/Idle Cropland', 'Fallow/Idle', 'Other')))) %>%  
+  group_by(Land_type) %>%
+  summarize(sum(Acreage)) %>%
+  mutate(year = 2022)
+
+land_use_2018_secondary = secondary_data_2018 %>%
+  mutate(Land_type = ifelse(!Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity', 'Barren', 'Open Water', 'Aquaculture', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Shrubland', 'Grass/Pasture', 'Woody Wetlands', 'Herbaceous Wetlands', 'Fallow/Idle Cropland'), 'Crop', ifelse(Category %in% c('Developed/Open Space', 'Developed/Low Intensity', 'Developed/Medium Intensity', 'Developed/High Intensity'), 'Urban', ifelse(Category == 'Fallow/Idle Cropland', 'Fallow/Idle', 'Other')))) %>%  
+  group_by(Land_type) %>%
+  summarize(sum(Acreage)) %>%
+  mutate(year = 2018)
+
+
+land_use_change_secondary = land_use_2018_secondary %>%
+  full_join(land_use_2022_secondary)
+  
+```
+
+Now for the plots:
+
+```{r}
+land_use_change_primary$year = as.factor(land_use_change_primary$year)
+land_use_change_secondary$year = as.factor(land_use_change_secondary$year)
+
+land_use_change_primary_plot = ggplot(data = land_use_change_primary) +
+  geom_col(aes(x = Land_type, y = `sum(Acreage)`, fill = year), position = 'dodge') +
+  xlab('Land Type') +
+  ylab('Acres') +
+  ggtitle('Primary Zone Land-use Changes', subtitle = '2018-2022') +
+  scale_y_continuous(labels = label_comma()) +
+  theme_bw()
+
+#land_use_change_primary_plot
+
+land_use_change_secondary_plot = ggplot(data = land_use_change_secondary) +
+  geom_col(aes(x = Land_type, y = `sum(Acreage)`, fill = year), position = 'dodge') +
+  xlab('Land Type') +
+  ylab('Acres') +
+  ggtitle('Secondary Zone Land-use Changes', subtitle = '2018-2022') +
+  scale_y_continuous(labels = label_comma()) +
+  theme_bw()
+
+#land_use_change_secondary_plot
+
+ggarrange(land_use_change_primary_plot, land_use_change_secondary_plot, nrow = 2)
+
+#write_csv(land_use_change_primary, './Data_for_plots/land_use_change_primary.csv')
+#write_csv(land_use_change_secondary, './Data_for_plots/land_use_change_secondary.csv')
+```
+
+## Education
+
+### Cost-adjusted revenues per pupil
+
+We can get this data from an Rpackage: `edbuildr`
+
+The variable we care about is SLRPP_cola (total revenue from state and local sources per pupil cost-adjusted).
+
+```{r}
+library(edbuildr)
+
+edbuild_delta_counties = paste0(delta_counties, ' County')
+
+edbuild_school_zones = school_zones %>%
+  mutate('School District' = paste0(`School District`, ' School District'))
+
+edbuild_school_zones$`School District`[edbuild_school_zones$`School District`=='Tracy Joint Unified School District'] = 'Tracy Unified School District'
+edbuild_school_zones$`School District`[edbuild_school_zones$`School District`=='Brentwood Union School District'] = 'Brentwood Union School District' = 'Brentwood Union Elementary School District'
+data_carp = masterpull(data_year = "2018", data_type = "geo") %>%
+  filter(State == 'California') %>% #could just sort by school name, but this should be robust to duplicate school names, could also be one line of code but using two improves readability
+  filter(County %in% edbuild_delta_counties) %>%
+  filter(NAME %in% edbuild_school_zones$`School District`)
+
+#length(unique(data_carp$NAME))
+#length(unique(edbuild_school_zones$`School District`))
+
+data_carp_filtered = edbuild_school_zones %>%
+  left_join(data_carp, by = c('School District' = 'NAME'))
+
+carp = data_carp_filtered %>%
+  summarize(mean(SLRPP_cola))
+
+
+state_carp = masterpull(data_year = "2018", data_type = "geo") %>%
+  filter(State == 'California') 
+
+state_carp = state_carp %>%
+  summarize(mean(SLRPP_cola, na.rm = T)) 
+```
+
+### Enrollment Characteristics
+
+```{r}
+enroll_char = data_carp_filtered %>%
+  summarize(dWhite = sum(dWhite), dBlack = sum(dBlack), dHispanic = sum(dHispanic), dHawaiian_PI = sum(dHawaiian_PI), dAsian_PI = sum(dAsian_PI)) %>%
+  pivot_longer(cols = everything(), names_to = 'Race', values_to = 'count') %>%
+  mutate('total_count' = sum(count)) %>%
+  mutate('Percent' = count / total_count * 100)
+
+enroll_char = enroll_char %>%
+  mutate(Race = str_sub(Race, 2, -1))
+
+ggplot(data = enroll_char) +
+  geom_bar(aes(x = `Race`, y = Percent), stat = 'identity', position = 'dodge', fill = 'skyblue', width = 0.4) + 
+  theme_bw() +
+  ggtitle('Enrollment Characteristics for Schools in Delta')
+
+#write_csv(enroll_char, './Data_for_plots/enrollment_characteristics.csv')
+```
+
+### Secondary Education Level
+
+We'll need the number of people older than 25 years old, and the number of people over 25 years old with a high school degree or higher. We can get the first statistic from data we already cleaned (`age_groups_tracts`).
+
+We can get the number of people age 25+ with a highschool degree or better from the acs:\
+The variables we care about are:
+
+-   B16010_015
+
+-   B16010_028
+
+-   B16010_041
+
+```{r}
+acs5_vars = load_variables(2021, 'acs5', cache = T)
+      
+#%in% secondary_ed_vars, arr.ind = T)
+
+#secondary_ed_vars = c('B15001_014', 'B15001_022', 'B15001_030', 'B15001_038', 'B15001_055', 'B15001_063', 'B15001_071', 'B15001_079')
+
+hs_graduates = c('B16010_015', 'B16010_028', 'B16010_041') #, 'B20004_003'
+
+#secondary_ed_vars_key = acs5_vars %>%
+  #filter(name %in% secondary_ed_vars)
+
+hs_vars_key = acs5_vars %>%
+  filter(name %in% hs_graduates)
+
+#secondary_ed_vars_key = secondary_ed_vars_key[,c(1,2)] %>%
+  #separate_wider_delim(label, names = c('value1', 'value2', 'sex', 'age', 'highschool graduate'), delim = '!!')
+
+
+```
+
+Now let's get our data:
+
+```{r}
+#secondary_ed_filtered = get_acs(geography = 'tract', state = 'CA', variables = secondary_ed_vars, county = delta_counties)
+hs_grads = get_acs(geography = 'tract', state = 'CA', variables = hs_graduates, county = delta_counties, summary_var = 'B16010_001')
+hs_grads_state = get_acs(geography = 'tract', state = 'CA', variables = hs_graduates, summary_var = 'B16010_001')
+#hs_test = get_acs(geography = 'tract', state = 'CA', variables = secondary_ed_vars, county = delta_counties)
+```
+
+```{r}
+hs_grads_filtered = hs_grads %>%
+  filter(GEOID %in% delta_tracts) #include any value in delta_tracts
+
+#hs_test_filtered = hs_test %>%
+  #filter(GEOID %in% delta_tracts)
+```
+
+```{r}
+length(unique(delta_tracts))
+length(unique(hs_grads_filtered$GEOID)) #these should be the same
+```
+
+```{r}
+
+#delta_tracts_primary_secondary$tract = paste0(0, delta_tracts_primary_secondary$tract)
+#delta_tracts_primary_secondary$tract = as.character(delta_tracts_primary_secondary$tract)
+
+#secondary_ed_tracts = delta_tracts_primary_secondary %>%
+  #full_join(hs_test_filtered, by = c('tract' = 'GEOID'))
+
+#secondary_ed = secondary_ed_tracts %>%
+  #left_join(secondary_ed_vars_key, by = c('variable' = 'name')) %>%
+  #group_by(zone) %>%
+  #summarize(estimate_population = sum(estimate, na.rm = T))
+
+#zone_3 = secondary_ed %>%
+  #summarize(estimate_population = sum(estimate_population)) %>%
+  #mutate(zone = 3)
+
+#secondary_ed = secondary_ed %>%
+  #full_join(zone_3)
+
+
+hs_tracts = delta_tracts_primary_secondary %>%
+  full_join(hs_grads_filtered, by = c('tract' = 'GEOID'))
+
+
+
+people_over_25 = hs_tracts %>% group_by(tract) %>% slice_head(n=1)
+
+people_over_25_zone3 = people_over_25 %>%
+  ungroup() %>%
+  summarize(num_population = sum(summary_est, na.rm = T)) %>%
+  mutate(zone = 3)
+
+people_over_25 = people_over_25 %>%
+  group_by(zone) %>%
+  summarize(num_population = sum(summary_est, na.rm = T))
+
+
+
+people_over_25 = people_over_25 %>%
+  full_join(people_over_25_zone3)
+
+hs_grads = hs_tracts %>%
+  left_join(hs_vars_key, by = c('variable' = 'name')) %>%
+  group_by(zone) %>%
+  summarize(estimate_population = sum(estimate, na.rm = T)) 
+
+hs_zone3 = hs_grads %>%
+  summarize(estimate_population = sum(estimate_population)) %>%
+  mutate(zone = 3) 
+
+hs_grads = hs_grads %>%
+  full_join(hs_zone3) %>%
+  left_join(people_over_25) %>%
+  mutate(percentage = estimate_population / num_population * 100)
+
+#hs_grads = hs_grads[-3,]
+
+#colnames(hs_grads) = c('zone', 'total number of hs grads')
+
+
+```
+
+Let's quickly calculate highschool graduation rates on a state level:
+
+```{r}
+population_state = hs_grads_state %>%
+  group_by(GEOID) %>%
+  slice_head(n=1) %>%
+  ungroup() %>%
+  summarize(num_people = sum(summary_est))
+
+hs_grads_state = hs_grads_state %>%
+  ungroup() %>%
+  summarize(num_hs_grads = sum(estimate))
+
+hs_grads_state$num_hs_grads / population_state$num_people * 100
+
+```
+
+We also need to get the graduation rates for seniors:
+
+```{r}
+hs_senior_grads = read_table('../Datasets/High School Graduation Rates/graduation_rates.txt')
+
+hs_senior_grads = hs_senior_grads %>%
+  filter(DistrictCode %in% delta_counties)
+```
+
+### Primary Education
+
+People with less than 9th grade education:
+
+```{r}
+
+summary_var = 'B15002_001'
+
+primary_only_vars = c('B15002_004', 'B15002_021')
+
+primary_only_vars_key = acs5_vars %>%
+  filter(name %in% primary_only_vars)
+
+primary_only = get_acs(geography = 'tract', state = 'CA', variables = primary_only_vars, summary_var = summary_var, county = delta_counties)
+
+primary_only_filtered = primary_only %>%
+  filter(GEOID %in% delta_tracts) #include any value in delta_tracts
+
+primary_only_filtered = delta_tracts_primary_secondary %>%
+  full_join(primary_only_filtered, by = c('tract' = 'GEOID'))
+
+
+
+people_over_25 = primary_only_filtered %>% group_by(tract) %>% slice_head(n=1)
+
+people_over_25_zone3 = people_over_25 %>%
+  ungroup() %>%
+  summarize(num_population = sum(summary_est, na.rm = T)) %>%
+  mutate(zone = 3)
+
+people_over_25 = people_over_25 %>%
+  group_by(zone) %>%
+  summarize(num_population = sum(summary_est, na.rm = T))
+
+
+
+people_over_25 = people_over_25 %>%
+  full_join(people_over_25_zone3)
+
+primary_only_filtered = primary_only_filtered %>%
+  left_join(primary_only_vars_key, by = c('variable' = 'name')) %>%
+  group_by(zone) %>%
+  summarize(estimate_population = sum(estimate, na.rm = T)) 
+
+primary_only_filtered_zone3 = primary_only_filtered %>%
+  summarize(estimate_population = sum(estimate_population)) %>%
+  mutate(zone = 3) 
+
+primary_only_filtered = primary_only_filtered %>%
+  full_join(primary_only_filtered_zone3) %>%
+  left_join(people_over_25) %>%
+  mutate(percentage = estimate_population / num_population * 100)
+
+```
+
+Let's quickly look at the percentage with 9th grade or less:
+
+```{r}
+vars = c('B29002_002')
+
+less_than_ninth = get_acs(geography = 'tract', state = 'CA', variables = vars, county = delta_counties, summary_var = 'B29002_001')
+
+less_than_ninth_filtered = less_than_ninth %>%
+  filter(GEOID %in% delta_tracts) #include any value in delta_tracts
+
+less_than_ninth_vars_key = acs5_vars %>%
+  filter(name %in% vars)
+
+less_than_ninth_delta = less_than_ninth_filtered %>%
+  summarize(summary_est = sum(summary_est, na.rm = T), less_than_ninth = sum(estimate, na.rm = T)) %>%
+  mutate(percentage = less_than_ninth / summary_est * 100) %>%
+  mutate(zone = 3)
+
+less_than_ninth_filtered = delta_tracts_primary_secondary %>%
+  full_join(less_than_ninth_filtered, by = c('tract' = 'GEOID'))
+
+less_than_ninth_filtered = less_than_ninth_filtered %>%
+  group_by(zone) %>%
+  summarize(summary_est = sum(summary_est, na.rm = T), less_than_ninth = sum(estimate, na.rm = T)) %>%
+  mutate(percentage = less_than_ninth / summary_est * 100) %>%
+  full_join(less_than_ninth_delta)
+
+less_than_ninth_filtered
+```
+
+## Park Use Data
+
+```{r}
+park_use_data_brennan = read_csv('brannan_island_sra.csv')
+park_use_data_meadows = read_csv('delta_meadows.csv')
+
+park_use_data_brennan = park_use_data_brennan %>%
+  group_by(Year) %>%
+  summarize(total_visitors = sum(Total))
+
+park_use_data_meadows= park_use_data_meadows %>%
+  group_by(Year) %>%
+  summarize(total_visitors = sum(Total))
+
+
+```
+
+## RaceEthnicity Breakdown
+
+```{r}
+acs5_vars = load_variables(2021, 'acs5', cache = T)
+#age_vars = pull(acs5_vars[c(282:304, 306:328),1]) #we have to use pull because we 
+#want a vector of values, not a sublist -- this isn't too important but if you're unfamiliar with R you might get a bit confused by this part
+
+#age_vars = c('B06001_002', 'B06001_003', 'B06001_004', 'B06001_005', 'B06001_006', 'B06001_007', 'B06001_008', 'B06001_009', 'B06001_010', 'B06001_011', 'B06001_012')
+
+
+vars = c('B02001_002', 'B02001_003', 'B02001_004', 'B02001_005', 'B02001_006', 'B02001_007', 'B02001_008')
+
+summary_var = 'B02001_001' #total number
+
+#in principle, B06001_001 and B01001_001 should yield the same numbers, but I want to normalize the numbers based on the same dataset, so for B06001_002, we will divide by B06001_001 to get the percentage, and for B01001_X, we will divide by B01001_001.
+
+vars_key = acs5_vars %>%
+  filter(name %in% vars)
+
+vars_key = separate(vars_key, label, into = c("Estimate", "Total", "Race"), sep = "!!|!!:", fill = "right") 
+
+vars_key = vars_key %>%
+  mutate(Race = str_replace(Race, ':', ''))
+
+
+race_breakdown = get_acs(geography = 'tract', state = 'CA', variables = vars, summary_var = summary_var, county = delta_counties) 
+
+#delta_tracts = delta_tracts_no_leading_zero
+
+#delta_tracts = paste0(0, delta_tracts)
+
+race_breakdown_filtered = race_breakdown %>%
+  filter(GEOID %in% delta_tracts) %>% #include any value in delta_tracts
+  mutate(percent = estimate / summary_est * 100) %>%
+  left_join(vars_key, by = c('variable' = 'name'))
+
+race_breakdown_filtered = delta_tracts_primary_secondary %>%
+  full_join(race_breakdown_filtered, by = c('tract' = 'GEOID'))
+
+
+
+
+population_delta_race = race_breakdown_filtered %>%
+  group_by(variable) %>%
+  distinct(tract, .keep_all = T) %>%
+  ungroup() %>%
+  group_by(tract) %>%
+  slice_head(n = 1) %>%
+  ungroup() %>%
+  group_by(zone) %>%
+  summarize(num_people_race = sum(summary_est))
+
+race_breakdown_by_zone = race_breakdown_filtered %>%
+  group_by(zone, Race) %>%
+  summarize(sum(estimate)) %>%
+  left_join(population_delta_race, by = 'zone') %>%
+  mutate(percentage = `sum(estimate)` / num_people_race * 100)
+
+race_breakdown_zone3 = race_breakdown_filtered %>%
+  group_by(Race) %>%
+  summarize(sum(estimate)) %>%
+  mutate(num_people_race = sum(population_delta_race$num_people_race)) %>%
+  mutate(percentage = `sum(estimate)` / num_people_race * 100) %>%
+  mutate(zone = 3)
+  
+race_breakdown_full_delta = race_breakdown_by_zone %>%
+  full_join(race_breakdown_zone3)
+
+race_breakdown_full_delta = race_breakdown_full_delta %>%
+  mutate(zone = ifelse(zone == 1, 'Primary', ifelse(zone == 2, 'Secondary', 'Delta')))
+  
+```
+
+Table:
+
+```{r}
+race_breakdown_full_delta_plot = race_breakdown_full_delta %>%
+  mutate(Race = ifelse(Race == 'American Indian and Alaska Native alone', 'American Indian/Alaska Native', ifelse(Race == 'Asian alone', 'Asian', ifelse(Race == 'Black or African American alone', 'Black', ifelse(Race == 'Native Hawaiian and Other Pacific Islander alone', 'Native Hawaiian', ifelse(Race == 'Some other race alone', 'Some other race', ifelse(Race == 'White alone', 'White', 'Two or more races')))))))
+
+print(race_breakdown_full_delta_plot)
+```
+
+Plot:
+
+```{r}
+
+plot2 = ggplot(data = race_breakdown_full_delta_plot) +
+  geom_bar(aes(x = Race, y = percentage, fill = zone), stat = 'identity', position = 'dodge') +
+  #geom_errorbar(aes(x = age, ymin = mean-se, ymax = mean+se, fill = zone), position='dodge') + #probably best to drop the errorbars here, they don't add much
+  theme_bw()
+plot2 +
+  scale_fill_brewer(palette = 'OrRd') + ggtitle('Population by Race 2017-2021') +
+  theme(axis.text.x = element_text(size = 7))
+```

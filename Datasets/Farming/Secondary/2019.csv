@@ -1,0 +1,77 @@
+Value, Category, Count,  Acreage
+1, Corn, 33364, 7420.0
+2, Cotton, 136, 30.2
+3, Rice, 6619, 1472.0
+4, Sorghum, 519, 115.4
+6, Sunflowers, 1909, 424.6
+12, Sweet Corn, 11286, 2509.9
+21, Barley, 790, 175.7
+22, Durum Wheat, 3318, 737.9
+23, Spring Wheat, 293, 65.2
+24, Winter Wheat, 54177, 12048.7
+27, Rye, 731, 162.6
+28, Oats, 24662, 5484.7
+31, Canola, 14, 3.1
+33, Safflower, 11110, 2470.8
+36, Alfalfa, 119248, 26520.1
+37, Other Hay/Non Alfalfa, 40455, 8997.0
+42, Dry Beans, 9048, 2012.2
+43, Potatoes, 1, 0.2
+44, Other Crops, 3134, 697.0
+48, Watermelons, 265, 58.9
+49, Onions, 1758, 391.0
+50, Cucumbers, 1263, 280.9
+51, Chick Peas, 594, 132.1
+53, Peas, 2058, 457.7
+54, Tomatoes, 27201, 6049.4
+57, Herbs, 2, 0.4
+58, Clover/Wildflowers, 5292, 1176.9
+59, Sod/Grass Seed, 2769, 615.8
+61, Fallow/Idle Cropland, 65645, 14599.1
+66, Cherries, 7463, 1659.7
+67, Peaches, 420, 93.4
+68, Apples, 459, 102.1
+69, Grapes, 36616, 8143.2
+71, Other Tree Crops, 551, 122.5
+72, Citrus, 5, 1.1
+74, Pecans, 199, 44.3
+75, Almonds, 40215, 8943.6
+76, Walnuts, 26082, 5800.5
+77, Pears, 201, 44.7
+111, Open Water, 42014, 9343.7
+121, Developed/Open Space, 70838, 15754.0
+122, Developed/Low Intensity, 98500, 21905.9
+123, Developed/Medium Intensity, 163056, 36262.8
+124, Developed/High Intensity, 48700, 10830.6
+131, Barren, 1961, 436.1
+141, Deciduous Forest, 10, 2.2
+142, Evergreen Forest, 172, 38.3
+143, Mixed Forest, 104, 23.1
+152, Shrubland, 1403, 312.0
+176, Grass/Pasture, 54436, 12106.3
+190, Woody Wetlands, 6701, 1490.3
+195, Herbaceous Wetlands, 36236, 8058.7
+204, Pistachios, 1356, 301.6
+205, Triticale, 9242, 2055.4
+206, Carrots, 170, 37.8
+208, Garlic, 529, 117.6
+209, Cantaloupes, 115, 25.6
+211, Olives, 7524, 1673.3
+212, Oranges, 369, 82.1
+213, Honeydew Melons, 143, 31.8
+214, Broccoli, 139, 30.9
+216, Peppers, 23, 5.1
+217, Pomegranates, 27, 6.0
+218, Nectarines, 11, 2.4
+220, Plums, 859, 191.0
+221, Strawberries, 25, 5.6
+222, Squash, 1191, 264.9
+224, Vetch, 88, 19.6
+225, Dbl Crop WinWht/Corn, 13512, 3005.0
+226, Dbl Crop Oats/Corn, 12773, 2840.6
+227, Lettuce, 20, 4.4
+228, Dbl Crop Triticale/Corn, 256, 56.9
+229, Pumpkins, 41, 9.1
+236, Dbl Crop WinWht/Sorghum, 32, 7.1
+237, Dbl Crop Barley/Corn, 19, 4.2
+242, Blueberries, 10, 2.2

@@ -1,0 +1,94 @@
+---
+title: "Commute_time"
+author: "Zachary Houghton"
+date: "2023-10-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Commute Time
+
+```{r}
+library(tidyverse)
+library(tidycensus)
+```
+
+```{r}
+census_api_key('fc879ce25e9cc72f009db66022929263588acbaa', install = T, overwrite = T) #you may have to restart R after loading it.
+delta_counties = c('Alameda', 'Contra Costa', 'Sacramento', 'San Joaquin', 'Solano', 'Yolo')
+
+delta_tracts_primary_secondary = read_csv('zonesTractsSeparated2020.csv')
+delta_tracts_no_leading_zero = pull(delta_tracts_primary_secondary[,2]) #see below for why we're using the function `pull` here
+
+delta_tracts_primary_secondary = delta_tracts_primary_secondary %>%
+  group_by(zone) %>%
+  distinct()
+
+acs5_vars = load_variables(2021, 'acs5', cache = T)
+
+commute_time_vars = 'S0801_C01_046E'
+
+commute_vars_key = acs5_vars %>%
+  filter(name %in% commute_time_vars)
+
+commute_time_filtered = get_acs(geography = 'tract', state = 'CA', variables = commute_time_vars, county = delta_counties) 
+```
+
+Mean commute times:
+
+```{r}
+delta_tracts = delta_tracts_no_leading_zero
+
+delta_tracts = paste0(0, delta_tracts)
+commute_time_filtered = commute_time_filtered %>%
+  filter(GEOID %in% delta_tracts) #include any value in delta_tracts
+
+delta_tracts_primary_secondary$tract = paste0(0, delta_tracts_primary_secondary$tract)
+delta_tracts_primary_secondary$tract = as.character(delta_tracts_primary_secondary$tract)
+
+mean_commute_time = delta_tracts_primary_secondary %>%
+  full_join(commute_time_filtered, by = c('tract' = 'GEOID')) %>%
+  group_by(zone) %>%
+  summarize(mean_commute_time = mean(estimate, na.rm = T))
+
+
+
+
+```
+
+Commute time for primary zone from 2011 to 2015:
+
+```{r}
+census_api_key('fc879ce25e9cc72f009db66022929263588acbaa', install = T, overwrite = T) #you may have to restart R after loading it.
+delta_counties = c('Alameda', 'Contra Costa', 'Sacramento', 'San Joaquin', 'Solano', 'Yolo')
+
+delta_tracts_primary_secondary = read_csv('zonesTractsSeparated2020.csv')
+delta_tracts_no_leading_zero = pull(delta_tracts_primary_secondary[,2]) #see below for why we're using the function `pull` here
+
+delta_tracts_primary_secondary = delta_tracts_primary_secondary %>%
+  group_by(zone) %>%
+  distinct()
+
+delta_tracts_primary = c(
+                          '06067009800',
+                          '06067009900',
+                          '06077003900',
+                          '06077004001',
+                          '06113010401')
+
+acs5_vars = load_variables(2015, 'acs5', cache = T)
+
+commute_time_vars = 'S0801_C01_046E'
+
+commute_time_filtered = get_acs(geography = 'tract', state = 'CA', variables = commute_time_vars, county = delta_counties, year = 2015) 
+
+
+commute_time_filtered = commute_time_filtered %>%
+  filter(GEOID %in% delta_tracts_primary) #include any value in delta_tracts
+
+mean(commute_time_filtered$estimate)
+
+```

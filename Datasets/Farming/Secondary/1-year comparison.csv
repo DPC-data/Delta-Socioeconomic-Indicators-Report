@@ -1,0 +1,1218 @@
+From, To, Count,  Acreage
+Corn, Corn, 173502, 38585.9
+Corn, Cotton, 40, 8.9
+Corn, Rice, 4909, 1091.7
+Corn, Sorghum, 1914, 425.7
+Corn, Sunflowers, 922, 205.0
+Corn, Sweet Corn, 345, 76.7
+Corn, Barley, 888, 197.5
+Corn, Winter Wheat, 27622, 6143.0
+Corn, Oats, 2002, 445.2
+Corn, Safflower, 12533, 2787.3
+Corn, Alfalfa, 6152, 1368.2
+Corn, Other Hay/Non Alfalfa, 1907, 424.1
+Corn, Dry Beans, 191, 42.5
+Corn, Hemp, 58, 12.9
+Corn, Watermelons, 1653, 367.6
+Corn, Onions, 464, 103.2
+Corn, Cucumbers, 1131, 251.5
+Corn, Chick Peas, 44, 9.8
+Corn, Tomatoes, 8586, 1909.5
+Corn, Sod/Grass Seed, 83, 18.5
+Corn, Fallow/Idle Cropland, 16823, 3741.3
+Corn, Apples, 1, 0.2
+Corn, Grapes, 442, 98.3
+Corn, Almonds, 1168, 259.8
+Corn, Walnuts, 59, 13.1
+Corn, Developed/Low Intensity, 3, 0.7
+Corn, Evergreen Forest, 3, 0.7
+Corn, Mixed Forest, 1, 0.2
+Corn, Shrubland, 6, 1.3
+Corn, Grass/Pasture, 67, 14.9
+Corn, Woody Wetlands, 20, 4.4
+Corn, Herbaceous Wetlands, 25, 5.6
+Corn, Triticale, 20073, 4464.1
+Corn, Garlic, 138, 30.7
+Corn, Olives, 3, 0.7
+Corn, Greens, 1, 0.2
+Corn, Plums, 2, 0.4
+Corn, Dbl Crop WinWht/Corn, 68, 15.1
+Corn, Dbl Crop Oats/Corn, 1747, 388.5
+Corn, Dbl Crop Triticale/Corn, 474, 105.4
+Corn, Pumpkins, 55, 12.2
+Cotton, Corn, 1, 0.2
+Cotton, Cotton, 9, 2.0
+Cotton, Rice, 1092, 242.9
+Cotton, Sunflowers, 30, 6.7
+Cotton, Winter Wheat, 12, 2.7
+Cotton, Safflower, 16, 3.6
+Cotton, Alfalfa, 71, 15.8
+Cotton, Other Hay/Non Alfalfa, 38, 8.5
+Cotton, Tomatoes, 2, 0.4
+Cotton, Clover/Wildflowers, 4, 0.9
+Cotton, Fallow/Idle Cropland, 98, 21.8
+Cotton, Peaches, 4, 0.9
+Cotton, Cantaloupes, 30, 6.7
+Rice, Corn, 1679, 373.4
+Rice, Rice, 47844, 10640.2
+Rice, Sunflowers, 163, 36.3
+Rice, Barley, 30, 6.7
+Rice, Winter Wheat, 447, 99.4
+Rice, Rye, 42, 9.3
+Rice, Oats, 16, 3.6
+Rice, Safflower, 195, 43.4
+Rice, Alfalfa, 377, 83.8
+Rice, Other Hay/Non Alfalfa, 15, 3.3
+Rice, Dry Beans, 13, 2.9
+Rice, Hemp, 1861, 413.9
+Rice, Watermelons, 1, 0.2
+Rice, Cucumbers, 1, 0.2
+Rice, Tomatoes, 231, 51.4
+Rice, Clover/Wildflowers, 1, 0.2
+Rice, Sod/Grass Seed, 102, 22.7
+Rice, Fallow/Idle Cropland, 5763, 1281.7
+Rice, Peaches, 25, 5.6
+Rice, Grapes, 51, 11.3
+Rice, Pecans, 54, 12.0
+Rice, Almonds, 73, 16.2
+Rice, Walnuts, 2, 0.4
+Rice, Open Water, 32, 7.1
+Rice, Evergreen Forest, 2, 0.4
+Rice, Grass/Pasture, 370, 82.3
+Rice, Woody Wetlands, 2, 0.4
+Rice, Herbaceous Wetlands, 28, 6.2
+Rice, Triticale, 1, 0.2
+Rice, Cantaloupes, 1, 0.2
+Rice, Dbl Crop Oats/Corn, 1, 0.2
+Rice, Pumpkins, 3, 0.7
+Sorghum, Sorghum, 42, 9.3
+Sorghum, Winter Wheat, 2, 0.4
+Sorghum, Tomatoes, 230, 51.2
+Sorghum, Triticale, 213, 47.4
+Soybeans, Winter Wheat, 1, 0.2
+Sunflowers, Corn, 357, 79.4
+Sunflowers, Rice, 273, 60.7
+Sunflowers, Sorghum, 53, 11.8
+Sunflowers, Sunflowers, 783, 174.1
+Sunflowers, Sweet Corn, 50, 11.1
+Sunflowers, Barley, 183, 40.7
+Sunflowers, Winter Wheat, 2134, 474.6
+Sunflowers, Rye, 38, 8.5
+Sunflowers, Oats, 46, 10.2
+Sunflowers, Safflower, 1048, 233.1
+Sunflowers, Alfalfa, 761, 169.2
+Sunflowers, Other Hay/Non Alfalfa, 464, 103.2
+Sunflowers, Hemp, 75, 16.7
+Sunflowers, Watermelons, 526, 117.0
+Sunflowers, Cucumbers, 9, 2.0
+Sunflowers, Peas, 1, 0.2
+Sunflowers, Tomatoes, 4836, 1075.5
+Sunflowers, Herbs, 83, 18.5
+Sunflowers, Sod/Grass Seed, 2, 0.4
+Sunflowers, Fallow/Idle Cropland, 1933, 429.9
+Sunflowers, Other Tree Crops, 2, 0.4
+Sunflowers, Almonds, 2091, 465.0
+Sunflowers, Walnuts, 57, 12.7
+Sunflowers, Shrubland, 643, 143.0
+Sunflowers, Grass/Pasture, 163, 36.3
+Sunflowers, Woody Wetlands, 1, 0.2
+Sunflowers, Herbaceous Wetlands, 7, 1.6
+Sunflowers, Pistachios, 16, 3.6
+Sunflowers, Triticale, 521, 115.9
+Sunflowers, Garlic, 6, 1.3
+Sunflowers, Prunes, 1, 0.2
+Sunflowers, Olives, 6, 1.3
+Sunflowers, Peppers, 34, 7.6
+Sunflowers, Plums, 1, 0.2
+Sunflowers, Squash, 25, 5.6
+Sunflowers, Dbl Crop WinWht/Corn, 1, 0.2
+Sunflowers, Dbl Crop Oats/Corn, 1, 0.2
+Sunflowers, Pumpkins, 33, 7.3
+Sweet Corn, Corn, 886, 197.0
+Sweet Corn, Rice, 4, 0.9
+Sweet Corn, Sunflowers, 1, 0.2
+Sweet Corn, Sweet Corn, 559, 124.3
+Sweet Corn, Barley, 3, 0.7
+Sweet Corn, Winter Wheat, 846, 188.1
+Sweet Corn, Oats, 258, 57.4
+Sweet Corn, Safflower, 13, 2.9
+Sweet Corn, Alfalfa, 945, 210.2
+Sweet Corn, Other Hay/Non Alfalfa, 2, 0.4
+Sweet Corn, Dry Beans, 52, 11.6
+Sweet Corn, Hemp, 1, 0.2
+Sweet Corn, Watermelons, 782, 173.9
+Sweet Corn, Tomatoes, 4787, 1064.6
+Sweet Corn, Fallow/Idle Cropland, 104, 23.1
+Sweet Corn, Cherries, 1307, 290.7
+Sweet Corn, Almonds, 87, 19.3
+Sweet Corn, Barren, 4, 0.9
+Sweet Corn, Grass/Pasture, 1, 0.2
+Sweet Corn, Pistachios, 1, 0.2
+Sweet Corn, Garlic, 1352, 300.7
+Sweet Corn, Squash, 462, 102.7
+Sweet Corn, Dbl Crop Triticale/Corn, 1, 0.2
+Sweet Corn, Pumpkins, 1254, 278.9
+Pop or Orn Corn, Corn, 436, 97.0
+Pop or Orn Corn, Rice, 369, 82.1
+Pop or Orn Corn, Sorghum, 224, 49.8
+Barley, Corn, 363, 80.7
+Barley, Rice, 10, 2.2
+Barley, Barley, 1841, 409.4
+Barley, Winter Wheat, 1596, 354.9
+Barley, Oats, 81, 18.0
+Barley, Safflower, 3, 0.7
+Barley, Alfalfa, 19, 4.2
+Barley, Other Hay/Non Alfalfa, 760, 169.0
+Barley, Dry Beans, 10, 2.2
+Barley, Watermelons, 677, 150.6
+Barley, Fallow/Idle Cropland, 25, 5.6
+Barley, Walnuts, 1, 0.2
+Barley, Shrubland, 1, 0.2
+Barley, Grass/Pasture, 818, 181.9
+Barley, Triticale, 65, 14.5
+Barley, Plums, 3, 0.7
+Barley, Dbl Crop Barley/Corn, 272, 60.5
+Durum Wheat, Cotton, 3, 0.7
+Spring Wheat, Tomatoes, 9, 2.0
+Spring Wheat, Walnuts, 126, 28.0
+Winter Wheat, Corn, 10363, 2304.7
+Winter Wheat, Cotton, 11, 2.4
+Winter Wheat, Rice, 1338, 297.6
+Winter Wheat, Sorghum, 119, 26.5
+Winter Wheat, Sunflowers, 3103, 690.1
+Winter Wheat, Sweet Corn, 19, 4.2
+Winter Wheat, Pop or Orn Corn, 19, 4.2
+Winter Wheat, Barley, 1266, 281.6
+Winter Wheat, Spring Wheat, 1, 0.2
+Winter Wheat, Winter Wheat, 70197, 15611.4
+Winter Wheat, Rye, 299, 66.5
+Winter Wheat, Oats, 2467, 548.6
+Winter Wheat, Safflower, 14528, 3230.9
+Winter Wheat, Alfalfa, 10868, 2417.0
+Winter Wheat, Other Hay/Non Alfalfa, 3819, 849.3
+Winter Wheat, Dry Beans, 18, 4.0
+Winter Wheat, Hemp, 1694, 376.7
+Winter Wheat, Watermelons, 183, 40.7
+Winter Wheat, Cucumbers, 515, 114.5
+Winter Wheat, Tomatoes, 25077, 5577.0
+Winter Wheat, Herbs, 1, 0.2
+Winter Wheat, Clover/Wildflowers, 1, 0.2
+Winter Wheat, Fallow/Idle Cropland, 15058, 3348.8
+Winter Wheat, Cherries, 509, 113.2
+Winter Wheat, Peaches, 35, 7.8
+Winter Wheat, Apples, 45, 10.0
+Winter Wheat, Grapes, 1548, 344.3
+Winter Wheat, Other Tree Crops, 29, 6.4
+Winter Wheat, Almonds, 3818, 849.1
+Winter Wheat, Walnuts, 338, 75.2
+Winter Wheat, Pears, 176, 39.1
+Winter Wheat, Open Water, 26, 5.8
+Winter Wheat, Developed/Open Space, 5, 1.1
+Winter Wheat, Barren, 183, 40.7
+Winter Wheat, Evergreen Forest, 1, 0.2
+Winter Wheat, Shrubland, 1, 0.2
+Winter Wheat, Grass/Pasture, 1796, 399.4
+Winter Wheat, Woody Wetlands, 5, 1.1
+Winter Wheat, Herbaceous Wetlands, 92, 20.5
+Winter Wheat, Pistachios, 134, 29.8
+Winter Wheat, Triticale, 5957, 1324.8
+Winter Wheat, Garlic, 1389, 308.9
+Winter Wheat, Prunes, 3, 0.7
+Winter Wheat, Olives, 334, 74.3
+Winter Wheat, Plums, 47, 10.5
+Winter Wheat, Dbl Crop WinWht/Corn, 7430, 1652.4
+Winter Wheat, Dbl Crop Oats/Corn, 381, 84.7
+Winter Wheat, Dbl Crop Triticale/Corn, 12, 2.7
+Winter Wheat, Pumpkins, 318, 70.7
+Winter Wheat, Dbl Crop WinWht/Sorghum, 3, 0.7
+Winter Wheat, Dbl Crop Barley/Corn, 263, 58.5
+Winter Wheat, Dbl Crop WinWht/Cotton, 3, 0.7
+Rye, Corn, 59, 13.1
+Rye, Winter Wheat, 907, 201.7
+Rye, Rye, 2446, 544.0
+Rye, Oats, 12, 2.7
+Rye, Safflower, 39, 8.7
+Rye, Alfalfa, 687, 152.8
+Rye, Other Hay/Non Alfalfa, 485, 107.9
+Rye, Hemp, 86, 19.1
+Rye, Tomatoes, 172, 38.3
+Rye, Fallow/Idle Cropland, 3, 0.7
+Rye, Herbaceous Wetlands, 1, 0.2
+Rye, Pistachios, 25, 5.6
+Oats, Corn, 732, 162.8
+Oats, Cotton, 1, 0.2
+Oats, Barley, 258, 57.4
+Oats, Winter Wheat, 2077, 461.9
+Oats, Rye, 147, 32.7
+Oats, Oats, 19950, 4436.8
+Oats, Safflower, 30, 6.7
+Oats, Alfalfa, 1772, 394.1
+Oats, Other Hay/Non Alfalfa, 1705, 379.2
+Oats, Dry Beans, 4, 0.9
+Oats, Hemp, 118, 26.2
+Oats, Watermelons, 50, 11.1
+Oats, Tomatoes, 96, 21.3
+Oats, Herbs, 1, 0.2
+Oats, Clover/Wildflowers, 153, 34.0
+Oats, Fallow/Idle Cropland, 1860, 413.7
+Oats, Cherries, 3, 0.7
+Oats, Grapes, 4, 0.9
+Oats, Almonds, 32, 7.1
+Oats, Walnuts, 3, 0.7
+Oats, Open Water, 1, 0.2
+Oats, Developed/Open Space, 25, 5.6
+Oats, Barren, 5, 1.1
+Oats, Shrubland, 2, 0.4
+Oats, Grass/Pasture, 166, 36.9
+Oats, Herbaceous Wetlands, 1, 0.2
+Oats, Pistachios, 439, 97.6
+Oats, Triticale, 96, 21.3
+Oats, Garlic, 1, 0.2
+Oats, Plums, 1, 0.2
+Oats, Dbl Crop WinWht/Corn, 108, 24.0
+Oats, Dbl Crop Oats/Corn, 2660, 591.6
+Oats, Dbl Crop Triticale/Corn, 23, 5.1
+Oats, Pumpkins, 34, 7.6
+Millet, Winter Wheat, 1, 0.2
+Canola, Oats, 10, 2.2
+Safflower, Corn, 321, 71.4
+Safflower, Rice, 16, 3.6
+Safflower, Sorghum, 119, 26.5
+Safflower, Sunflowers, 835, 185.7
+Safflower, Barley, 668, 148.6
+Safflower, Winter Wheat, 4225, 939.6
+Safflower, Oats, 189, 42.0
+Safflower, Safflower, 6540, 1454.5
+Safflower, Alfalfa, 2640, 587.1
+Safflower, Other Hay/Non Alfalfa, 490, 109.0
+Safflower, Watermelons, 470, 104.5
+Safflower, Cucumbers, 898, 199.7
+Safflower, Tomatoes, 3436, 764.1
+Safflower, Fallow/Idle Cropland, 143, 31.8
+Safflower, Grapes, 77, 17.1
+Safflower, Almonds, 291, 64.7
+Safflower, Walnuts, 9, 2.0
+Safflower, Grass/Pasture, 48, 10.7
+Safflower, Herbaceous Wetlands, 1, 0.2
+Safflower, Triticale, 2514, 559.1
+Safflower, Prunes, 1, 0.2
+Safflower, Plums, 50, 11.1
+Safflower, Squash, 17, 3.8
+Alfalfa, Corn, 8699, 1934.6
+Alfalfa, Cotton, 6, 1.3
+Alfalfa, Rice, 1944, 432.3
+Alfalfa, Sunflowers, 5086, 1131.1
+Alfalfa, Sweet Corn, 458, 101.9
+Alfalfa, Barley, 5, 1.1
+Alfalfa, Winter Wheat, 15091, 3356.2
+Alfalfa, Rye, 464, 103.2
+Alfalfa, Oats, 6172, 1372.6
+Alfalfa, Safflower, 7656, 1702.7
+Alfalfa, Alfalfa, 371530, 82626.3
+Alfalfa, Other Hay/Non Alfalfa, 17623, 3919.3
+Alfalfa, Dry Beans, 3, 0.7
+Alfalfa, Hemp, 443, 98.5
+Alfalfa, Misc Vegs & Fruits, 1, 0.2
+Alfalfa, Watermelons, 31, 6.9
+Alfalfa, Cucumbers, 3, 0.7
+Alfalfa, Tomatoes, 15180, 3376.0
+Alfalfa, Herbs, 1, 0.2
+Alfalfa, Clover/Wildflowers, 761, 169.2
+Alfalfa, Sod/Grass Seed, 81, 18.0
+Alfalfa, Fallow/Idle Cropland, 1992, 443.0
+Alfalfa, Cherries, 2295, 510.4
+Alfalfa, Peaches, 4, 0.9
+Alfalfa, Grapes, 3094, 688.1
+Alfalfa, Other Tree Crops, 18, 4.0
+Alfalfa, Almonds, 10310, 2292.9
+Alfalfa, Walnuts, 372, 82.7
+Alfalfa, Pears, 386, 85.8
+Alfalfa, Open Water, 12, 2.7
+Alfalfa, Developed/Open Space, 20, 4.4
+Alfalfa, Developed/Low Intensity, 12, 2.7
+Alfalfa, Developed/Medium Intensity, 7, 1.6
+Alfalfa, Barren, 15, 3.3
+Alfalfa, Shrubland, 9, 2.0
+Alfalfa, Grass/Pasture, 123, 27.4
+Alfalfa, Woody Wetlands, 27, 6.0
+Alfalfa, Herbaceous Wetlands, 111, 24.7
+Alfalfa, Pistachios, 3, 0.7
+Alfalfa, Triticale, 4378, 973.6
+Alfalfa, Garlic, 76, 16.9
+Alfalfa, Prunes, 4, 0.9
+Alfalfa, Olives, 1204, 267.8
+Alfalfa, Plums, 80, 17.8
+Alfalfa, Strawberries, 1, 0.2
+Alfalfa, Dbl Crop WinWht/Corn, 2139, 475.7
+Alfalfa, Dbl Crop Oats/Corn, 1642, 365.2
+Alfalfa, Dbl Crop Triticale/Corn, 6, 1.3
+Alfalfa, Pumpkins, 569, 126.5
+Alfalfa, Dbl Crop Barley/Corn, 143, 31.8
+Other Hay/Non Alfalfa, Corn, 379, 84.3
+Other Hay/Non Alfalfa, Rice, 120, 26.7
+Other Hay/Non Alfalfa, Sunflowers, 2219, 493.5
+Other Hay/Non Alfalfa, Barley, 17, 3.8
+Other Hay/Non Alfalfa, Durum Wheat, 3, 0.7
+Other Hay/Non Alfalfa, Winter Wheat, 5213, 1159.3
+Other Hay/Non Alfalfa, Rye, 886, 197.0
+Other Hay/Non Alfalfa, Oats, 2888, 642.3
+Other Hay/Non Alfalfa, Safflower, 38, 8.5
+Other Hay/Non Alfalfa, Alfalfa, 3576, 795.3
+Other Hay/Non Alfalfa, Other Hay/Non Alfalfa, 62759, 13957.3
+Other Hay/Non Alfalfa, Dry Beans, 63, 14.0
+Other Hay/Non Alfalfa, Hemp, 141, 31.4
+Other Hay/Non Alfalfa, Tomatoes, 1682, 374.1
+Other Hay/Non Alfalfa, Clover/Wildflowers, 1482, 329.6
+Other Hay/Non Alfalfa, Fallow/Idle Cropland, 2941, 654.1
+Other Hay/Non Alfalfa, Cherries, 383, 85.2
+Other Hay/Non Alfalfa, Grapes, 36, 8.0
+Other Hay/Non Alfalfa, Almonds, 3226, 717.4
+Other Hay/Non Alfalfa, Walnuts, 89, 19.8
+Other Hay/Non Alfalfa, Pears, 59, 13.1
+Other Hay/Non Alfalfa, Open Water, 2, 0.4
+Other Hay/Non Alfalfa, Barren, 4, 0.9
+Other Hay/Non Alfalfa, Deciduous Forest, 1, 0.2
+Other Hay/Non Alfalfa, Mixed Forest, 2, 0.4
+Other Hay/Non Alfalfa, Shrubland, 4, 0.9
+Other Hay/Non Alfalfa, Grass/Pasture, 1437, 319.6
+Other Hay/Non Alfalfa, Woody Wetlands, 6, 1.3
+Other Hay/Non Alfalfa, Herbaceous Wetlands, 204, 45.4
+Other Hay/Non Alfalfa, Pistachios, 177, 39.4
+Other Hay/Non Alfalfa, Triticale, 239, 53.2
+Other Hay/Non Alfalfa, Garlic, 47, 10.5
+Other Hay/Non Alfalfa, Prunes, 3, 0.7
+Other Hay/Non Alfalfa, Olives, 1184, 263.3
+Other Hay/Non Alfalfa, Plums, 19, 4.2
+Other Hay/Non Alfalfa, Dbl Crop WinWht/Corn, 1298, 288.7
+Other Hay/Non Alfalfa, Dbl Crop Oats/Corn, 485, 107.9
+Other Hay/Non Alfalfa, Dbl Crop Triticale/Corn, 5, 1.1
+Other Hay/Non Alfalfa, Pumpkins, 209, 46.5
+Buckwheat, Corn, 1, 0.2
+Dry Beans, Corn, 111, 24.7
+Dry Beans, Sunflowers, 245, 54.5
+Dry Beans, Sweet Corn, 427, 95.0
+Dry Beans, Barley, 6, 1.3
+Dry Beans, Winter Wheat, 605, 134.5
+Dry Beans, Oats, 292, 64.9
+Dry Beans, Safflower, 97, 21.6
+Dry Beans, Alfalfa, 501, 111.4
+Dry Beans, Other Hay/Non Alfalfa, 334, 74.3
+Dry Beans, Dry Beans, 281, 62.5
+Dry Beans, Tomatoes, 2978, 662.3
+Dry Beans, Fallow/Idle Cropland, 1618, 359.8
+Dry Beans, Cherries, 17, 3.8
+Dry Beans, Almonds, 20, 4.4
+Dry Beans, Walnuts, 17, 3.8
+Dry Beans, Woody Wetlands, 6, 1.3
+Dry Beans, Triticale, 507, 112.8
+Dry Beans, Pumpkins, 267, 59.4
+Hemp, Corn, 135, 30.0
+Hemp, Rice, 2357, 524.2
+Hemp, Sunflowers, 2, 0.4
+Hemp, Winter Wheat, 733, 163.0
+Hemp, Other Hay/Non Alfalfa, 24, 5.3
+Hemp, Hemp, 412, 91.6
+Hemp, Onions, 169, 37.6
+Hemp, Cucumbers, 6, 1.3
+Hemp, Tomatoes, 375, 83.4
+Hemp, Fallow/Idle Cropland, 204, 45.4
+Misc Vegs & Fruits, Other Hay/Non Alfalfa, 270, 60.0
+Misc Vegs & Fruits, Watermelons, 954, 212.2
+Watermelons, Corn, 502, 111.6
+Watermelons, Cotton, 11, 2.4
+Watermelons, Rice, 33, 7.3
+Watermelons, Sunflowers, 216, 48.0
+Watermelons, Barley, 81, 18.0
+Watermelons, Winter Wheat, 160, 35.6
+Watermelons, Safflower, 59, 13.1
+Watermelons, Alfalfa, 385, 85.6
+Watermelons, Other Hay/Non Alfalfa, 5, 1.1
+Watermelons, Watermelons, 26, 5.8
+Watermelons, Tomatoes, 997, 221.7
+Watermelons, Fallow/Idle Cropland, 232, 51.6
+Watermelons, Almonds, 430, 95.6
+Watermelons, Walnuts, 90, 20.0
+Watermelons, Triticale, 136, 30.2
+Watermelons, Pumpkins, 1, 0.2
+Onions, Corn, 582, 129.4
+Onions, Rice, 303, 67.4
+Onions, Winter Wheat, 19, 4.2
+Onions, Oats, 503, 111.9
+Onions, Alfalfa, 486, 108.1
+Onions, Watermelons, 1, 0.2
+Onions, Onions, 161, 35.8
+Onions, Fallow/Idle Cropland, 143, 31.8
+Onions, Almonds, 2, 0.4
+Onions, Walnuts, 204, 45.4
+Onions, Dbl Crop Oats/Corn, 446, 99.2
+Onions, Lettuce, 10, 2.2
+Onions, Pumpkins, 474, 105.4
+Cucumbers, Corn, 1497, 332.9
+Cucumbers, Sunflowers, 1, 0.2
+Cucumbers, Winter Wheat, 3102, 689.9
+Cucumbers, Oats, 235, 52.3
+Cucumbers, Safflower, 1476, 328.3
+Cucumbers, Alfalfa, 510, 113.4
+Cucumbers, Other Hay/Non Alfalfa, 112, 24.9
+Cucumbers, Hemp, 38, 8.5
+Cucumbers, Watermelons, 1341, 298.2
+Cucumbers, Cucumbers, 4099, 911.6
+Cucumbers, Tomatoes, 2042, 454.1
+Cucumbers, Fallow/Idle Cropland, 103, 22.9
+Cucumbers, Grapes, 17, 3.8
+Cucumbers, Almonds, 33, 7.3
+Cucumbers, Pears, 177, 39.4
+Cucumbers, Triticale, 334, 74.3
+Chick Peas, Alfalfa, 27, 6.0
+Peas, Corn, 594, 132.1
+Peas, Barley, 59, 13.1
+Peas, Winter Wheat, 330, 73.4
+Peas, Safflower, 83, 18.5
+Peas, Peas, 251, 55.8
+Peas, Tomatoes, 592, 131.7
+Peas, Fallow/Idle Cropland, 390, 86.7
+Tomatoes, Corn, 10464, 2327.1
+Tomatoes, Rice, 37, 8.2
+Tomatoes, Sorghum, 320, 71.2
+Tomatoes, Sunflowers, 3504, 779.3
+Tomatoes, Sweet Corn, 2126, 472.8
+Tomatoes, Barley, 313, 69.6
+Tomatoes, Winter Wheat, 12647, 2812.6
+Tomatoes, Oats, 21, 4.7
+Tomatoes, Safflower, 3519, 782.6
+Tomatoes, Alfalfa, 4338, 964.7
+Tomatoes, Other Hay/Non Alfalfa, 533, 118.5
+Tomatoes, Dry Beans, 1509, 335.6
+Tomatoes, Hemp, 5, 1.1
+Tomatoes, Watermelons, 2451, 545.1
+Tomatoes, Onions, 4, 0.9
+Tomatoes, Cucumbers, 4349, 967.2
+Tomatoes, Tomatoes, 38796, 8628.0
+Tomatoes, Herbs, 2, 0.4
+Tomatoes, Fallow/Idle Cropland, 1422, 316.2
+Tomatoes, Peaches, 2, 0.4
+Tomatoes, Grapes, 812, 180.6
+Tomatoes, Other Tree Crops, 4, 0.9
+Tomatoes, Almonds, 579, 128.8
+Tomatoes, Walnuts, 795, 176.8
+Tomatoes, Woody Wetlands, 1, 0.2
+Tomatoes, Herbaceous Wetlands, 287, 63.8
+Tomatoes, Pistachios, 18, 4.0
+Tomatoes, Triticale, 1188, 264.2
+Tomatoes, Garlic, 9904, 2202.6
+Tomatoes, Cantaloupes, 4, 0.9
+Tomatoes, Prunes, 1, 0.2
+Tomatoes, Peppers, 4, 0.9
+Tomatoes, Plums, 17, 3.8
+Tomatoes, Squash, 57, 12.7
+Tomatoes, Dbl Crop WinWht/Corn, 1340, 298.0
+Tomatoes, Pumpkins, 111, 24.7
+Herbs, Sunflowers, 5, 1.1
+Herbs, Winter Wheat, 24, 5.3
+Herbs, Rye, 17, 3.8
+Herbs, Tomatoes, 59, 13.1
+Herbs, Herbs, 10, 2.2
+Herbs, Almonds, 2, 0.4
+Herbs, Developed/Open Space, 14, 3.1
+Clover/Wildflowers, Corn, 54, 12.0
+Clover/Wildflowers, Winter Wheat, 14, 3.1
+Clover/Wildflowers, Rye, 9, 2.0
+Clover/Wildflowers, Safflower, 294, 65.4
+Clover/Wildflowers, Alfalfa, 169, 37.6
+Clover/Wildflowers, Other Hay/Non Alfalfa, 3040, 676.1
+Clover/Wildflowers, Hemp, 70, 15.6
+Clover/Wildflowers, Tomatoes, 53, 11.8
+Clover/Wildflowers, Clover/Wildflowers, 136072, 30261.7
+Clover/Wildflowers, Sod/Grass Seed, 420, 93.4
+Clover/Wildflowers, Fallow/Idle Cropland, 53, 11.8
+Clover/Wildflowers, Cherries, 2, 0.4
+Clover/Wildflowers, Peaches, 1, 0.2
+Clover/Wildflowers, Other Tree Crops, 15, 3.3
+Clover/Wildflowers, Almonds, 35, 7.8
+Clover/Wildflowers, Grass/Pasture, 4, 0.9
+Clover/Wildflowers, Woody Wetlands, 2, 0.4
+Clover/Wildflowers, Triticale, 92, 20.5
+Clover/Wildflowers, Plums, 93, 20.7
+Clover/Wildflowers, Dbl Crop Oats/Corn, 2, 0.4
+Sod/Grass Seed, Rice, 1, 0.2
+Fallow/Idle Cropland, Corn, 4998, 1111.5
+Fallow/Idle Cropland, Cotton, 1, 0.2
+Fallow/Idle Cropland, Rice, 8492, 1888.6
+Fallow/Idle Cropland, Sorghum, 52, 11.6
+Fallow/Idle Cropland, Sunflowers, 793, 176.4
+Fallow/Idle Cropland, Barley, 333, 74.1
+Fallow/Idle Cropland, Winter Wheat, 9017, 2005.3
+Fallow/Idle Cropland, Rye, 14, 3.1
+Fallow/Idle Cropland, Oats, 3304, 734.8
+Fallow/Idle Cropland, Safflower, 1695, 377.0
+Fallow/Idle Cropland, Alfalfa, 2619, 582.5
+Fallow/Idle Cropland, Other Hay/Non Alfalfa, 8278, 1841.0
+Fallow/Idle Cropland, Dry Beans, 51, 11.3
+Fallow/Idle Cropland, Hemp, 6275, 1395.5
+Fallow/Idle Cropland, Watermelons, 287, 63.8
+Fallow/Idle Cropland, Tomatoes, 1239, 275.5
+Fallow/Idle Cropland, Herbs, 16, 3.6
+Fallow/Idle Cropland, Clover/Wildflowers, 494, 109.9
+Fallow/Idle Cropland, Sod/Grass Seed, 3, 0.7
+Fallow/Idle Cropland, Fallow/Idle Cropland, 74424, 16551.5
+Fallow/Idle Cropland, Cherries, 139, 30.9
+Fallow/Idle Cropland, Peaches, 187, 41.6
+Fallow/Idle Cropland, Apples, 42, 9.3
+Fallow/Idle Cropland, Grapes, 416, 92.5
+Fallow/Idle Cropland, Other Tree Crops, 1001, 222.6
+Fallow/Idle Cropland, Almonds, 9362, 2082.1
+Fallow/Idle Cropland, Walnuts, 1187, 264.0
+Fallow/Idle Cropland, Open Water, 111, 24.7
+Fallow/Idle Cropland, Barren, 186, 41.4
+Fallow/Idle Cropland, Evergreen Forest, 1, 0.2
+Fallow/Idle Cropland, Mixed Forest, 13, 2.9
+Fallow/Idle Cropland, Shrubland, 765, 170.1
+Fallow/Idle Cropland, Grass/Pasture, 3440, 765.0
+Fallow/Idle Cropland, Woody Wetlands, 992, 220.6
+Fallow/Idle Cropland, Herbaceous Wetlands, 13960, 3104.6
+Fallow/Idle Cropland, Pistachios, 707, 157.2
+Fallow/Idle Cropland, Triticale, 1454, 323.4
+Fallow/Idle Cropland, Garlic, 6, 1.3
+Fallow/Idle Cropland, Cantaloupes, 2, 0.4
+Fallow/Idle Cropland, Prunes, 401, 89.2
+Fallow/Idle Cropland, Olives, 697, 155.0
+Fallow/Idle Cropland, Pomegranates, 2, 0.4
+Fallow/Idle Cropland, Plums, 252, 56.0
+Fallow/Idle Cropland, Dbl Crop WinWht/Corn, 219, 48.7
+Fallow/Idle Cropland, Dbl Crop Oats/Corn, 25, 5.6
+Fallow/Idle Cropland, Lettuce, 15, 3.3
+Fallow/Idle Cropland, Pumpkins, 2, 0.4
+Cherries, Cherries, 14533, 3232.1
+Cherries, Peaches, 35, 7.8
+Cherries, Grapes, 86, 19.1
+Cherries, Pecans, 3, 0.7
+Cherries, Almonds, 1354, 301.1
+Cherries, Walnuts, 191, 42.5
+Cherries, Pears, 323, 71.8
+Cherries, Developed/High Intensity, 5, 1.1
+Cherries, Grass/Pasture, 23, 5.1
+Cherries, Woody Wetlands, 2, 0.4
+Cherries, Olives, 452, 100.5
+Cherries, Plums, 10, 2.2
+Peaches, Winter Wheat, 12, 2.7
+Peaches, Safflower, 13, 2.9
+Peaches, Alfalfa, 557, 123.9
+Peaches, Cherries, 4, 0.9
+Peaches, Peaches, 834, 185.5
+Peaches, Other Tree Crops, 46, 10.2
+Peaches, Almonds, 6, 1.3
+Peaches, Walnuts, 51, 11.3
+Peaches, Shrubland, 1, 0.2
+Peaches, Woody Wetlands, 2, 0.4
+Peaches, Prunes, 15, 3.3
+Peaches, Plums, 10, 2.2
+Peaches, Dbl Crop WinWht/Corn, 5, 1.1
+Apples, Barley, 140, 31.1
+Apples, Alfalfa, 138, 30.7
+Apples, Apples, 1962, 436.3
+Apples, Pears, 1717, 381.9
+Grapes, Cotton, 6, 1.3
+Grapes, Rice, 1027, 228.4
+Grapes, Winter Wheat, 1958, 435.4
+Grapes, Oats, 449, 99.9
+Grapes, Safflower, 23, 5.1
+Grapes, Other Hay/Non Alfalfa, 46, 10.2
+Grapes, Tomatoes, 148, 32.9
+Grapes, Cherries, 8, 1.8
+Grapes, Grapes, 171226, 38079.7
+Grapes, Other Tree Crops, 176, 39.1
+Grapes, Almonds, 3335, 741.7
+Grapes, Walnuts, 468, 104.1
+Grapes, Pears, 12, 2.7
+Grapes, Developed/Open Space, 330, 73.4
+Grapes, Developed/Low Intensity, 105, 23.4
+Grapes, Developed/Medium Intensity, 58, 12.9
+Grapes, Developed/High Intensity, 8, 1.8
+Grapes, Shrubland, 40, 8.9
+Grapes, Grass/Pasture, 359, 79.8
+Grapes, Pistachios, 2, 0.4
+Grapes, Triticale, 216, 48.0
+Grapes, Garlic, 2, 0.4
+Grapes, Olives, 277, 61.6
+Grapes, Plums, 8, 1.8
+Grapes, Lettuce, 68, 15.1
+Other Tree Crops, Rice, 11, 2.4
+Other Tree Crops, Cherries, 1, 0.2
+Other Tree Crops, Grapes, 20, 4.4
+Other Tree Crops, Other Tree Crops, 581, 129.2
+Other Tree Crops, Almonds, 8, 1.8
+Other Tree Crops, Walnuts, 2, 0.4
+Other Tree Crops, Shrubland, 1, 0.2
+Other Tree Crops, Grass/Pasture, 1, 0.2
+Other Tree Crops, Woody Wetlands, 2, 0.4
+Other Tree Crops, Herbaceous Wetlands, 2, 0.4
+Other Tree Crops, Prunes, 11, 2.4
+Citrus, Citrus, 8, 1.8
+Pecans, Pecans, 216, 48.0
+Pecans, Almonds, 9, 2.0
+Pecans, Walnuts, 106, 23.6
+Pecans, Woody Wetlands, 18, 4.0
+Pecans, Herbaceous Wetlands, 2, 0.4
+Almonds, Corn, 1973, 438.8
+Almonds, Cotton, 37, 8.2
+Almonds, Rice, 501, 111.4
+Almonds, Sorghum, 38, 8.5
+Almonds, Sunflowers, 177, 39.4
+Almonds, Sweet Corn, 2552, 567.6
+Almonds, Barley, 416, 92.5
+Almonds, Winter Wheat, 2852, 634.3
+Almonds, Oats, 608, 135.2
+Almonds, Safflower, 1905, 423.7
+Almonds, Alfalfa, 3370, 749.5
+Almonds, Other Hay/Non Alfalfa, 1597, 355.2
+Almonds, Dry Beans, 11, 2.4
+Almonds, Hemp, 336, 74.7
+Almonds, Sweet Potatoes, 4, 0.9
+Almonds, Watermelons, 18, 4.0
+Almonds, Onions, 115, 25.6
+Almonds, Cucumbers, 2, 0.4
+Almonds, Chick Peas, 24, 5.3
+Almonds, Tomatoes, 777, 172.8
+Almonds, Herbs, 17, 3.8
+Almonds, Clover/Wildflowers, 80, 17.8
+Almonds, Fallow/Idle Cropland, 4462, 992.3
+Almonds, Cherries, 6192, 1377.1
+Almonds, Peaches, 118, 26.2
+Almonds, Apples, 24, 5.3
+Almonds, Grapes, 461, 102.5
+Almonds, Other Tree Crops, 17, 3.8
+Almonds, Citrus, 8, 1.8
+Almonds, Pecans, 2, 0.4
+Almonds, Almonds, 181988, 40473.2
+Almonds, Walnuts, 2767, 615.4
+Almonds, Pears, 1, 0.2
+Almonds, Open Water, 155, 34.5
+Almonds, Developed/Open Space, 59, 13.1
+Almonds, Developed/Low Intensity, 77, 17.1
+Almonds, Developed/Medium Intensity, 42, 9.3
+Almonds, Developed/High Intensity, 2, 0.4
+Almonds, Barren, 35, 7.8
+Almonds, Shrubland, 4, 0.9
+Almonds, Grass/Pasture, 475, 105.6
+Almonds, Woody Wetlands, 64, 14.2
+Almonds, Herbaceous Wetlands, 193, 42.9
+Almonds, Pistachios, 926, 205.9
+Almonds, Triticale, 310, 68.9
+Almonds, Carrots, 48, 10.7
+Almonds, Garlic, 78, 17.3
+Almonds, Cantaloupes, 6, 1.3
+Almonds, Prunes, 154, 34.2
+Almonds, Olives, 923, 205.3
+Almonds, Pomegranates, 7, 1.6
+Almonds, Plums, 353, 78.5
+Almonds, Dbl Crop WinWht/Corn, 820, 182.4
+Almonds, Dbl Crop Oats/Corn, 16, 3.6
+Almonds, Lettuce, 61, 13.6
+Almonds, Pumpkins, 365, 81.2
+Walnuts, Corn, 2443, 543.3
+Walnuts, Rice, 58, 12.9
+Walnuts, Sunflowers, 73, 16.2
+Walnuts, Barley, 59, 13.1
+Walnuts, Winter Wheat, 1545, 343.6
+Walnuts, Rye, 5, 1.1
+Walnuts, Oats, 677, 150.6
+Walnuts, Safflower, 14, 3.1
+Walnuts, Alfalfa, 76, 16.9
+Walnuts, Other Hay/Non Alfalfa, 36, 8.0
+Walnuts, Dry Beans, 108, 24.0
+Walnuts, Hemp, 1, 0.2
+Walnuts, Chick Peas, 27, 6.0
+Walnuts, Tomatoes, 102, 22.7
+Walnuts, Clover/Wildflowers, 3, 0.7
+Walnuts, Fallow/Idle Cropland, 541, 120.3
+Walnuts, Cherries, 1036, 230.4
+Walnuts, Peaches, 66, 14.7
+Walnuts, Apples, 80, 17.8
+Walnuts, Grapes, 188, 41.8
+Walnuts, Other Tree Crops, 197, 43.8
+Walnuts, Pecans, 30, 6.7
+Walnuts, Almonds, 1389, 308.9
+Walnuts, Walnuts, 34522, 7677.5
+Walnuts, Pears, 44, 9.8
+Walnuts, Open Water, 18, 4.0
+Walnuts, Developed/Open Space, 65, 14.5
+Walnuts, Developed/Low Intensity, 65, 14.5
+Walnuts, Developed/Medium Intensity, 13, 2.9
+Walnuts, Barren, 79, 17.6
+Walnuts, Deciduous Forest, 1, 0.2
+Walnuts, Shrubland, 7, 1.6
+Walnuts, Grass/Pasture, 355, 79.0
+Walnuts, Woody Wetlands, 70, 15.6
+Walnuts, Herbaceous Wetlands, 48, 10.7
+Walnuts, Pistachios, 1552, 345.2
+Walnuts, Prunes, 90, 20.0
+Walnuts, Olives, 152, 33.8
+Walnuts, Pomegranates, 1, 0.2
+Walnuts, Plums, 175, 38.9
+Walnuts, Squash, 6, 1.3
+Walnuts, Dbl Crop WinWht/Corn, 54, 12.0
+Walnuts, Dbl Crop Oats/Corn, 2, 0.4
+Walnuts, Dbl Crop Triticale/Corn, 1, 0.2
+Pears, Pears, 24218, 5386.0
+Aquaculture, Aquaculture, 2, 0.4
+Open Water, Corn, 162, 36.0
+Open Water, Sweet Corn, 116, 25.8
+Open Water, Barley, 460, 102.3
+Open Water, Winter Wheat, 42, 9.3
+Open Water, Oats, 50, 11.1
+Open Water, Alfalfa, 2, 0.4
+Open Water, Other Hay/Non Alfalfa, 261, 58.0
+Open Water, Tomatoes, 103, 22.9
+Open Water, Clover/Wildflowers, 246, 54.7
+Open Water, Fallow/Idle Cropland, 186, 41.4
+Open Water, Peaches, 1, 0.2
+Open Water, Grapes, 692, 153.9
+Open Water, Almonds, 19, 4.2
+Open Water, Walnuts, 2, 0.4
+Open Water, Aquaculture, 79, 17.6
+Open Water, Open Water, 282310, 62784.2
+Open Water, Barren, 498, 110.8
+Open Water, Evergreen Forest, 4, 0.9
+Open Water, Shrubland, 250, 55.6
+Open Water, Grass/Pasture, 6, 1.3
+Open Water, Woody Wetlands, 723, 160.8
+Open Water, Herbaceous Wetlands, 1536, 341.6
+Open Water, Pistachios, 218, 48.5
+Open Water, Prunes, 2, 0.4
+Open Water, Dbl Crop WinWht/Corn, 3, 0.7
+Developed/Open Space, Corn, 263, 58.5
+Developed/Open Space, Cotton, 3, 0.7
+Developed/Open Space, Sunflowers, 1, 0.2
+Developed/Open Space, Winter Wheat, 92, 20.5
+Developed/Open Space, Oats, 8, 1.8
+Developed/Open Space, Alfalfa, 347, 77.2
+Developed/Open Space, Other Hay/Non Alfalfa, 41, 9.1
+Developed/Open Space, Hemp, 62, 13.8
+Developed/Open Space, Tomatoes, 6, 1.3
+Developed/Open Space, Herbs, 126, 28.0
+Developed/Open Space, Clover/Wildflowers, 533, 118.5
+Developed/Open Space, Fallow/Idle Cropland, 57, 12.7
+Developed/Open Space, Cherries, 9, 2.0
+Developed/Open Space, Grapes, 606, 134.8
+Developed/Open Space, Other Tree Crops, 3, 0.7
+Developed/Open Space, Almonds, 126, 28.0
+Developed/Open Space, Walnuts, 82, 18.2
+Developed/Open Space, Developed/Open Space, 70834, 15753.1
+Developed/Open Space, Developed/Low Intensity, 30, 6.7
+Developed/Open Space, Developed/Medium Intensity, 3, 0.7
+Developed/Open Space, Pistachios, 1, 0.2
+Developed/Open Space, Triticale, 8, 1.8
+Developed/Open Space, Pomegranates, 6, 1.3
+Developed/Open Space, Plums, 4, 0.9
+Developed/Low Intensity, Cotton, 141, 31.4
+Developed/Low Intensity, Winter Wheat, 11, 2.4
+Developed/Low Intensity, Oats, 5, 1.1
+Developed/Low Intensity, Safflower, 2, 0.4
+Developed/Low Intensity, Alfalfa, 20, 4.4
+Developed/Low Intensity, Tomatoes, 56, 12.5
+Developed/Low Intensity, Fallow/Idle Cropland, 146, 32.5
+Developed/Low Intensity, Cherries, 15, 3.3
+Developed/Low Intensity, Grapes, 84, 18.7
+Developed/Low Intensity, Almonds, 32, 7.1
+Developed/Low Intensity, Pears, 63, 14.0
+Developed/Low Intensity, Developed/Open Space, 1, 0.2
+Developed/Low Intensity, Developed/Low Intensity, 115210, 25622.1
+Developed/Low Intensity, Developed/High Intensity, 4, 0.9
+Developed/Low Intensity, Pistachios, 6, 1.3
+Developed/Low Intensity, Prunes, 4, 0.9
+Developed/Low Intensity, Dbl Crop Oats/Corn, 190, 42.3
+Developed/Low Intensity, Pumpkins, 1, 0.2
+Developed/Medium Intensity, Developed/Low Intensity, 1, 0.2
+Developed/Medium Intensity, Developed/Medium Intensity, 198792, 44210.3
+Developed/Medium Intensity, Developed/High Intensity, 1, 0.2
+Developed/High Intensity, Developed/High Intensity, 69019, 15349.5
+Barren, Cotton, 27, 6.0
+Barren, Sunflowers, 1, 0.2
+Barren, Winter Wheat, 10, 2.2
+Barren, Rye, 4, 0.9
+Barren, Oats, 1, 0.2
+Barren, Other Hay/Non Alfalfa, 94, 20.9
+Barren, Tomatoes, 17, 3.8
+Barren, Herbs, 46, 10.2
+Barren, Fallow/Idle Cropland, 25, 5.6
+Barren, Grapes, 6, 1.3
+Barren, Almonds, 1, 0.2
+Barren, Walnuts, 23, 5.1
+Barren, Open Water, 35, 7.8
+Barren, Barren, 2721, 605.1
+Barren, Evergreen Forest, 25, 5.6
+Barren, Mixed Forest, 1, 0.2
+Barren, Shrubland, 28, 6.2
+Barren, Grass/Pasture, 287, 63.8
+Barren, Woody Wetlands, 3, 0.7
+Barren, Herbaceous Wetlands, 183, 40.7
+Barren, Pistachios, 1, 0.2
+Barren, Prunes, 24, 5.3
+Barren, Plums, 1, 0.2
+Barren, Strawberries, 1, 0.2
+Deciduous Forest, Evergreen Forest, 4, 0.9
+Deciduous Forest, Mixed Forest, 1, 0.2
+Deciduous Forest, Shrubland, 1, 0.2
+Deciduous Forest, Grass/Pasture, 2, 0.4
+Deciduous Forest, Woody Wetlands, 8, 1.8
+Evergreen Forest, Rye, 3, 0.7
+Evergreen Forest, Apples, 4, 0.9
+Evergreen Forest, Open Water, 1, 0.2
+Evergreen Forest, Barren, 1, 0.2
+Evergreen Forest, Deciduous Forest, 1, 0.2
+Evergreen Forest, Evergreen Forest, 6, 1.3
+Evergreen Forest, Mixed Forest, 5, 1.1
+Evergreen Forest, Shrubland, 18, 4.0
+Evergreen Forest, Woody Wetlands, 155, 34.5
+Evergreen Forest, Herbaceous Wetlands, 70, 15.6
+Mixed Forest, Fallow/Idle Cropland, 2, 0.4
+Mixed Forest, Cherries, 1, 0.2
+Mixed Forest, Apples, 1, 0.2
+Mixed Forest, Grapes, 13, 2.9
+Mixed Forest, Evergreen Forest, 25, 5.6
+Mixed Forest, Mixed Forest, 86, 19.1
+Mixed Forest, Shrubland, 35, 7.8
+Mixed Forest, Grass/Pasture, 9, 2.0
+Mixed Forest, Woody Wetlands, 93, 20.7
+Mixed Forest, Herbaceous Wetlands, 50, 11.1
+Mixed Forest, Triticale, 8, 1.8
+Shrubland, Barley, 2, 0.4
+Shrubland, Winter Wheat, 111, 24.7
+Shrubland, Oats, 16, 3.6
+Shrubland, Alfalfa, 93, 20.7
+Shrubland, Other Hay/Non Alfalfa, 5, 1.1
+Shrubland, Hemp, 1, 0.2
+Shrubland, Tomatoes, 42, 9.3
+Shrubland, Fallow/Idle Cropland, 28, 6.2
+Shrubland, Cherries, 33, 7.3
+Shrubland, Peaches, 13, 2.9
+Shrubland, Apples, 2, 0.4
+Shrubland, Grapes, 229, 50.9
+Shrubland, Almonds, 202, 44.9
+Shrubland, Walnuts, 5, 1.1
+Shrubland, Open Water, 61, 13.6
+Shrubland, Barren, 285, 63.4
+Shrubland, Deciduous Forest, 2, 0.4
+Shrubland, Evergreen Forest, 34, 7.6
+Shrubland, Mixed Forest, 30, 6.7
+Shrubland, Shrubland, 2613, 581.1
+Shrubland, Grass/Pasture, 565, 125.7
+Shrubland, Woody Wetlands, 193, 42.9
+Shrubland, Herbaceous Wetlands, 303, 67.4
+Shrubland, Triticale, 203, 45.1
+Shrubland, Prunes, 1, 0.2
+Shrubland, Plums, 1, 0.2
+Shrubland, Dbl Crop WinWht/Corn, 5, 1.1
+Shrubland, Dbl Crop WinWht/Sorghum, 1, 0.2
+Grass/Pasture, Corn, 280, 62.3
+Grass/Pasture, Rice, 173, 38.5
+Grass/Pasture, Sunflowers, 24, 5.3
+Grass/Pasture, Barley, 28, 6.2
+Grass/Pasture, Winter Wheat, 944, 209.9
+Grass/Pasture, Rye, 465, 103.4
+Grass/Pasture, Oats, 448, 99.6
+Grass/Pasture, Safflower, 32, 7.1
+Grass/Pasture, Alfalfa, 134, 29.8
+Grass/Pasture, Other Hay/Non Alfalfa, 1472, 327.4
+Grass/Pasture, Misc Vegs & Fruits, 3, 0.7
+Grass/Pasture, Tomatoes, 58, 12.9
+Grass/Pasture, Herbs, 182, 40.5
+Grass/Pasture, Clover/Wildflowers, 1866, 415.0
+Grass/Pasture, Fallow/Idle Cropland, 307, 68.3
+Grass/Pasture, Cherries, 147, 32.7
+Grass/Pasture, Peaches, 13, 2.9
+Grass/Pasture, Apples, 32, 7.1
+Grass/Pasture, Grapes, 1236, 274.9
+Grass/Pasture, Almonds, 1939, 431.2
+Grass/Pasture, Walnuts, 124, 27.6
+Grass/Pasture, Pears, 17, 3.8
+Grass/Pasture, Open Water, 249, 55.4
+Grass/Pasture, Developed/Medium Intensity, 1, 0.2
+Grass/Pasture, Barren, 505, 112.3
+Grass/Pasture, Evergreen Forest, 17, 3.8
+Grass/Pasture, Mixed Forest, 16, 3.6
+Grass/Pasture, Shrubland, 523, 116.3
+Grass/Pasture, Grass/Pasture, 107808, 23975.9
+Grass/Pasture, Woody Wetlands, 28, 6.2
+Grass/Pasture, Herbaceous Wetlands, 2700, 600.5
+Grass/Pasture, Pistachios, 288, 64.0
+Grass/Pasture, Triticale, 306, 68.1
+Grass/Pasture, Prunes, 71, 15.8
+Grass/Pasture, Olives, 13, 2.9
+Grass/Pasture, Plums, 11, 2.4
+Grass/Pasture, Strawberries, 10, 2.2
+Grass/Pasture, Dbl Crop WinWht/Corn, 2, 0.4
+Grass/Pasture, Dbl Crop Oats/Corn, 42, 9.3
+Grass/Pasture, Dbl Crop Triticale/Corn, 190, 42.3
+Woody Wetlands, Rice, 116, 25.8
+Woody Wetlands, Winter Wheat, 550, 122.3
+Woody Wetlands, Other Hay/Non Alfalfa, 34, 7.6
+Woody Wetlands, Fallow/Idle Cropland, 3, 0.7
+Woody Wetlands, Cherries, 66, 14.7
+Woody Wetlands, Peaches, 170, 37.8
+Woody Wetlands, Pecans, 6, 1.3
+Woody Wetlands, Almonds, 25, 5.6
+Woody Wetlands, Walnuts, 9, 2.0
+Woody Wetlands, Open Water, 192, 42.7
+Woody Wetlands, Barren, 804, 178.8
+Woody Wetlands, Deciduous Forest, 1, 0.2
+Woody Wetlands, Evergreen Forest, 33, 7.3
+Woody Wetlands, Mixed Forest, 7, 1.6
+Woody Wetlands, Shrubland, 116, 25.8
+Woody Wetlands, Grass/Pasture, 219, 48.7
+Woody Wetlands, Woody Wetlands, 18939, 4211.9
+Woody Wetlands, Herbaceous Wetlands, 3283, 730.1
+Woody Wetlands, Triticale, 2, 0.4
+Woody Wetlands, Prunes, 4, 0.9
+Woody Wetlands, Plums, 79, 17.6
+Woody Wetlands, Dbl Crop WinWht/Corn, 2, 0.4
+Herbaceous Wetlands, Corn, 218, 48.5
+Herbaceous Wetlands, Rice, 240, 53.4
+Herbaceous Wetlands, Pop or Orn Corn, 10, 2.2
+Herbaceous Wetlands, Barley, 3, 0.7
+Herbaceous Wetlands, Winter Wheat, 389, 86.5
+Herbaceous Wetlands, Rye, 838, 186.4
+Herbaceous Wetlands, Oats, 248, 55.2
+Herbaceous Wetlands, Safflower, 5, 1.1
+Herbaceous Wetlands, Alfalfa, 1286, 286.0
+Herbaceous Wetlands, Other Hay/Non Alfalfa, 984, 218.8
+Herbaceous Wetlands, Hemp, 287, 63.8
+Herbaceous Wetlands, Tomatoes, 214, 47.6
+Herbaceous Wetlands, Clover/Wildflowers, 2412, 536.4
+Herbaceous Wetlands, Fallow/Idle Cropland, 1064, 236.6
+Herbaceous Wetlands, Cherries, 259, 57.6
+Herbaceous Wetlands, Peaches, 47, 10.5
+Herbaceous Wetlands, Apples, 42, 9.3
+Herbaceous Wetlands, Grapes, 182, 40.5
+Herbaceous Wetlands, Other Tree Crops, 276, 61.4
+Herbaceous Wetlands, Citrus, 56, 12.5
+Herbaceous Wetlands, Almonds, 237, 52.7
+Herbaceous Wetlands, Walnuts, 395, 87.8
+Herbaceous Wetlands, Open Water, 7187, 1598.4
+Herbaceous Wetlands, Barren, 1110, 246.9
+Herbaceous Wetlands, Deciduous Forest, 2, 0.4
+Herbaceous Wetlands, Evergreen Forest, 4, 0.9
+Herbaceous Wetlands, Mixed Forest, 24, 5.3
+Herbaceous Wetlands, Shrubland, 923, 205.3
+Herbaceous Wetlands, Grass/Pasture, 3777, 840.0
+Herbaceous Wetlands, Woody Wetlands, 2111, 469.5
+Herbaceous Wetlands, Herbaceous Wetlands, 98540, 21914.8
+Herbaceous Wetlands, Triticale, 9, 2.0
+Herbaceous Wetlands, Prunes, 173, 38.5
+Herbaceous Wetlands, Olives, 2, 0.4
+Herbaceous Wetlands, Plums, 176, 39.1
+Herbaceous Wetlands, Dbl Crop WinWht/Corn, 167, 37.1
+Herbaceous Wetlands, Dbl Crop Oats/Corn, 2, 0.4
+Herbaceous Wetlands, Dbl Crop Triticale/Corn, 10, 2.2
+Pistachios, Rice, 1, 0.2
+Pistachios, Sunflowers, 20, 4.4
+Pistachios, Winter Wheat, 71, 15.8
+Pistachios, Rye, 186, 41.4
+Pistachios, Oats, 2, 0.4
+Pistachios, Fallow/Idle Cropland, 211, 46.9
+Pistachios, Cherries, 46, 10.2
+Pistachios, Citrus, 1, 0.2
+Pistachios, Almonds, 39, 8.7
+Pistachios, Walnuts, 20, 4.4
+Pistachios, Developed/Open Space, 2, 0.4
+Pistachios, Developed/Medium Intensity, 1, 0.2
+Pistachios, Barren, 3, 0.7
+Pistachios, Grass/Pasture, 79, 17.6
+Pistachios, Herbaceous Wetlands, 2, 0.4
+Pistachios, Pistachios, 1430, 318.0
+Pistachios, Garlic, 8, 1.8
+Pistachios, Olives, 6, 1.3
+Triticale, Corn, 5336, 1186.7
+Triticale, Rice, 5859, 1303.0
+Triticale, Sunflowers, 1424, 316.7
+Triticale, Sweet Corn, 71, 15.8
+Triticale, Pop or Orn Corn, 124, 27.6
+Triticale, Barley, 2222, 494.2
+Triticale, Winter Wheat, 11727, 2608.0
+Triticale, Rye, 1005, 223.5
+Triticale, Oats, 665, 147.9
+Triticale, Safflower, 16032, 3565.4
+Triticale, Alfalfa, 6024, 1339.7
+Triticale, Other Hay/Non Alfalfa, 2433, 541.1
+Triticale, Hemp, 952, 211.7
+Triticale, Cucumbers, 169, 37.6
+Triticale, Tomatoes, 3622, 805.5
+Triticale, Fallow/Idle Cropland, 1612, 358.5
+Triticale, Peaches, 1, 0.2
+Triticale, Grapes, 231, 51.4
+Triticale, Almonds, 33, 7.3
+Triticale, Pears, 91, 20.2
+Triticale, Open Water, 3, 0.7
+Triticale, Barren, 1, 0.2
+Triticale, Deciduous Forest, 1, 0.2
+Triticale, Shrubland, 6, 1.3
+Triticale, Grass/Pasture, 1137, 252.9
+Triticale, Herbaceous Wetlands, 78, 17.3
+Triticale, Pistachios, 96, 21.3
+Triticale, Triticale, 21033, 4677.6
+Triticale, Olives, 128, 28.5
+Triticale, Strawberries, 13, 2.9
+Triticale, Dbl Crop Triticale/Corn, 11, 2.4
+Carrots, Winter Wheat, 52, 11.6
+Carrots, Other Hay/Non Alfalfa, 2, 0.4
+Carrots, Tomatoes, 3330, 740.6
+Carrots, Herbs, 6, 1.3
+Carrots, Fallow/Idle Cropland, 169, 37.6
+Carrots, Almonds, 71, 15.8
+Carrots, Walnuts, 98, 21.8
+Carrots, Cantaloupes, 9, 2.0
+Carrots, Peppers, 76, 16.9
+Carrots, Plums, 1, 0.2
+Carrots, Pumpkins, 9, 2.0
+Garlic, Sunflowers, 4, 0.9
+Garlic, Winter Wheat, 323, 71.8
+Garlic, Alfalfa, 768, 170.8
+Garlic, Cucumbers, 1134, 252.2
+Garlic, Tomatoes, 3919, 871.6
+Garlic, Herbs, 3, 0.7
+Garlic, Grapes, 1, 0.2
+Garlic, Almonds, 240, 53.4
+Garlic, Woody Wetlands, 1, 0.2
+Garlic, Triticale, 157, 34.9
+Garlic, Dbl Crop WinWht/Corn, 108, 24.0
+Cantaloupes, Winter Wheat, 8, 1.8
+Cantaloupes, Dry Beans, 4, 0.9
+Cantaloupes, Watermelons, 53, 11.8
+Cantaloupes, Tomatoes, 494, 109.9
+Cantaloupes, Almonds, 318, 70.7
+Cantaloupes, Garlic, 323, 71.8
+Cantaloupes, Pumpkins, 17, 3.8
+Olives, Winter Wheat, 33, 7.3
+Olives, Alfalfa, 120, 26.7
+Olives, Tomatoes, 12, 2.7
+Olives, Fallow/Idle Cropland, 6, 1.3
+Olives, Cherries, 114, 25.4
+Olives, Grapes, 7, 1.6
+Olives, Other Tree Crops, 5, 1.1
+Olives, Almonds, 413, 91.8
+Olives, Walnuts, 87, 19.3
+Olives, Developed/Open Space, 8, 1.8
+Olives, Developed/Low Intensity, 17, 3.8
+Olives, Developed/Medium Intensity, 3, 0.7
+Olives, Herbaceous Wetlands, 1, 0.2
+Olives, Prunes, 9, 2.0
+Olives, Olives, 23085, 5134.0
+Olives, Pumpkins, 145, 32.2
+Oranges, Walnuts, 7, 1.6
+Oranges, Plums, 1, 0.2
+Honeydew Melons, Sunflowers, 35, 7.8
+Honeydew Melons, Winter Wheat, 88, 19.6
+Honeydew Melons, Tomatoes, 55, 12.2
+Honeydew Melons, Fallow/Idle Cropland, 2, 0.4
+Broccoli, Safflower, 15, 3.3
+Peppers, Winter Wheat, 3, 0.7
+Peppers, Other Hay/Non Alfalfa, 14, 3.1
+Peppers, Tomatoes, 60, 13.3
+Peppers, Peppers, 1, 0.2
+Pomegranates, Almonds, 65, 14.5
+Pomegranates, Pomegranates, 32, 7.1
+Greens, Onions, 4, 0.9
+Plums, Rice, 1, 0.2
+Plums, Spring Wheat, 2, 0.4
+Plums, Winter Wheat, 41, 9.1
+Plums, Alfalfa, 19, 4.2
+Plums, Other Hay/Non Alfalfa, 8, 1.8
+Plums, Watermelons, 128, 28.5
+Plums, Cucumbers, 2, 0.4
+Plums, Tomatoes, 3, 0.7
+Plums, Clover/Wildflowers, 27, 6.0
+Plums, Fallow/Idle Cropland, 11, 2.4
+Plums, Cherries, 47, 10.5
+Plums, Peaches, 52, 11.6
+Plums, Other Tree Crops, 9, 2.0
+Plums, Almonds, 703, 156.3
+Plums, Walnuts, 33, 7.3
+Plums, Deciduous Forest, 9, 2.0
+Plums, Shrubland, 6, 1.3
+Plums, Grass/Pasture, 4, 0.9
+Plums, Woody Wetlands, 32, 7.1
+Plums, Herbaceous Wetlands, 98, 21.8
+Plums, Triticale, 3, 0.7
+Plums, Prunes, 78, 17.3
+Plums, Olives, 29, 6.4
+Plums, Plums, 534, 118.8
+Plums, Dbl Crop Triticale/Corn, 1, 0.2
+Strawberries, Grass/Pasture, 89, 19.8
+Strawberries, Strawberries, 170, 37.8
+Squash, Corn, 2, 0.4
+Squash, Sunflowers, 37, 8.2
+Squash, Sweet Corn, 978, 217.5
+Squash, Winter Wheat, 3, 0.7
+Squash, Alfalfa, 196, 43.6
+Squash, Tomatoes, 906, 201.5
+Squash, Herbs, 47, 10.5
+Squash, Fallow/Idle Cropland, 417, 92.7
+Squash, Triticale, 3, 0.7
+Squash, Pumpkins, 39, 8.7
+Vetch, Corn, 6, 1.3
+Vetch, Rice, 90, 20.0
+Vetch, Tomatoes, 38, 8.5
+Vetch, Fallow/Idle Cropland, 20, 4.4
+Dbl Crop WinWht/Corn, Corn, 219, 48.7
+Dbl Crop WinWht/Corn, Cotton, 1, 0.2
+Dbl Crop WinWht/Corn, Sweet Corn, 908, 201.9
+Dbl Crop WinWht/Corn, Winter Wheat, 2011, 447.2
+Dbl Crop WinWht/Corn, Rye, 15, 3.3
+Dbl Crop WinWht/Corn, Oats, 915, 203.5
+Dbl Crop WinWht/Corn, Alfalfa, 328, 72.9
+Dbl Crop WinWht/Corn, Other Hay/Non Alfalfa, 2004, 445.7
+Dbl Crop WinWht/Corn, Dry Beans, 16, 3.6
+Dbl Crop WinWht/Corn, Watermelons, 15, 3.3
+Dbl Crop WinWht/Corn, Tomatoes, 100, 22.2
+Dbl Crop WinWht/Corn, Fallow/Idle Cropland, 2, 0.4
+Dbl Crop WinWht/Corn, Cherries, 14, 3.1
+Dbl Crop WinWht/Corn, Grapes, 572, 127.2
+Dbl Crop WinWht/Corn, Almonds, 5, 1.1
+Dbl Crop WinWht/Corn, Walnuts, 47, 10.5
+Dbl Crop WinWht/Corn, Shrubland, 2, 0.4
+Dbl Crop WinWht/Corn, Herbaceous Wetlands, 10, 2.2
+Dbl Crop WinWht/Corn, Pistachios, 2, 0.4
+Dbl Crop WinWht/Corn, Cantaloupes, 32, 7.1
+Dbl Crop WinWht/Corn, Plums, 3, 0.7
+Dbl Crop WinWht/Corn, Dbl Crop WinWht/Corn, 3329, 740.4
+Dbl Crop WinWht/Corn, Dbl Crop Oats/Corn, 69, 15.3
+Dbl Crop Oats/Corn, Corn, 975, 216.8
+Dbl Crop Oats/Corn, Cotton, 2, 0.4
+Dbl Crop Oats/Corn, Rice, 22, 4.9
+Dbl Crop Oats/Corn, Winter Wheat, 365, 81.2
+Dbl Crop Oats/Corn, Rye, 1, 0.2
+Dbl Crop Oats/Corn, Oats, 5949, 1323.0
+Dbl Crop Oats/Corn, Safflower, 1, 0.2
+Dbl Crop Oats/Corn, Alfalfa, 774, 172.1
+Dbl Crop Oats/Corn, Other Hay/Non Alfalfa, 547, 121.6
+Dbl Crop Oats/Corn, Tomatoes, 28, 6.2
+Dbl Crop Oats/Corn, Fallow/Idle Cropland, 108, 24.0
+Dbl Crop Oats/Corn, Cherries, 30, 6.7
+Dbl Crop Oats/Corn, Dbl Crop WinWht/Corn, 568, 126.3
+Dbl Crop Oats/Corn, Dbl Crop Oats/Corn, 3025, 672.7
+Dbl Crop Oats/Corn, Pumpkins, 26, 5.8
+Dbl Crop Oats/Corn, Dbl Crop Barley/Corn, 10, 2.2
+Lettuce, Grapes, 176, 39.1
+Lettuce, Barren, 1, 0.2
+Lettuce, Shrubland, 126, 28.0
+Lettuce, Woody Wetlands, 2, 0.4
+Dbl Crop Triticale/Corn, Corn, 434, 96.5
+Dbl Crop Triticale/Corn, Sunflowers, 1229, 273.3
+Dbl Crop Triticale/Corn, Winter Wheat, 61, 13.6
+Dbl Crop Triticale/Corn, Alfalfa, 4, 0.9
+Dbl Crop Triticale/Corn, Other Hay/Non Alfalfa, 145, 32.2
+Dbl Crop Triticale/Corn, Dbl Crop WinWht/Corn, 2, 0.4
+Dbl Crop Triticale/Corn, Dbl Crop Triticale/Corn, 1, 0.2
+Pumpkins, Corn, 200, 44.5
+Pumpkins, Winter Wheat, 313, 69.6
+Pumpkins, Tomatoes, 873, 194.2
+Pumpkins, Garlic, 312, 69.4
+Pumpkins, Pumpkins, 45, 10.0
+Dbl Crop WinWht/Sorghum, Corn, 16, 3.6
+Dbl Crop WinWht/Sorghum, Sunflowers, 46, 10.2
+Dbl Crop WinWht/Sorghum, Winter Wheat, 100, 22.2
+Dbl Crop WinWht/Sorghum, Watermelons, 19, 4.2
+Dbl Crop WinWht/Sorghum, Tomatoes, 481, 107.0
+Dbl Crop WinWht/Sorghum, Fallow/Idle Cropland, 6, 1.3
+Dbl Crop WinWht/Sorghum, Pumpkins, 106, 23.6
+Cabbage, Winter Wheat, 27, 6.0

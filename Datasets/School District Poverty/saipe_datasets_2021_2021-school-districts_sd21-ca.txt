@@ -1,0 +1,942 @@
+06 01620 ABC Unified School District                                                104902    16948     2170 sd21-ca.txt 30NOV2022 
+06 01650 Acalanes Union High School District                                        118464     6451      201 sd21-ca.txt 30NOV2022 
+06 01680 Ackerman Elementary School District                                          2889      298       38 sd21-ca.txt 30NOV2022 
+06 00001 Acton-Agua Dulce Unified School District                                    12054     1832      247 sd21-ca.txt 30NOV2022 
+06 01710 Adelanto Elementary School District                                         66172     7970     1800 sd21-ca.txt 30NOV2022 
+06 01770 Alameda City Unified School District                                        76707    11292      955 sd21-ca.txt 30NOV2022 
+06 01860 Albany City Unified School District                                         19864     3033      199 sd21-ca.txt 30NOV2022 
+06 01890 Alexander Valley Union School District                                        756       37        5 sd21-ca.txt 30NOV2022 
+06 00153 Alhambra Unified School District                                           164163    16992     3069 sd21-ca.txt 30NOV2022 
+06 01950 Alisal Union Elementary School District                                     60117     7931     1411 sd21-ca.txt 30NOV2022 
+06 01980 Allensworth Elementary School District                                        557      111       47 sd21-ca.txt 30NOV2022 
+06 02010 Alpaugh Unified School District                                              1270      348      120 sd21-ca.txt 30NOV2022 
+06 02070 Alpine County Unified School District                                        1235      170       38 sd21-ca.txt 30NOV2022 
+06 02100 Alpine Union Elementary School District                                     18810     2140      158 sd21-ca.txt 30NOV2022 
+06 02160 Alta Loma Elementary School District                                        54577     5824      493 sd21-ca.txt 30NOV2022 
+06 02220 Alta Vista Elementary School District                                        3113      513      198 sd21-ca.txt 30NOV2022 
+06 02250 Alta-Dutch Flat Union Elementary School District                             1748      132       24 sd21-ca.txt 30NOV2022 
+06 02310 Alum Rock Union Elementary School District                                 109436    13025     1861 sd21-ca.txt 30NOV2022 
+06 02360 Alview-Dairyland Union Elementary School District                            1631      268       57 sd21-ca.txt 30NOV2022 
+06 02370 Alvina Elementary School District                                             592       84       28 sd21-ca.txt 30NOV2022 
+06 02430 Alvord Unified School District                                             113034    21091     3255 sd21-ca.txt 30NOV2022 
+06 02450 Amador County Unified School District                                       41259     4667      572 sd21-ca.txt 30NOV2022 
+06 02610 Anaheim Elementary School District                                         200832    18182     2941 sd21-ca.txt 30NOV2022 
+06 02630 Anaheim Union High School District                                         396044    32474     4338 sd21-ca.txt 30NOV2022 
+06 02700 Anderson Union High School District                                         40616     2462      356 sd21-ca.txt 30NOV2022 
+06 02730 Anderson Valley Unified School District                                      3180      504      115 sd21-ca.txt 30NOV2022 
+06 02760 Antelope Elementary School District                                          6111      641      122 sd21-ca.txt 30NOV2022 
+06 02820 Antelope Valley Union Joint High School District                           401422    29422     6501 sd21-ca.txt 30NOV2022 
+06 02850 Antioch Unified School District                                            119523    21723     3726 sd21-ca.txt 30NOV2022 
+06 00017 Apple Valley Unified School District                                        84782    16602     3133 sd21-ca.txt 30NOV2022 
+06 02970 Arcadia Unified School District                                             56504     9582     1069 sd21-ca.txt 30NOV2022 
+06 03000 Arcata Elementary School District                                           15114      866      227 sd21-ca.txt 30NOV2022 
+06 03060 Arcohe Union Elementary School District                                      4789      504       44 sd21-ca.txt 30NOV2022 
+06 03090 Arena Union Elementary School District                                       3751      305       64 sd21-ca.txt 30NOV2022 
+06 03180 Armona Union Elementary School District                                      7295     1189      277 sd21-ca.txt 30NOV2022 
+06 91136 Aromas-San Juan Unified School District                                      9892     1525      161 sd21-ca.txt 30NOV2022 
+06 03270 Arvin Union School District                                                 19970     3684     1212 sd21-ca.txt 30NOV2022 
+06 03300 Atascadero Unified School District                                          37357     5605      536 sd21-ca.txt 30NOV2022 
+06 03420 Atwater Elementary School District                                          37019     5268     1409 sd21-ca.txt 30NOV2022 
+06 03480 Auburn Union Elementary School District                                     34994     2984      323 sd21-ca.txt 30NOV2022 
+06 03600 Azusa Unified School District                                               68311    11222     1883 sd21-ca.txt 30NOV2022 
+06 03610 Baker Valley Unified School District                                          549      124       33 sd21-ca.txt 30NOV2022 
+06 03630 Bakersfield City School District                                           203084    31751    10835 sd21-ca.txt 30NOV2022 
+06 03690 Baldwin Park Unified School District                                        70163    12289     2507 sd21-ca.txt 30NOV2022 
+06 03720 Ballard Elementary School District                                           1451      128        9 sd21-ca.txt 30NOV2022 
+06 03750 Ballico-Cressey Elementary School District                                   1974      283       58 sd21-ca.txt 30NOV2022 
+06 03780 Bangor Union Elementary School District                                      1242      136       35 sd21-ca.txt 30NOV2022 
+06 03840 Banning Unified School District                                             35544     5602     1171 sd21-ca.txt 30NOV2022 
+06 03870 Banta Elementary School District                                             9688     1381       78 sd21-ca.txt 30NOV2022 
+06 04020 Barstow Unified School District                                             35692     7850     2215 sd21-ca.txt 30NOV2022 
+06 04080 Bass Lake Joint Union Elementary School District                            11385     1035      268 sd21-ca.txt 30NOV2022 
+06 04110 Bassett Unified School District                                             25875     4452      833 sd21-ca.txt 30NOV2022 
+06 04200 Bayshore Elementary School District                                          5776      567       50 sd21-ca.txt 30NOV2022 
+06 04230 Bear Valley Unified School District                                         19238     2681      597 sd21-ca.txt 30NOV2022 
+06 04260 Beardsley Elementary School District                                        18599     2263      816 sd21-ca.txt 30NOV2022 
+06 04290 Beaumont Unified School District                                            66533    12152     1234 sd21-ca.txt 30NOV2022 
+06 04350 Bella Vista Elementary School District                                       3880      344       41 sd21-ca.txt 30NOV2022 
+06 04500 Belleview Elementary School District                                         1795      165       42 sd21-ca.txt 30NOV2022 
+06 04380 Bellevue Union School District                                              26829     2759      360 sd21-ca.txt 30NOV2022 
+06 04440 Bellflower Unified School District                                          82321    14487     2146 sd21-ca.txt 30NOV2022 
+06 04530 Belmont-Redwood Shores Elementary School District                           43448     4785      116 sd21-ca.txt 30NOV2022 
+06 04560 Belridge Elementary School District                                           112       26        9 sd21-ca.txt 30NOV2022 
+06 04620 Benicia Unified School District                                             27067     4318      231 sd21-ca.txt 30NOV2022 
+06 04650 Bennett Valley Union Elementary School District                              9976      713       54 sd21-ca.txt 30NOV2022 
+06 04740 Berkeley Unified School District                                           121824    10758      811 sd21-ca.txt 30NOV2022 
+06 04800 Berryessa Union Elementary School District                                  81544     8337      615 sd21-ca.txt 30NOV2022 
+06 04830 Beverly Hills Unified School District                                       32197     4620      610 sd21-ca.txt 30NOV2022 
+06 04860 Big Creek Elementary School District                                          345       46       18 sd21-ca.txt 30NOV2022 
+06 04890 Big Lagoon Union Elementary School District                                   519       39        6 sd21-ca.txt 30NOV2022 
+06 91137 Big Oak Flat-Groveland Unified School District                               5495      533      119 sd21-ca.txt 30NOV2022 
+06 04950 Big Pine Unified School District                                             1965      329       42 sd21-ca.txt 30NOV2022 
+06 04980 Big Springs Union Elementary School District                                 1898      193       32 sd21-ca.txt 30NOV2022 
+06 00031 Big Sur Unified School District                                               309       51       11 sd21-ca.txt 30NOV2022 
+06 05010 Big Valley Joint Unified School District                                     1574      226       50 sd21-ca.txt 30NOV2022 
+06 05040 Biggs Unified School District                                                3607      718      132 sd21-ca.txt 30NOV2022 
+06 01409 Bishop Unified School District                                              13431     2077      317 sd21-ca.txt 30NOV2022 
+06 05190 Bitterwater-Tully Union Elementary School District                            211       37        7 sd21-ca.txt 30NOV2022 
+06 05220 Black Butte Union Elementary School District                                 4563      326       72 sd21-ca.txt 30NOV2022 
+06 05240 Black Oak Mine Unified School District                                      13393     1724      211 sd21-ca.txt 30NOV2022 
+06 05250 Blake Elementary School District                                              233       21        0 sd21-ca.txt 30NOV2022 
+06 05280 Blochman Union Elementary School District                                     755       77       15 sd21-ca.txt 30NOV2022 
+06 05400 Blue Lake Union Elementary School District                                   2329      192       59 sd21-ca.txt 30NOV2022 
+06 05490 Bogus Elementary School District                                              386       25        8 sd21-ca.txt 30NOV2022 
+06 05520 Bolinas-Stinson Union Elementary School District                             2132      139       25 sd21-ca.txt 30NOV2022 
+06 05610 Bonita Unified School District                                              62178    10128      906 sd21-ca.txt 30NOV2022 
+06 05640 Bonny Doon Union Elementary School District                                  3230      219       17 sd21-ca.txt 30NOV2022 
+06 01426 Bonsall Unified School District                                             19522     3239      257 sd21-ca.txt 30NOV2022 
+06 05700 Borrego Springs Unified School District                                      3376      372      109 sd21-ca.txt 30NOV2022 
+06 05730 Bradley Union Elementary School District                                      371       38        5 sd21-ca.txt 30NOV2022 
+06 05790 Brawley Elementary School District                                          27088     4239      924 sd21-ca.txt 30NOV2022 
+06 05820 Brawley Union High School District                                          29589     2168      420 sd21-ca.txt 30NOV2022 
+06 05880 Brea-Olinda Unified School District                                         42751     7237      444 sd21-ca.txt 30NOV2022 
+06 05910 Brentwood Union Elementary School District                                  67423     9292      719 sd21-ca.txt 30NOV2022 
+06 05940 Bret Harte Union High School District                                       19822      793      110 sd21-ca.txt 30NOV2022 
+06 06000 Bridgeville Elementary School District                                        571       59       23 sd21-ca.txt 30NOV2022 
+06 06030 Briggs Elementary School District                                            3069      413       65 sd21-ca.txt 30NOV2022 
+06 06060 Brisbane Elementary School District                                          8627      732       45 sd21-ca.txt 30NOV2022 
+06 06090 Brittan Elementary School District                                           3632      456       64 sd21-ca.txt 30NOV2022 
+06 06100 Browns Elementary School District                                             887      115       17 sd21-ca.txt 30NOV2022 
+06 06270 Buckeye Union Elementary School District                                    42811     5307      326 sd21-ca.txt 30NOV2022 
+06 06330 Buellton Union Elementary School District                                    6067      710       72 sd21-ca.txt 30NOV2022 
+06 06360 Buena Park Elementary School District                                       49928     5488      724 sd21-ca.txt 30NOV2022 
+06 06420 Buena Vista Elementary School District                                        452       58       12 sd21-ca.txt 30NOV2022 
+06 06450 Burbank Unified School District                                            105298    14665     1329 sd21-ca.txt 30NOV2022 
+06 06480 Burlingame Elementary School District                                       31517     3669      169 sd21-ca.txt 30NOV2022 
+06 06510 Burnt Ranch Elementary School District                                        740       60       32 sd21-ca.txt 30NOV2022 
+06 06540 Burrel Union Elementary School District                                       557       88       19 sd21-ca.txt 30NOV2022 
+06 06570 Burton Elementary School District                                           18677     3087      561 sd21-ca.txt 30NOV2022 
+06 06580 Butte Valley Unified School District                                         1762      327       82 sd21-ca.txt 30NOV2022 
+06 06690 Butteville Union Elementary School District                                  1950      214       27 sd21-ca.txt 30NOV2022 
+06 06720 Buttonwillow Union Elementary School District                                1823      309       73 sd21-ca.txt 30NOV2022 
+06 06750 Byron Union Elementary School District                                      15051     1732      160 sd21-ca.txt 30NOV2022 
+06 06780 Cabrillo Unified School District                                            25221     3531      235 sd21-ca.txt 30NOV2022 
+06 06810 Cajon Valley Union Elementary School District                              170934    19908     4122 sd21-ca.txt 30NOV2022 
+06 06870 Calaveras Unified School District                                           26399     3636      612 sd21-ca.txt 30NOV2022 
+06 06900 Calexico Unified School District                                            39536     8262     2347 sd21-ca.txt 30NOV2022 
+06 06960 Caliente Union Elementary School District                                     894      102       16 sd21-ca.txt 30NOV2022 
+06 06990 Calipatria Unified School District                                           8674     1272      334 sd21-ca.txt 30NOV2022 
+06 07020 Calistoga Joint Unified School District                                      6702      945      100 sd21-ca.txt 30NOV2022 
+06 07140 Cambrian Elementary School District                                         30604     3527      134 sd21-ca.txt 30NOV2022 
+06 07170 Camino Union Elementary School District                                      4979      433       97 sd21-ca.txt 30NOV2022 
+06 07200 Campbell Union Elementary School District                                   97540     9493      676 sd21-ca.txt 30NOV2022 
+06 07230 Campbell Union High School District                                        226835    10686      543 sd21-ca.txt 30NOV2022 
+06 07260 Camptonville Elementary School District                                       720       65       19 sd21-ca.txt 30NOV2022 
+06 07350 Canyon Elementary School District                                             205       13        2 sd21-ca.txt 30NOV2022 
+06 07410 Capay Joint Union Elementary School District                                  995      121       27 sd21-ca.txt 30NOV2022 
+06 07440 Capistrano Unified School District                                         359286    58795     3457 sd21-ca.txt 30NOV2022 
+06 07470 Cardiff Elementary School District                                          11887      898      131 sd21-ca.txt 30NOV2022 
+06 07500 Carlsbad Unified School District                                            78010    12651      824 sd21-ca.txt 30NOV2022 
+06 07530 Carmel Unified School District                                              22843     3032      260 sd21-ca.txt 30NOV2022 
+06 07560 Carpinteria Unified School District                                         17953     2606      306 sd21-ca.txt 30NOV2022 
+06 00067 Caruthers Unified School District                                            8732     1489      460 sd21-ca.txt 30NOV2022 
+06 07680 Cascade Union Elementary School District                                    16453     1967      406 sd21-ca.txt 30NOV2022 
+06 07740 Castaic Union School District                                               28877     2332      176 sd21-ca.txt 30NOV2022 
+06 07770 Castle Rock Union Elementary School District                                  308       24        6 sd21-ca.txt 30NOV2022 
+06 07800 Castro Valley Unified School District                                       52008     9144      575 sd21-ca.txt 30NOV2022 
+06 07840 Cayucos Elementary School District                                           2783      185       22 sd21-ca.txt 30NOV2022 
+06 07900 Center Joint Unified School District                                        29489     6041      830 sd21-ca.txt 30NOV2022 
+06 07920 Centinela Valley Union High School District                                145122     8270     1704 sd21-ca.txt 30NOV2022 
+06 07950 Central Elementary School District                                          41559     4916      634 sd21-ca.txt 30NOV2022 
+06 07970 Central Unified School District                                             81612    17952     3802 sd21-ca.txt 30NOV2022 
+06 07980 Central Union Elementary School District                                    10130     1663      240 sd21-ca.txt 30NOV2022 
+06 08010 Central Union High School District                                          59668     4245      761 sd21-ca.txt 30NOV2022 
+06 08070 Centralia Elementary School District                                        56263     4528      528 sd21-ca.txt 30NOV2022 
+06 08130 Ceres Unified School District                                               57699    12641     2584 sd21-ca.txt 30NOV2022 
+06 08160 Chaffey Joint Union High School District                                   424047    26555     2997 sd21-ca.txt 30NOV2022 
+06 08190 Charter Oak Unified School District                                         36994     5944      661 sd21-ca.txt 30NOV2022 
+06 08250 Chatom Union Elementary School District                                      4506      699      132 sd21-ca.txt 30NOV2022 
+06 00116 Chawanakee Unified School District                                           4694      721      144 sd21-ca.txt 30NOV2022 
+06 08340 Chicago Park Elementary School District                                      1170       73       12 sd21-ca.txt 30NOV2022 
+06 08370 Chico Unified School District                                              118233    16666     2307 sd21-ca.txt 30NOV2022 
+06 08460 Chino Valley Unified School District                                       191340    33685     3397 sd21-ca.txt 30NOV2022 
+06 08520 Chowchilla Elementary School District                                       22542     2676      667 sd21-ca.txt 30NOV2022 
+06 08550 Chowchilla Union High School District                                       24173     1230      270 sd21-ca.txt 30NOV2022 
+06 08580 Chualar Union Elementary School District                                     1899      324       49 sd21-ca.txt 30NOV2022 
+06 08610 Chula Vista Elementary School District                                     314805    29727     3479 sd21-ca.txt 30NOV2022 
+06 08640 Cienega Union Elementary School District                                      178       15        2 sd21-ca.txt 30NOV2022 
+06 08700 Cinnabar Elementary School District                                          2562      236       40 sd21-ca.txt 30NOV2022 
+06 08760 Claremont Unified School District                                           43119     6130      547 sd21-ca.txt 30NOV2022 
+06 08850 Clay Joint Elementary School District                                         423       62       29 sd21-ca.txt 30NOV2022 
+06 08880 Clear Creek Elementary School District                                       1735      143       29 sd21-ca.txt 30NOV2022 
+06 08970 Cloverdale Unified School District                                          11089     1633      135 sd21-ca.txt 30NOV2022 
+06 09030 Clovis Unified School District                                             232800    47085     5888 sd21-ca.txt 30NOV2022 
+06 09070 Coachella Valley Unified School District                                    88283    19279     4992 sd21-ca.txt 30NOV2022 
+06 09120 Coalinga-Huron Unified School District                                      25333     4914     1484 sd21-ca.txt 30NOV2022 
+06 00049 Coast Unified School District                                                9374      695      117 sd21-ca.txt 30NOV2022 
+06 09240 Coffee Creek Elementary School District                                       187       11        5 sd21-ca.txt 30NOV2022 
+06 09270 Cold Spring Elementary School District                                       3364      188       20 sd21-ca.txt 30NOV2022 
+06 09300 Colfax Elementary School District                                            5385      510       64 sd21-ca.txt 30NOV2022 
+06 09330 College Elementary School District                                           6347      484       57 sd21-ca.txt 30NOV2022 
+06 09390 Colton Joint Unified School District                                       118407    23221     3741 sd21-ca.txt 30NOV2022 
+06 09450 Columbia Elementary School District                                          9415     1079      118 sd21-ca.txt 30NOV2022 
+06 09480 Columbia Union Elementary School District                                    6517      613      104 sd21-ca.txt 30NOV2022 
+06 09510 Columbine Elementary School District                                          251       47       20 sd21-ca.txt 30NOV2022 
+06 09570 Colusa Unified School District                                               7869     1518      238 sd21-ca.txt 30NOV2022 
+06 09620 Compton Unified School District                                            154617    31613     7569 sd21-ca.txt 30NOV2022 
+06 09640 Conejo Valley Unified School District                                      134997    21652     1631 sd21-ca.txt 30NOV2022 
+06 09690 Corcoran Joint Unified School District                                      23356     3504      993 sd21-ca.txt 30NOV2022 
+06 09780 Corning Union Elementary School District                                    15339     2033      476 sd21-ca.txt 30NOV2022 
+06 09810 Corning Union High School District                                          18002     1183      237 sd21-ca.txt 30NOV2022 
+06 09850 Corona-Norco Unified School District                                       285185    54298     5740 sd21-ca.txt 30NOV2022 
+06 09870 Coronado Unified School District                                            22325     2917      152 sd21-ca.txt 30NOV2022 
+06 09940 Cotati-Rohnert Park Unified School District                                 56319     7879      732 sd21-ca.txt 30NOV2022 
+06 09990 Cottonwood Union Elementary School District                                  8917     1108      152 sd21-ca.txt 30NOV2022 
+06 10050 Covina-Valley Unified School District                                       79735    12984     1800 sd21-ca.txt 30NOV2022 
+06 16300 Cucamonga Elementary School District                                        31441     3521      527 sd21-ca.txt 30NOV2022 
+06 10230 Cuddeback Union Elementary School District                                    778       79       17 sd21-ca.txt 30NOV2022 
+06 10260 Culver City Unified School District                                         40001     5628      396 sd21-ca.txt 30NOV2022 
+06 10290 Cupertino Union Elementary School District                                 140124    19669      577 sd21-ca.txt 30NOV2022 
+06 10320 Curtis Creek Elementary School District                                      9199      787       98 sd21-ca.txt 30NOV2022 
+06 10350 Cutler-Orosi Joint Unified School District                                  17654     4113     1362 sd21-ca.txt 30NOV2022 
+06 10380 Cutten Elementary School District                                            5215      414       72 sd21-ca.txt 30NOV2022 
+06 00009 Cuyama Joint Unified School District                                         1064      210       54 sd21-ca.txt 30NOV2022 
+06 10440 Cypress Elementary School District                                          45918     3667      277 sd21-ca.txt 30NOV2022 
+06 10620 Davis Joint Unified School District                                         78694     9102      588 sd21-ca.txt 30NOV2022 
+06 10680 Death Valley Unified School District                                          851       47        8 sd21-ca.txt 30NOV2022 
+06 10710 Dehesa Elementary School District                                            2402      226       16 sd21-ca.txt 30NOV2022 
+06 10740 Del Mar Union Elementary School District                                    49675     5337      261 sd21-ca.txt 30NOV2022 
+06 10770 Del Norte County Unified School District                                    28100     4462     1055 sd21-ca.txt 30NOV2022 
+06 10860 Delano Joint Union High School District                                     67005     4385     1181 sd21-ca.txt 30NOV2022 
+06 10890 Delano Union Elementary School District                                     53524     7442     2108 sd21-ca.txt 30NOV2022 
+06 00039 Delhi Unified School District                                               12947     2926      720 sd21-ca.txt 30NOV2022 
+06 10980 Delphic Elementary School District                                            184       22        8 sd21-ca.txt 30NOV2022 
+06 11040 Denair Unified School District                                               8812     1764      226 sd21-ca.txt 30NOV2022 
+06 11100 Desert Center Unified School District                                         274       35       19 sd21-ca.txt 30NOV2022 
+06 11110 Desert Sands Unified School District                                       189753    28220     5539 sd21-ca.txt 30NOV2022 
+06 11130 Di Giorgio Elementary School District                                         845      168       77 sd21-ca.txt 30NOV2022 
+06 00065 Dinuba Unified School District                                              31461     7112     1594 sd21-ca.txt 30NOV2022 
+06 11220 Dixie Elementary School District                                            22287     2367      122 sd21-ca.txt 30NOV2022 
+06 11280 Dixon Unified School District                                               22201     4096      409 sd21-ca.txt 30NOV2022 
+06 00033 Dos Palos-Oro Loma Joint Unified School District                            11430     2642      832 sd21-ca.txt 30NOV2022 
+06 11430 Douglas City Elementary School District                                       786       78       23 sd21-ca.txt 30NOV2022 
+06 11460 Downey Unified School District                                             122108    21030     3093 sd21-ca.txt 30NOV2022 
+06 11490 Dry Creek Joint Elementary School District                                  55961     7119      633 sd21-ca.txt 30NOV2022 
+06 11520 Duarte Unified School District                                              27470     3893      529 sd21-ca.txt 30NOV2022 
+06 00019 Dublin Unified School District                                              71132    12719      455 sd21-ca.txt 30NOV2022 
+06 11550 Ducor Union Elementary School District                                       1304      187       65 sd21-ca.txt 30NOV2022 
+06 11610 Dunham Elementary School District                                             774       55        6 sd21-ca.txt 30NOV2022 
+06 11670 Dunsmuir Elementary School District                                          2102      175       53 sd21-ca.txt 30NOV2022 
+06 11700 Dunsmuir Joint Union High School District                                    2410       98       26 sd21-ca.txt 30NOV2022 
+06 11730 Durham Unified School District                                               5255      891       90 sd21-ca.txt 30NOV2022 
+06 11760 Earlimart Elementary School District                                         9512     1704      619 sd21-ca.txt 30NOV2022 
+06 11780 East Nicolaus Joint Union High School District                               2592      155       20 sd21-ca.txt 30NOV2022 
+06 11820 East Side Union High School District                                       532916    26323     2566 sd21-ca.txt 30NOV2022 
+06 11850 East Whittier City Elementary School District                               74040     8825      907 sd21-ca.txt 30NOV2022 
+06 11870 Eastern Sierra Unified School District                                       4303      520       80 sd21-ca.txt 30NOV2022 
+06 11910 Eastside Union Elementary School District                                   27777     4213     1244 sd21-ca.txt 30NOV2022 
+06 11940 Edison Elementary School District                                            6486     1100      288 sd21-ca.txt 30NOV2022 
+06 12030 El Centro Elementary School District                                        40974     5806     1334 sd21-ca.txt 30NOV2022 
+06 12070 El Dorado Union High School District                                       149099     7862      576 sd21-ca.txt 30NOV2022 
+06 12090 El Monte City School District                                               79201     8551     2026 sd21-ca.txt 30NOV2022 
+06 12120 El Monte Union High School District                                        164754     8985     1950 sd21-ca.txt 30NOV2022 
+06 12150 El Nido Elementary School District                                           1328      142       27 sd21-ca.txt 30NOV2022 
+06 12180 El Rancho Unified School District                                           58216     9666     1441 sd21-ca.txt 30NOV2022 
+06 12210 El Segundo Unified School District                                          16893     2848      139 sd21-ca.txt 30NOV2022 
+06 00026 El Tejon Unified School District                                             7956     1181      277 sd21-ca.txt 30NOV2022 
+06 12330 Elk Grove Unified School District                                          362244    71242     9708 sd21-ca.txt 30NOV2022 
+06 12360 Elk Hills Elementary School District                                          262       43       16 sd21-ca.txt 30NOV2022 
+06 12600 Elverta Joint Elementary School District                                     3029      299       47 sd21-ca.txt 30NOV2022 
+06 12630 Emery Unified School District                                               12646      818      152 sd21-ca.txt 30NOV2022 
+06 12690 Empire Union Elementary School District                                     27148     3468      671 sd21-ca.txt 30NOV2022 
+06 12750 Encinitas Union Elementary School District                                  73671     6349      351 sd21-ca.txt 30NOV2022 
+06 12810 Enterprise Elementary School District                                       34200     4052      770 sd21-ca.txt 30NOV2022 
+06 12840 Escalon Unified School District                                             18250     3012      321 sd21-ca.txt 30NOV2022 
+06 12880 Escondido Union Elementary School District                                 170670    20041     2717 sd21-ca.txt 30NOV2022 
+06 12910 Escondido Union High School District                                       174037     9788     1157 sd21-ca.txt 30NOV2022 
+06 12930 Esparto Unified School District                                              6594     1296      135 sd21-ca.txt 30NOV2022 
+06 12960 Etiwanda Elementary School District                                         97784    13361     1095 sd21-ca.txt 30NOV2022 
+06 00052 Eureka City Unified School District                                         49430     5812     1439 sd21-ca.txt 30NOV2022 
+06 13080 Eureka Union Elementary School District                                     27796     3166      156 sd21-ca.txt 30NOV2022 
+06 13140 Evergreen Elementary School District                                        97569    11570     1023 sd21-ca.txt 30NOV2022 
+06 13170 Evergreen Union Elementary School District                                   9847     1232      170 sd21-ca.txt 30NOV2022 
+06 01423 Exeter Unified School District                                              16416     3022      691 sd21-ca.txt 30NOV2022 
+06 13290 Fairfax Elementary School District                                          15044     2574      675 sd21-ca.txt 30NOV2022 
+06 13360 Fairfield-Suisun Unified School District                                   141228    24508     2881 sd21-ca.txt 30NOV2022 
+06 13470 Fall River Joint Unified School District                                     7860     1149      215 sd21-ca.txt 30NOV2022 
+06 13500 Fallbrook Union Elementary School District                                  67115     5570      671 sd21-ca.txt 30NOV2022 
+06 13530 Fallbrook Union High School District                                        69450     2642      286 sd21-ca.txt 30NOV2022 
+06 00035 Farmersville Unified School District                                        11149     2699      727 sd21-ca.txt 30NOV2022 
+06 00037 Ferndale Unified School District                                             2757      430       66 sd21-ca.txt 30NOV2022 
+06 13740 Fieldbrook Elementary School District                                         861       88       12 sd21-ca.txt 30NOV2022 
+06 13800 Fillmore Unified School District                                            20735     4085      601 sd21-ca.txt 30NOV2022 
+06 13840 Firebaugh-Las Deltas Unified School District                                 9217     2232      565 sd21-ca.txt 30NOV2022 
+06 13860 Flournoy Union Elementary School District                                     615       57        8 sd21-ca.txt 30NOV2022 
+06 13890 Folsom-Cordova Unified School District                                     138878    23779     2266 sd21-ca.txt 30NOV2022 
+06 13920 Fontana Unified School District                                            184283    38743     5937 sd21-ca.txt 30NOV2022 
+06 13980 Foresthill Union Elementary School District                                  6459      528       61 sd21-ca.txt 30NOV2022 
+06 14010 Forestville Union Elementary School District                                 6471      448       44 sd21-ca.txt 30NOV2022 
+06 14040 Forks of Salmon Elementary School District                                    182       24        7 sd21-ca.txt 30NOV2022 
+06 14070 Fort Bragg Unified School District                                          14558     1937      415 sd21-ca.txt 30NOV2022 
+06 14130 Fort Ross Elementary School District                                          515       24        5 sd21-ca.txt 30NOV2022 
+06 00011 Fort Sage Unified School District                                            2914      295       66 sd21-ca.txt 30NOV2022 
+06 01420 Fortuna Elementary School District                                          13931     1588      366 sd21-ca.txt 30NOV2022 
+06 14190 Fortuna Union High School District                                          22815     1196      249 sd21-ca.txt 30NOV2022 
+06 14220 Fountain Valley Elementary School District                                  55148     5678      448 sd21-ca.txt 30NOV2022 
+06 14250 Fowler Unified School District                                              10796     2304      514 sd21-ca.txt 30NOV2022 
+06 14340 Franklin Elementary School District                                          2348      230       41 sd21-ca.txt 30NOV2022 
+06 14370 Franklin-McKinley Elementary School District                                91338    10171     1604 sd21-ca.txt 30NOV2022 
+06 14400 Fremont Unified School District                                            225869    38348     2083 sd21-ca.txt 30NOV2022 
+06 14430 Fremont Union High School District                                         234041    11527      385 sd21-ca.txt 30NOV2022 
+06 14490 French Gulch-Whiskeytown Elementary School District                           434       43       12 sd21-ca.txt 30NOV2022 
+06 14520 Freshwater Elementary School District                                        2311      158       24 sd21-ca.txt 30NOV2022 
+06 14550 Fresno Unified School District                                             398067    82125    28032 sd21-ca.txt 30NOV2022 
+06 14700 Fruitvale Elementary School District                                        21172     2864      389 sd21-ca.txt 30NOV2022 
+06 14730 Fullerton Elementary School District                                       123960    13101     1380 sd21-ca.txt 30NOV2022 
+06 14760 Fullerton Joint Union High School District                                 259974    14180     1399 sd21-ca.txt 30NOV2022 
+06 14790 Galt Joint Union Elementary School District                                 30992     4195      513 sd21-ca.txt 30NOV2022 
+06 14820 Galt Joint Union High School District                                       40148     2538      268 sd21-ca.txt 30NOV2022 
+06 14880 Garden Grove Unified School District                                       274301    42948     6842 sd21-ca.txt 30NOV2022 
+06 14910 Garfield Elementary School District                                           364       27        3 sd21-ca.txt 30NOV2022 
+06 14940 Garvey Elementary School District                                           50096     4789     1356 sd21-ca.txt 30NOV2022 
+06 14950 Gateway Unified School District                                             29980     4719      936 sd21-ca.txt 30NOV2022 
+06 14970 Gazelle Union Elementary School District                                      315       35        8 sd21-ca.txt 30NOV2022 
+06 15000 General Shafter Elementary School District                                    847      121       21 sd21-ca.txt 30NOV2022 
+06 15090 Gerber Union Elementary School District                                      3282      379       84 sd21-ca.txt 30NOV2022 
+06 15150 Geyserville Unified School District                                          1640      199       14 sd21-ca.txt 30NOV2022 
+06 15180 Gilroy Unified School District                                              66937    13330     1297 sd21-ca.txt 30NOV2022 
+06 15240 Glendale Unified School District                                           215092    29347     4152 sd21-ca.txt 30NOV2022 
+06 15270 Glendora Unified School District                                            38598     6742      554 sd21-ca.txt 30NOV2022 
+06 15390 Gold Oak Union Elementary School District                                    7500      634       81 sd21-ca.txt 30NOV2022 
+06 15450 Gold Trail Union Elementary School District                                  6556      592       41 sd21-ca.txt 30NOV2022 
+06 15480 Golden Feather Union Elementary School District                              2179      163       53 sd21-ca.txt 30NOV2022 
+06 91134 Golden Plains Unified School District                                        6738     1753      478 sd21-ca.txt 30NOV2022 
+06 00068 Golden Valley Unified School District                                       12647     2423      276 sd21-ca.txt 30NOV2022 
+06 15510 Goleta Union Elementary School District                                     81104     4705      429 sd21-ca.txt 30NOV2022 
+06 00046 Gonzales Unified School District                                            11468     2307      259 sd21-ca.txt 30NOV2022 
+06 15600 Gorman Elementary School District                                             114       17        3 sd21-ca.txt 30NOV2022 
+06 15690 Grant Elementary School District                                             2778      333       25 sd21-ca.txt 30NOV2022 
+06 15780 Grass Valley Elementary School District                                     27214     2201      406 sd21-ca.txt 30NOV2022 
+06 15810 Gratton Elementary School District                                            599       72       14 sd21-ca.txt 30NOV2022 
+06 15840 Gravenstein Union Elementary School District                                 5630      478       45 sd21-ca.txt 30NOV2022 
+06 15870 Graves Elementary School District                                              97       13        1 sd21-ca.txt 30NOV2022 
+06 15990 Green Point Elementary School District                                        223       22        6 sd21-ca.txt 30NOV2022 
+06 16080 Greenfield Union Elementary School District                                 19850     3489      752 sd21-ca.txt 30NOV2022 
+06 16050 Greenfield Union School District                                            55398     9203     2456 sd21-ca.txt 30NOV2022 
+06 16110 Grenada Elementary School District                                           1118      115       18 sd21-ca.txt 30NOV2022 
+06 00051 Gridley Unified School District                                             11909     2163      374 sd21-ca.txt 30NOV2022 
+06 16230 Grossmont Union High School District                                       482711    27596     3546 sd21-ca.txt 30NOV2022 
+06 16260 Guadalupe Union Elementary School District                                   8173     1315      279 sd21-ca.txt 30NOV2022 
+06 16320 Guerneville Elementary School District                                       5091      354       68 sd21-ca.txt 30NOV2022 
+06 16323 Gustine Unified School District                                             10460     2319      639 sd21-ca.txt 30NOV2022 
+06 16325 Hacienda La Puente Unified School District                                 112393    18433     2999 sd21-ca.txt 30NOV2022 
+06 01339 Hamilton Unified School District                                             3189      558       80 sd21-ca.txt 30NOV2022 
+06 16470 Hanford Elementary School District                                          46347     6667     1562 sd21-ca.txt 30NOV2022 
+06 16500 Hanford Joint Union High School District                                    73331     4755      874 sd21-ca.txt 30NOV2022 
+06 16530 Happy Camp Union Elementary School District                                  1054       97       29 sd21-ca.txt 30NOV2022 
+06 16560 Happy Valley Elementary School District                                      1553      107        8 sd21-ca.txt 30NOV2022 
+06 16570 Happy Valley Union Elementary School District                                5948      631      120 sd21-ca.txt 30NOV2022 
+06 16620 Harmony Union School District                                                4396      290       46 sd21-ca.txt 30NOV2022 
+06 16650 Hart-Ransom Union Elementary School District                                 4105      481       69 sd21-ca.txt 30NOV2022 
+06 16680 Hawthorne Elementary School District                                        74014     9105     2043 sd21-ca.txt 30NOV2022 
+06 16740 Hayward Unified School District                                            182349    27113     3317 sd21-ca.txt 30NOV2022 
+06 00044 Healdsburg Unified School District                                          15897     2053      190 sd21-ca.txt 30NOV2022 
+06 16830 Heber Elementary School District                                             6970     1138      198 sd21-ca.txt 30NOV2022 
+06 16860 Helendale Elementary School District                                         6955      627       96 sd21-ca.txt 30NOV2022 
+06 16920 Hemet Unified School District                                              152458    27169     5783 sd21-ca.txt 30NOV2022 
+06 17040 Hermosa Beach City Elementary School District                               19365     2422      117 sd21-ca.txt 30NOV2022 
+06 00014 Hesperia Unified School District                                           110338    24237     4563 sd21-ca.txt 30NOV2022 
+06 17160 Hickman Community Charter School District                                    1233      184       25 sd21-ca.txt 30NOV2022 
+06 17190 Hillsborough City Elementary School District                                10981     1590       42 sd21-ca.txt 30NOV2022 
+06 17220 Hilmar Unified School District                                               9744     1952      416 sd21-ca.txt 30NOV2022 
+06 17340 Hollister School District                                                   52297     7121      747 sd21-ca.txt 30NOV2022 
+06 17430 Holtville Unified School District                                            8002     1717      300 sd21-ca.txt 30NOV2022 
+06 17490 Hope Elementary School District                                             16036     1264      122 sd21-ca.txt 30NOV2022 
+06 17520 Hope Elementary School District                                               853      112       30 sd21-ca.txt 30NOV2022 
+06 17580 Horicon Elementary School District                                           1496       42        5 sd21-ca.txt 30NOV2022 
+06 17620 Hornbrook Elementary School District                                          713       65       27 sd21-ca.txt 30NOV2022 
+06 17640 Hot Springs Elementary School District                                        391       27        5 sd21-ca.txt 30NOV2022 
+06 17760 Howell Mountain Elementary School District                                   3191      371       43 sd21-ca.txt 30NOV2022 
+06 17850 Hueneme Elementary School District                                          53995     6918     1205 sd21-ca.txt 30NOV2022 
+06 17880 Hughes-Elizabeth Lakes Union Elementary School District                      3281      256       34 sd21-ca.txt 30NOV2022 
+06 00060 Hughson Unified School District                                             13194     2414      396 sd21-ca.txt 30NOV2022 
+06 18030 Huntington Beach City Elementary School District                            84005     7068      445 sd21-ca.txt 30NOV2022 
+06 18060 Huntington Beach Union High School District                                320887    15787     1489 sd21-ca.txt 30NOV2022 
+06 18120 Hydesville Elementary School District                                        1363      173       25 sd21-ca.txt 30NOV2022 
+06 18160 Igo, Ono, Platina Union Elementary School District                            973       75       21 sd21-ca.txt 30NOV2022 
+06 18210 Imperial Unified School District                                            24409     5049      523 sd21-ca.txt 30NOV2022 
+06 18240 Indian Diggings Elementary School District                                    149       10        1 sd21-ca.txt 30NOV2022 
+06 18270 Indian Springs Elementary School District                                     151       14       10 sd21-ca.txt 30NOV2022 
+06 18390 Inglewood Unified School District                                          109026    17342     3756 sd21-ca.txt 30NOV2022 
+06 84500 Irvine Unified School District                                             270949    43993     3388 sd21-ca.txt 30NOV2022 
+06 18510 Island Union Elementary School District                                      1413      154       30 sd21-ca.txt 30NOV2022 
+06 18660 Jacoby Creek Elementary School District                                      2744      251       36 sd21-ca.txt 30NOV2022 
+06 18690 Jamestown Elementary School District                                         8290      493      107 sd21-ca.txt 30NOV2022 
+06 18730 Jamul-Dulzura Union Elementary School District                               8866      869      108 sd21-ca.txt 30NOV2022 
+06 18780 Janesville Union Elementary School District                                  3480      404       61 sd21-ca.txt 30NOV2022 
+06 18810 Jefferson Elementary School District                                          179       20        0 sd21-ca.txt 30NOV2022 
+06 18840 Jefferson Elementary School District                                        16820     2479      143 sd21-ca.txt 30NOV2022 
+06 18870 Jefferson Elementary School District                                        87290     7470      674 sd21-ca.txt 30NOV2022 
+06 18930 Jefferson Union High School District                                       138358     5999      393 sd21-ca.txt 30NOV2022 
+06 18990 John Swett Unified School District                                          15043     2234      320 sd21-ca.txt 30NOV2022 
+06 19050 Johnstonville Elementary School District                                     1301      149       27 sd21-ca.txt 30NOV2022 
+06 19140 Julian Union Elementary School District                                      4118      350       90 sd21-ca.txt 30NOV2022 
+06 19110 Julian Union High School District                                            4596      209       46 sd21-ca.txt 30NOV2022 
+06 19170 Junction City Elementary School District                                      705       48        7 sd21-ca.txt 30NOV2022 
+06 19200 Junction Elementary School District                                          4008      471       40 sd21-ca.txt 30NOV2022 
+06 19230 Junction Elementary School District                                           193       19        3 sd21-ca.txt 30NOV2022 
+06 19260 Jurupa Unified School District                                             106981    21130     3387 sd21-ca.txt 30NOV2022 
+06 32340 Kashia Elementary School District                                              70       14        2 sd21-ca.txt 30NOV2022 
+06 19320 Kelseyville Unified School District                                         13128     2004      392 sd21-ca.txt 30NOV2022 
+06 19380 Kentfield Elementary School District                                        12351     1421       48 sd21-ca.txt 30NOV2022 
+06 19410 Kenwood Elementary School District                                           3856       51        6 sd21-ca.txt 30NOV2022 
+06 19440 Keppel Union Elementary School District                                     21408     2809      883 sd21-ca.txt 30NOV2022 
+06 19490 Kerman Unified School District                                              21600     4937     1101 sd21-ca.txt 30NOV2022 
+06 19540 Kern High School District                                                  669366    47253    10327 sd21-ca.txt 30NOV2022 
+06 19590 Kernville Union Elementary School District                                  11512      954      345 sd21-ca.txt 30NOV2022 
+06 19620 Keyes Union Elementary School District                                       5884      863      205 sd21-ca.txt 30NOV2022 
+06 19680 King City Union Elementary School District                                  15956     2664      400 sd21-ca.txt 30NOV2022 
+06 19700 Kings Canyon Joint Unified School District                                  47133    10284     3080 sd21-ca.txt 30NOV2022 
+06 19740 Kings River Union Elementary School District                                 2824      440      130 sd21-ca.txt 30NOV2022 
+06 19770 Kings River-Hardwick Union Elementary School District                        2572      370       55 sd21-ca.txt 30NOV2022 
+06 19800 Kingsburg Elementary Charter School District                                15518     2184      350 sd21-ca.txt 30NOV2022 
+06 19830 Kingsburg Joint Union High School District                                  18258     1215      186 sd21-ca.txt 30NOV2022 
+06 19860 Kirkwood Elementary School District                                           380       44        9 sd21-ca.txt 30NOV2022 
+06 19890 Kit Carson Union Elementary School District                                  2336      328       48 sd21-ca.txt 30NOV2022 
+06 19920 Klamath River Union Elementary School District                                542       48       15 sd21-ca.txt 30NOV2022 
+06 19950 Klamath-Trinity Joint Unified School District                                6432     1229      365 sd21-ca.txt 30NOV2022 
+06 19980 Kneeland Elementary School District                                           412       63        7 sd21-ca.txt 30NOV2022 
+06 20010 Knights Ferry Elementary School District                                      728      115       23 sd21-ca.txt 30NOV2022 
+06 20040 Knightsen Elementary School District                                         4151      549       55 sd21-ca.txt 30NOV2022 
+06 20070 Konocti Unified School District                                             24946     4174     1239 sd21-ca.txt 30NOV2022 
+06 20130 La Cañada Unified School District                                           17770     3860      180 sd21-ca.txt 30NOV2022 
+06 20190 La Habra City Elementary School District                                    51271     5676      704 sd21-ca.txt 30NOV2022 
+06 20220 La Honda-Pescadero Unified School District                                   3501      418       55 sd21-ca.txt 30NOV2022 
+06 20250 La Mesa-Spring Valley School District                                      137560    14594     1767 sd21-ca.txt 30NOV2022 
+06 20310 Lafayette Elementary School District                                        28512     3682      101 sd21-ca.txt 30NOV2022 
+06 20370 Laguna Beach Unified School District                                        28050     3457      225 sd21-ca.txt 30NOV2022 
+06 20430 Laguna Joint Elementary School District                                       395       32        4 sd21-ca.txt 30NOV2022 
+06 20490 Lagunita Elementary School District                                           284       20        3 sd21-ca.txt 30NOV2022 
+06 20520 Lagunitas Elementary School District                                         3871      365       39 sd21-ca.txt 30NOV2022 
+06 20610 Lake Elementary School District                                               530       92       17 sd21-ca.txt 30NOV2022 
+06 00027 Lake Elsinore Unified School District                                      138786    27260     3874 sd21-ca.txt 30NOV2022 
+06 20640 Lake Tahoe Unified School District                                          29865     3799      520 sd21-ca.txt 30NOV2022 
+06 20670 Lakeport Unified School District                                            11471     1666      308 sd21-ca.txt 30NOV2022 
+06 20700 Lakeside Joint Elementary School District                                    1725      164        7 sd21-ca.txt 30NOV2022 
+06 20760 Lakeside Union Elementary School District                                    2458      382      112 sd21-ca.txt 30NOV2022 
+06 20790 Lakeside Union Elementary School District                                   43297     4977      528 sd21-ca.txt 30NOV2022 
+06 20730 Lakeside Union School District                                              12228     1857      274 sd21-ca.txt 30NOV2022 
+06 01410 Lammersville Joint Unified School District                                  26482     6262      232 sd21-ca.txt 30NOV2022 
+06 20850 Lamont Elementary School District                                           14843     2484      872 sd21-ca.txt 30NOV2022 
+06 20880 Lancaster Elementary School District                                       124352    17341     5345 sd21-ca.txt 30NOV2022 
+06 20910 Larkspur Elementary School District                                         14838     1860       88 sd21-ca.txt 30NOV2022 
+06 22380 Las Lomitas Elementary School District                                      11273     1486       38 sd21-ca.txt 30NOV2022 
+06 21000 Las Virgenes Unified School District                                        61699    11025      702 sd21-ca.txt 30NOV2022 
+06 21060 Lassen Union High School District                                           27061     1229      198 sd21-ca.txt 30NOV2022 
+06 21090 Lassen View Union Elementary School District                                 2667      291       50 sd21-ca.txt 30NOV2022 
+06 21150 Laton Joint Unified School District                                          3331      698      194 sd21-ca.txt 30NOV2022 
+06 21180 Latrobe Elementary School District                                           4136      280       15 sd21-ca.txt 30NOV2022 
+06 21210 Lawndale Elementary School District                                         45514     5246     1131 sd21-ca.txt 30NOV2022 
+06 42580 Laytonville Unified School District                                          3073      441      124 sd21-ca.txt 30NOV2022 
+06 21240 Le Grand Union Elementary School District                                    2192      311      112 sd21-ca.txt 30NOV2022 
+06 21270 Le Grand Union High School District                                          7714      582      184 sd21-ca.txt 30NOV2022 
+06 09665 Leggett Valley Unified School District                                        626       78       25 sd21-ca.txt 30NOV2022 
+06 21330 Lemon Grove Elementary School District                                      37108     4090      579 sd21-ca.txt 30NOV2022 
+06 21360 Lemoore Union Elementary School District                                    29021     4159      747 sd21-ca.txt 30NOV2022 
+06 21400 Lemoore Union High School District                                          40564     2495      364 sd21-ca.txt 30NOV2022 
+06 21420 Lennox Elementary School District                                           25595     3359      957 sd21-ca.txt 30NOV2022 
+06 21480 Lewiston Elementary School District                                          1617      123       28 sd21-ca.txt 30NOV2022 
+06 21540 Liberty Elementary School District                                           1832      129        7 sd21-ca.txt 30NOV2022 
+06 21570 Liberty Elementary School District                                           2023      196       41 sd21-ca.txt 30NOV2022 
+06 21600 Liberty Union High School District                                         127066     8032      636 sd21-ca.txt 30NOV2022 
+06 21660 Lincoln Elementary School District                                            210       26        3 sd21-ca.txt 30NOV2022 
+06 21690 Lincoln Unified School District                                             50515     9415     1258 sd21-ca.txt 30NOV2022 
+06 21810 Linden Unified School District                                              12310     2344      343 sd21-ca.txt 30NOV2022 
+06 21870 Lindsay Unified School District                                             17273     4380     1231 sd21-ca.txt 30NOV2022 
+06 21900 Linns Valley-Poso Flat Union School District                                  629       53       18 sd21-ca.txt 30NOV2022 
+06 21930 Little Lake City Elementary School District                                 35039     3902      448 sd21-ca.txt 30NOV2022 
+06 21960 Little Shasta Elementary School District                                      341       39        8 sd21-ca.txt 30NOV2022 
+06 21990 Live Oak Elementary School District                                         21875     1770      173 sd21-ca.txt 30NOV2022 
+06 22050 Live Oak Unified School District                                            10965     2284      500 sd21-ca.txt 30NOV2022 
+06 22110 Livermore Valley Joint Unified School District                              88983    14840      840 sd21-ca.txt 30NOV2022 
+06 22170 Livingston Union School District                                            16922     2463      593 sd21-ca.txt 30NOV2022 
+06 22230 Lodi Unified School District                                               181407    35282     5145 sd21-ca.txt 30NOV2022 
+06 22320 Loleta Union Elementary School District                                      1598      181       42 sd21-ca.txt 30NOV2022 
+06 22350 Loma Prieta Joint Union Elementary School District                           4724      510       12 sd21-ca.txt 30NOV2022 
+06 22410 Lompoc Unified School District                                              59950    10983     1953 sd21-ca.txt 30NOV2022 
+06 22440 Lone Pine Unified School District                                            2424      361       72 sd21-ca.txt 30NOV2022 
+06 22500 Long Beach Unified School District                                         507246    78048    13291 sd21-ca.txt 30NOV2022 
+06 22560 Loomis Union Elementary School District                                     24522     2866      150 sd21-ca.txt 30NOV2022 
+06 22590 Los Alamitos Unified School District                                        49587     7257      335 sd21-ca.txt 30NOV2022 
+06 22650 Los Altos Elementary School District                                        43692     5995      174 sd21-ca.txt 30NOV2022 
+06 22710 Los Angeles Unified School District                                       4559683   678821   144121 sd21-ca.txt 30NOV2022 
+06 22740 Los Banos Unified School District                                           49990    11788     2825 sd21-ca.txt 30NOV2022 
+06 22830 Los Gatos Union Elementary School District                                  29015     3760      111 sd21-ca.txt 30NOV2022 
+06 22800 Los Gatos-Saratoga Joint Union School District                              55623     3672       95 sd21-ca.txt 30NOV2022 
+06 22860 Los Molinos Unified School District                                          3682      622      118 sd21-ca.txt 30NOV2022 
+06 22890 Los Nietos Elementary School District                                       15077     1720      273 sd21-ca.txt 30NOV2022 
+06 22920 Los Olivos Elementary School District                                        1583      126       16 sd21-ca.txt 30NOV2022 
+06 22950 Lost Hills Union Elementary School District                                  2619      461       77 sd21-ca.txt 30NOV2022 
+06 23010 Lowell Joint Elementary School District                                     34815     3691      351 sd21-ca.txt 30NOV2022 
+06 23040 Lucerne Elementary School District                                           3700      327      100 sd21-ca.txt 30NOV2022 
+06 00015 Lucerne Valley Unified School District                                       6361     1063      354 sd21-ca.txt 30NOV2022 
+06 23080 Lucia Mar Unified School District                                           80071    11233     1368 sd21-ca.txt 30NOV2022 
+06 23130 Luther Burbank Elementary School District                                    3892      367       67 sd21-ca.txt 30NOV2022 
+06 23160 Lynwood Unified School District                                             65735    13361     2933 sd21-ca.txt 30NOV2022 
+06 23340 Madera Unified School District                                              94341    21951     6219 sd21-ca.txt 30NOV2022 
+06 23430 Magnolia Elementary School District                                         63573     5744     1034 sd21-ca.txt 30NOV2022 
+06 23460 Magnolia Union Elementary School District                                     126       15        2 sd21-ca.txt 30NOV2022 
+06 23530 Mammoth Unified School District                                              8590     1180      111 sd21-ca.txt 30NOV2022 
+06 23550 Manchester Union Elementary School District                                   635       62       14 sd21-ca.txt 30NOV2022 
+06 00025 Manhattan Beach Unified School District                                     34852     6535      257 sd21-ca.txt 30NOV2022 
+06 23610 Manteca Unified School District                                            141026    28114     3165 sd21-ca.txt 30NOV2022 
+06 23700 Manzanita Elementary School District                                         1020      116       20 sd21-ca.txt 30NOV2022 
+06 23730 Maple Creek Elementary School District                                         89       21        5 sd21-ca.txt 30NOV2022 
+06 23760 Maple Elementary School District                                              451       74       16 sd21-ca.txt 30NOV2022 
+06 23800 Marcum-Illinois Union Elementary School District                              834       66       10 sd21-ca.txt 30NOV2022 
+06 23820 Maricopa Unified School District                                             1698      302       75 sd21-ca.txt 30NOV2022 
+06 23940 Mariposa County Unified School District                                     16960     2162      455 sd21-ca.txt 30NOV2022 
+06 23970 Mark Twain Union Elementary School District                                  9978      794      134 sd21-ca.txt 30NOV2022 
+06 24000 Mark West Union Elementary School District                                  12912     1020       93 sd21-ca.txt 30NOV2022 
+06 24030 Martinez Unified School District                                            30984     4619      351 sd21-ca.txt 30NOV2022 
+06 24090 Marysville Joint Unified School District                                    66444    13233     3052 sd21-ca.txt 30NOV2022 
+06 00038 Mattole Unified School District                                               754       67       14 sd21-ca.txt 30NOV2022 
+06 24150 Maxwell Unified School District                                              1741      330       65 sd21-ca.txt 30NOV2022 
+06 24180 McCabe Union Elementary School District                                      6951     1104      102 sd21-ca.txt 30NOV2022 
+06 24210 McCloud Union Elementary School District                                     1203       75       20 sd21-ca.txt 30NOV2022 
+06 24230 McFarland Unified School District                                           15074     3810     1110 sd21-ca.txt 30NOV2022 
+06 24300 McKinleyville Union Elementary School District                              16235     1674      311 sd21-ca.txt 30NOV2022 
+06 24330 McKittrick Elementary School District                                         160       13        2 sd21-ca.txt 30NOV2022 
+06 24360 McSwain Union Elementary School District                                     5778      812      146 sd21-ca.txt 30NOV2022 
+06 24390 Meadows Union Elementary School District                                     2195      264       67 sd21-ca.txt 30NOV2022 
+06 24480 Mendocino Unified School District                                            5964      597      139 sd21-ca.txt 30NOV2022 
+06 00022 Mendota Unified School District                                             14112     3368     1391 sd21-ca.txt 30NOV2022 
+06 24540 Menifee Union School District                                              109977    13856     1461 sd21-ca.txt 30NOV2022 
+06 24570 Menlo Park City Elementary School District                                  27054     3385       79 sd21-ca.txt 30NOV2022 
+06 24600 Merced City Elementary School District                                      92126    12444     4106 sd21-ca.txt 30NOV2022 
+06 24630 Merced River Union Elementary School District                                 703       88       21 sd21-ca.txt 30NOV2022 
+06 24660 Merced Union High School District                                          184563    12775     3436 sd21-ca.txt 30NOV2022 
+06 24690 Meridian Elementary School District                                           561       53       13 sd21-ca.txt 30NOV2022 
+06 24720 Mesa Union Elementary School District                                        3620      316       34 sd21-ca.txt 30NOV2022 
+06 24750 Middletown Unified School District                                           9703     1758      223 sd21-ca.txt 30NOV2022 
+06 24780 Midway Elementary School District                                             392       49       13 sd21-ca.txt 30NOV2022 
+06 24870 Mill Valley Elementary School District                                      31622     3835      134 sd21-ca.txt 30NOV2022 
+06 24900 Millbrae Elementary School District                                         25250     2431      157 sd21-ca.txt 30NOV2022 
+06 24930 Millville Elementary School District                                         1610      166       26 sd21-ca.txt 30NOV2022 
+06 24500 Milpitas Unified School District                                            76289    11963      737 sd21-ca.txt 30NOV2022 
+06 25110 Mission Union Elementary School District                                      285       34        5 sd21-ca.txt 30NOV2022 
+06 25130 Modesto City Elementary School District                                    121374    16720     4384 sd21-ca.txt 30NOV2022 
+06 25150 Modesto City High School District                                          284119    18048     3250 sd21-ca.txt 30NOV2022 
+06 25190 Modoc Joint Unified School District                                          6075      917      257 sd21-ca.txt 30NOV2022 
+06 25230 Mojave Unified School District                                              20374     3871     1390 sd21-ca.txt 30NOV2022 
+06 25290 Monroe Elementary School District                                            1091      152       51 sd21-ca.txt 30NOV2022 
+06 25320 Monrovia Unified School District                                            43520     6436      816 sd21-ca.txt 30NOV2022 
+06 25350 Monson-Sultana Joint Union Elementary School District                        2285      362      135 sd21-ca.txt 30NOV2022 
+06 25380 Montague Elementary School District                                          1742      202       46 sd21-ca.txt 30NOV2022 
+06 25410 Monte Rio Union Elementary School District                                   1707       77       15 sd21-ca.txt 30NOV2022 
+06 25470 Montebello Unified School District                                         157173    27610     5497 sd21-ca.txt 30NOV2022 
+06 25500 Montecito Union Elementary School District                                   5707      426       45 sd21-ca.txt 30NOV2022 
+06 25530 Monterey Peninsula Unified School District                                  93551    13894     1528 sd21-ca.txt 30NOV2022 
+06 25650 Montgomery Elementary School District                                        1005       63       16 sd21-ca.txt 30NOV2022 
+06 25690 Moorpark Unified School District                                            37562     6841      489 sd21-ca.txt 30NOV2022 
+06 25740 Moraga Elementary School District                                           17005     1939       48 sd21-ca.txt 30NOV2022 
+06 25770 Moreland School District                                                    48859     5724      391 sd21-ca.txt 30NOV2022 
+06 25800 Moreno Valley Unified School District                                      184403    38127     6842 sd21-ca.txt 30NOV2022 
+06 25830 Morgan Hill Unified School District                                         65917    12056      806 sd21-ca.txt 30NOV2022 
+06 25860 Morongo Unified School District                                             71496     9684     2008 sd21-ca.txt 30NOV2022 
+06 25980 Mother Lode Union Elementary School District                                16181     1363      156 sd21-ca.txt 30NOV2022 
+06 26340 Mount Baldy Joint Elementary School District                                  339       31        5 sd21-ca.txt 30NOV2022 
+06 26370 Mount Diablo Unified School District                                       265446    40113     4388 sd21-ca.txt 30NOV2022 
+06 26400 Mount Pleasant Elementary School District                                   21442     2366      306 sd21-ca.txt 30NOV2022 
+06 26040 Mount Shasta Union Elementary School District                                7201      610      100 sd21-ca.txt 30NOV2022 
+06 26070 Mountain Elementary School District                                          1399       87        9 sd21-ca.txt 30NOV2022 
+06 26100 Mountain Empire Unified School District                                     11890     2074      405 sd21-ca.txt 30NOV2022 
+06 26130 Mountain House Elementary School District                                     312       34        5 sd21-ca.txt 30NOV2022 
+06 27040 Mountain Union Elementary School District                                    1153       78       21 sd21-ca.txt 30NOV2022 
+06 00018 Mountain Valley Unified School District                                      6142      768      220 sd21-ca.txt 30NOV2022 
+06 26190 Mountain View Elementary School District                                    53224     6881     1854 sd21-ca.txt 30NOV2022 
+06 26220 Mountain View Elementary School District                                    30154     3604      362 sd21-ca.txt 30NOV2022 
+06 26280 Mountain View Whisman Elementary School District                            70788     6333      365 sd21-ca.txt 30NOV2022 
+06 26310 Mountain View-Los Altos Union School District                              114480     5045      198 sd21-ca.txt 30NOV2022 
+06 26430 Mulberry Elementary School District                                           117       15        1 sd21-ca.txt 30NOV2022 
+06 26460 Mupu Elementary School District                                               829      101        8 sd21-ca.txt 30NOV2022 
+06 26490 Muroc Joint Unified School District                                          5565     1183      207 sd21-ca.txt 30NOV2022 
+06 00029 Murrieta Valley Unified School District                                    114853    23149     1990 sd21-ca.txt 30NOV2022 
+06 26640 Napa Valley Unified School District                                        116561    18040     1592 sd21-ca.txt 30NOV2022 
+06 26670 National Elementary School District                                         56119     5041      973 sd21-ca.txt 30NOV2022 
+06 00036 Natomas Unified School District                                             86808    14281     1681 sd21-ca.txt 30NOV2022 
+06 26760 Needles Unified School District                                              7121     1094      305 sd21-ca.txt 30NOV2022 
+06 26820 Nevada City Elementary School District                                      16171     1103      157 sd21-ca.txt 30NOV2022 
+06 26880 Nevada Joint Union High School District                                     86436     3876      522 sd21-ca.txt 30NOV2022 
+06 26910 New Haven Unified School District                                           74333    10503      954 sd21-ca.txt 30NOV2022 
+06 26970 New Hope Elementary School District                                          1491      202       47 sd21-ca.txt 30NOV2022 
+06 27030 New Jerusalem Elementary School District                                     2271      247       31 sd21-ca.txt 30NOV2022 
+06 27060 Newark Unified School District                                              46578     6907      481 sd21-ca.txt 30NOV2022 
+06 27120 Newcastle Elementary School District                                         2733      270       14 sd21-ca.txt 30NOV2022 
+06 27180 Newhall Elementary School District                                          72730     6740      706 sd21-ca.txt 30NOV2022 
+06 27200 Newman-Crows Landing Unified School District                                16110     3670      580 sd21-ca.txt 30NOV2022 
+06 27240 Newport-Mesa Unified School District                                       194622    26267     2479 sd21-ca.txt 30NOV2022 
+06 27300 Nicasio Elementary School District                                            613       53        4 sd21-ca.txt 30NOV2022 
+06 27450 Norris Elementary School District                                           30248     4858      401 sd21-ca.txt 30NOV2022 
+06 27480 North County Joint Union Elementary School District                          3909      421       53 sd21-ca.txt 30NOV2022 
+06 27510 North Cow Creek Elementary School District                                   1531      138       12 sd21-ca.txt 30NOV2022 
+06 27590 North Monterey County Unified School District                               28790     5653      889 sd21-ca.txt 30NOV2022 
+06 03030 Northern Humboldt Union High School District                                46649     1866      400 sd21-ca.txt 30NOV2022 
+06 27690 Norwalk-La Mirada Unified School District                                  119940    19274     2494 sd21-ca.txt 30NOV2022 
+06 27720 Novato Unified School District                                              59776     9041      680 sd21-ca.txt 30NOV2022 
+06 27750 Nuestro Elementary School District                                            450       60       22 sd21-ca.txt 30NOV2022 
+06 27780 Nuview Union Elementary School District                                     10285     1311      232 sd21-ca.txt 30NOV2022 
+06 27810 Oak Grove Elementary School District                                       110531    12836     1070 sd21-ca.txt 30NOV2022 
+06 27840 Oak Grove Union Elementary School District                                   4833      382       40 sd21-ca.txt 30NOV2022 
+06 27850 Oak Park Unified School District                                            13832     2742      107 sd21-ca.txt 30NOV2022 
+06 27870 Oak Run Elementary School District                                            682       79       31 sd21-ca.txt 30NOV2022 
+06 27900 Oak Valley Union Elementary School District                                  1309      190       38 sd21-ca.txt 30NOV2022 
+06 27930 Oak View Union Elementary School District                                    2876      378       55 sd21-ca.txt 30NOV2022 
+06 00062 Oakdale Joint Unified School District                                       34304     6347      853 sd21-ca.txt 30NOV2022 
+06 28050 Oakland Unified School District                                            430696    57395    10542 sd21-ca.txt 30NOV2022 
+06 28080 Oakley Union Elementary School District                                     40441     5404      593 sd21-ca.txt 30NOV2022 
+06 28140 Ocean View Elementary School District                                       97114     9295      944 sd21-ca.txt 30NOV2022 
+06 28170 Ocean View Elementary School District                                       17244     2360      379 sd21-ca.txt 30NOV2022 
+06 28250 Oceanside Unified School District                                          135740    19568     2090 sd21-ca.txt 30NOV2022 
+06 28270 Ojai Unified School District                                                21951     3143      350 sd21-ca.txt 30NOV2022 
+06 28320 Old Adobe Union Elementary School District                                  26120     2124      147 sd21-ca.txt 30NOV2022 
+06 28470 Ontario-Montclair School District                                          168193    21633     3643 sd21-ca.txt 30NOV2022 
+06 28530 Orange Center Elementary School District                                     1722      256      104 sd21-ca.txt 30NOV2022 
+06 28650 Orange Unified School District                                             222838    34342     3260 sd21-ca.txt 30NOV2022 
+06 28680 Orchard Elementary School District                                          21056     1430      138 sd21-ca.txt 30NOV2022 
+06 28710 Orcutt Union Elementary School District                                     38559     4522      447 sd21-ca.txt 30NOV2022 
+06 28830 Orick Elementary School District                                              373       26       15 sd21-ca.txt 30NOV2022 
+06 28860 Orinda Union Elementary School District                                     19443     2690       65 sd21-ca.txt 30NOV2022 
+06 00045 Orland Joint Unified School District                                        14937     2922      538 sd21-ca.txt 30NOV2022 
+06 28950 Oro Grande Elementary School District                                         861       94       24 sd21-ca.txt 30NOV2022 
+06 29100 Oroville City Elementary School District                                    28820     3050      702 sd21-ca.txt 30NOV2022 
+06 29130 Oroville Union High School District                                         54757     3103      661 sd21-ca.txt 30NOV2022 
+06 29160 Outside Creek Elementary School District                                      664       97       21 sd21-ca.txt 30NOV2022 
+06 29190 Owens Valley Unified School District                                          599       72       15 sd21-ca.txt 30NOV2022 
+06 29220 Oxnard Elementary School District                                          124063    15508     2680 sd21-ca.txt 30NOV2022 
+06 29270 Oxnard Union High School District                                          324857    18375     2375 sd21-ca.txt 30NOV2022 
+06 29280 Pacheco Union Elementary School District                                     9297      968       99 sd21-ca.txt 30NOV2022 
+06 29340 Pacific Elementary School District                                            958       79        9 sd21-ca.txt 30NOV2022 
+06 29370 Pacific Grove Unified School District                                       17369     2385      152 sd21-ca.txt 30NOV2022 
+06 29400 Pacific Union Elementary School District                                     2794      430      163 sd21-ca.txt 30NOV2022 
+06 29430 Pacific Union Elementary School District                                     5585      478      146 sd21-ca.txt 30NOV2022 
+06 20460 Pacifica School District                                                    36666     3567      145 sd21-ca.txt 30NOV2022 
+06 29490 Pajaro Valley Joint Unified School District                                109977    20019     3045 sd21-ca.txt 30NOV2022 
+06 29540 Palermo Union Elementary School District                                     8123      909      231 sd21-ca.txt 30NOV2022 
+06 29550 Palm Springs Unified School District                                       177974    24772     6135 sd21-ca.txt 30NOV2022 
+06 29580 Palmdale Elementary School District                                        140853    20536     5153 sd21-ca.txt 30NOV2022 
+06 29610 Palo Alto Unified School District                                           89777    12846      457 sd21-ca.txt 30NOV2022 
+06 29640 Palo Verde Unified School District                                          21447     3046      734 sd21-ca.txt 30NOV2022 
+06 29670 Palo Verde Union Elementary School District                                  2358      419       94 sd21-ca.txt 30NOV2022 
+06 29700 Palos Verdes Peninsula Unified School District                              60099    10463      575 sd21-ca.txt 30NOV2022 
+06 06390 Panama-Buena Vista School District                                         145394    20556     3513 sd21-ca.txt 30NOV2022 
+06 29770 Panoche Elementary School District                                            182       24        2 sd21-ca.txt 30NOV2022 
+06 29790 Paradise Elementary School District                                           856       89       16 sd21-ca.txt 30NOV2022 
+06 29820 Paradise Unified School District                                            13913     1765      376 sd21-ca.txt 30NOV2022 
+06 29850 Paramount Unified School District                                           76547    15003     3053 sd21-ca.txt 30NOV2022 
+06 29910 Parlier Unified School District                                             15363     3756     1268 sd21-ca.txt 30NOV2022 
+06 29940 Pasadena Unified School District                                           200299    25372     3218 sd21-ca.txt 30NOV2022 
+06 00048 Paso Robles Joint Unified School District                                   49611     7320     1030 sd21-ca.txt 30NOV2022 
+06 30030 Patterson Joint Unified School District                                     28870     6549     1118 sd21-ca.txt 30NOV2022 
+06 30090 Peninsula Union Elementary School District                                    473       39       17 sd21-ca.txt 30NOV2022 
+06 01427 Penn Valley Union Elementary School District                                13252      986      160 sd21-ca.txt 30NOV2022 
+06 30180 Perris Elementary School District                                           51314     6179     1404 sd21-ca.txt 30NOV2022 
+06 30210 Perris Union High School District                                          207756    14820     2146 sd21-ca.txt 30NOV2022 
+06 30230 Petaluma City Elementary School District                                    31461     2437      216 sd21-ca.txt 30NOV2022 
+06 30250 Petaluma Joint Union High School District                                   74422     5282      367 sd21-ca.txt 30NOV2022 
+06 30330 Piedmont City Unified School District                                       11155     2489       63 sd21-ca.txt 30NOV2022 
+06 30360 Pierce Joint Unified School District                                         6982     1408      189 sd21-ca.txt 30NOV2022 
+06 30390 Pine Ridge Elementary School District                                         955       96       25 sd21-ca.txt 30NOV2022 
+06 30450 Piner-Olivet Union Elementary School District                               15693     1234       89 sd21-ca.txt 30NOV2022 
+06 30480 Pioneer Union Elementary School District                                     5390      442       60 sd21-ca.txt 30NOV2022 
+06 30510 Pioneer Union Elementary School District                                    12323     1770      157 sd21-ca.txt 30NOV2022 
+06 30520 Pioneer Union Elementary School District                                     1723      106       44 sd21-ca.txt 30NOV2022 
+06 30600 Pittsburg Unified School District                                           63243    11201     2058 sd21-ca.txt 30NOV2022 
+06 30630 Pixley Union Elementary School District                                      5268     1001      311 sd21-ca.txt 30NOV2022 
+06 30660 Placentia-Yorba Linda Unified School District                              164398    28273     2133 sd21-ca.txt 30NOV2022 
+06 30720 Placer Hills Union Elementary School District                               14474     1219       99 sd21-ca.txt 30NOV2022 
+06 30750 Placer Union High School District                                           93205     5151      391 sd21-ca.txt 30NOV2022 
+06 30780 Placerville Union Elementary School District                                15316     1381      198 sd21-ca.txt 30NOV2022 
+06 30810 Plainsburg Union Elementary School District                                   488       66       17 sd21-ca.txt 30NOV2022 
+06 30840 Planada Elementary School District                                           5034      784      263 sd21-ca.txt 30NOV2022 
+06 30870 Plaza Elementary School District                                              339       57       23 sd21-ca.txt 30NOV2022 
+06 30900 Pleasant Grove Joint Union Elementary School District                         872      101       15 sd21-ca.txt 30NOV2022 
+06 30930 Pleasant Ridge Union Elementary School District                             21093     1771      221 sd21-ca.txt 30NOV2022 
+06 30990 Pleasant Valley Elementary School District                                  80371     8308      577 sd21-ca.txt 30NOV2022 
+06 31020 Pleasant Valley Joint Union Elementary School District                        968      107       23 sd21-ca.txt 30NOV2022 
+06 31050 Pleasant View Elementary School District                                     2418      423      108 sd21-ca.txt 30NOV2022 
+06 00020 Pleasanton Unified School District                                          78771    15201      523 sd21-ca.txt 30NOV2022 
+06 31180 Plumas Lake Elementary School District                                       8601     1502      116 sd21-ca.txt 30NOV2022 
+06 31170 Plumas Unified School District                                              19216     2474      485 sd21-ca.txt 30NOV2022 
+06 31230 Point Arena Joint Union High School District                                 5952      209       37 sd21-ca.txt 30NOV2022 
+06 31290 Pollock Pines Elementary School District                                     9490      860      114 sd21-ca.txt 30NOV2022 
+06 31320 Pomona Unified School District                                             166185    28686     5345 sd21-ca.txt 30NOV2022 
+06 31350 Pond Union Elementary School District                                         484       94       32 sd21-ca.txt 30NOV2022 
+06 31380 Pope Valley Union Elementary School District                                  760      120       22 sd21-ca.txt 30NOV2022 
+06 00064 Porterville Unified School District                                        102571    16403     4424 sd21-ca.txt 30NOV2022 
+06 31470 Portola Valley Elementary School District                                    6424      713       19 sd21-ca.txt 30NOV2022 
+06 31400 Potter Valley Community Unified School District                              2209      355       67 sd21-ca.txt 30NOV2022 
+06 31530 Poway Unified School District                                              203725    38132     1780 sd21-ca.txt 30NOV2022 
+06 31620 Princeton Joint Unified School District                                      1055      201       21 sd21-ca.txt 30NOV2022 
+06 31680 Raisin City Elementary School District                                       1803      322      134 sd21-ca.txt 30NOV2022 
+06 31710 Ramona City Unified School District                                         36728     6520      594 sd21-ca.txt 30NOV2022 
+06 31740 Rancho Santa Fe Elementary School District                                   6171      487       25 sd21-ca.txt 30NOV2022 
+06 31830 Ravendale-Termo Elementary School District                                    168       22       12 sd21-ca.txt 30NOV2022 
+06 31860 Ravenswood City Elementary School District                                  35040     4315      558 sd21-ca.txt 30NOV2022 
+06 31920 Raymond-Knowles Union Elementary School District                             1157      136       30 sd21-ca.txt 30NOV2022 
+06 32010 Red Bluff Joint Union High School District                                  44015     2595      420 sd21-ca.txt 30NOV2022 
+06 31980 Red Bluff Union Elementary School District                                  20944     2503      492 sd21-ca.txt 30NOV2022 
+06 32040 Redding Elementary School District                                          36093     3668      633 sd21-ca.txt 30NOV2022 
+06 32070 Redlands Unified School District                                           132891    22691     2502 sd21-ca.txt 30NOV2022 
+06 00032 Redondo Beach Unified School District                                       70305    10128      524 sd21-ca.txt 30NOV2022 
+06 32130 Redwood City Elementary School District                                     97178     9871      773 sd21-ca.txt 30NOV2022 
+06 32160 Reed Union Elementary School District                                       14161     1818       83 sd21-ca.txt 30NOV2022 
+06 32250 Reeds Creek Elementary School District                                       1164       99       20 sd21-ca.txt 30NOV2022 
+06 32270 Reef-Sunset Unified School District                                         15227     2666      854 sd21-ca.txt 30NOV2022 
+06 32310 Rescue Union Elementary School District                                     36352     4513      252 sd21-ca.txt 30NOV2022 
+06 32370 Rialto Unified School District                                             129184    27287     4370 sd21-ca.txt 30NOV2022 
+06 32400 Richfield Elementary School District                                         1232      156       25 sd21-ca.txt 30NOV2022 
+06 32430 Richgrove Elementary School District                                         2676      500      132 sd21-ca.txt 30NOV2022 
+06 21450 Richland Union School District                                              20484     3547      870 sd21-ca.txt 30NOV2022 
+06 32520 Richmond Elementary School District                                          1207      138        8 sd21-ca.txt 30NOV2022 
+06 32610 Rim of the World Unified School District                                    30421     4589      839 sd21-ca.txt 30NOV2022 
+06 32640 Rincon Valley Union Elementary School District                              40063     2867      221 sd21-ca.txt 30NOV2022 
+06 32710 Rio Bravo-Greeley Union Elementary School District                           5786      917      182 sd21-ca.txt 30NOV2022 
+06 32730 Rio Dell Elementary School District                                          3480      395      112 sd21-ca.txt 30NOV2022 
+06 32760 Rio Elementary School District                                              42433     5234      749 sd21-ca.txt 30NOV2022 
+06 32880 Ripon Unified School District                                               20871     4520      315 sd21-ca.txt 30NOV2022 
+06 33110 River Delta Joint Unified School District                                   17679     2097      329 sd21-ca.txt 30NOV2022 
+06 00061 Riverbank Unified School District                                           16178     3410      639 sd21-ca.txt 30NOV2022 
+06 00040 Riverdale Joint Unified School District                                      7710     1602      379 sd21-ca.txt 30NOV2022 
+06 33150 Riverside Unified School District                                          261044    44693     6130 sd21-ca.txt 30NOV2022 
+06 33210 Roberts Ferry Union Elementary School District                                723       81       22 sd21-ca.txt 30NOV2022 
+06 33240 Robla Elementary School District                                            20929     2200      430 sd21-ca.txt 30NOV2022 
+06 33270 Rockford Elementary School District                                          1208      182       46 sd21-ca.txt 30NOV2022 
+06 00013 Rocklin Unified School District                                             70858    14113      752 sd21-ca.txt 30NOV2022 
+06 33390 Romoland Elementary School District                                         36180     4960      761 sd21-ca.txt 30NOV2022 
+06 33480 Rosedale Union Elementary School District                                   51948     7554      676 sd21-ca.txt 30NOV2022 
+06 33510 Roseland School District                                                    12120     1238      229 sd21-ca.txt 30NOV2022 
+06 33570 Rosemead Elementary School District                                         26123     2410      565 sd21-ca.txt 30NOV2022 
+06 33600 Roseville City Elementary School District                                  112869    13829      930 sd21-ca.txt 30NOV2022 
+06 33630 Roseville Joint Union High School District                                 196626    11203      706 sd21-ca.txt 30NOV2022 
+06 33660 Ross Elementary School District                                              2733      452       14 sd21-ca.txt 30NOV2022 
+06 00006 Ross Valley Elementary School District                                      23995     2707      124 sd21-ca.txt 30NOV2022 
+06 33690 Round Valley Joint Elementary School District                                1117       95       14 sd21-ca.txt 30NOV2022 
+06 33720 Round Valley Unified School District                                         3143      574      191 sd21-ca.txt 30NOV2022 
+06 33750 Rowland Unified School District                                            104852    16011     2864 sd21-ca.txt 30NOV2022 
+06 33840 Sacramento City Unified School District                                    355011    53298    10092 sd21-ca.txt 30NOV2022 
+06 33860 Saddleback Valley Unified School District                                  219506    33281     2123 sd21-ca.txt 30NOV2022 
+06 33900 Salida Union Elementary School District                                     20304     2899      436 sd21-ca.txt 30NOV2022 
+06 33930 Salinas City Elementary School District                                     84467     9183     1517 sd21-ca.txt 30NOV2022 
+06 33980 Salinas Union High School District                                         184317    18157     2679 sd21-ca.txt 30NOV2022 
+06 34050 San Antonio Union Elementary School District                                 1508      180       34 sd21-ca.txt 30NOV2022 
+06 34080 San Ardo Union Elementary School District                                     548       95       19 sd21-ca.txt 30NOV2022 
+06 34140 San Benito High School District                                             59753     3880      361 sd21-ca.txt 30NOV2022 
+06 34170 San Bernardino City Unified School District                                275102    58207    12125 sd21-ca.txt 30NOV2022 
+06 34230 San Bruno Park Elementary School District                                   37890     3468      218 sd21-ca.txt 30NOV2022 
+06 34290 San Carlos Elementary School District                                       27947     3532       69 sd21-ca.txt 30NOV2022 
+06 34320 San Diego City Unified School District                                    1062529   132673    16779 sd21-ca.txt 30NOV2022 
+06 34380 San Dieguito Union High School District                                    182638    15580      720 sd21-ca.txt 30NOV2022 
+06 34410 San Francisco Unified School District                                      815201    79466     9461 sd21-ca.txt 30NOV2022 
+06 34425 San Gabriel Unified School District                                         41215     5579      895 sd21-ca.txt 30NOV2022 
+06 34440 San Jacinto Unified School District                                         57283    12638     2698 sd21-ca.txt 30NOV2022 
+06 34590 San Jose Unified School District                                           261092    38295     3006 sd21-ca.txt 30NOV2022 
+06 34620 San Juan Unified School District                                           351790    54349     9221 sd21-ca.txt 30NOV2022 
+06 34680 San Leandro Unified School District                                         73241    10196     1408 sd21-ca.txt 30NOV2022 
+06 34710 San Lorenzo Unified School District                                         81397    12862     1828 sd21-ca.txt 30NOV2022 
+06 34740 San Lorenzo Valley Unified School District                                  25104     3301      217 sd21-ca.txt 30NOV2022 
+06 34770 San Lucas Union Elementary School District                                    453       81       11 sd21-ca.txt 30NOV2022 
+06 34800 San Luis Coastal Unified School District                                    93910     8929      922 sd21-ca.txt 30NOV2022 
+06 34880 San Marcos Unified School District                                         126620    22018     1819 sd21-ca.txt 30NOV2022 
+06 34860 San Marino Unified School District                                          14278     2726      201 sd21-ca.txt 30NOV2022 
+06 34980 San Mateo Union High School District                                       241248    10977      562 sd21-ca.txt 30NOV2022 
+06 34920 San Mateo-Foster City Elementary School District                           135610    13572      841 sd21-ca.txt 30NOV2022 
+06 35010 San Miguel Joint Union Elementary School District                            6468      854      151 sd21-ca.txt 30NOV2022 
+06 35040 San Pasqual Union Elementary School District                                 3367      489       39 sd21-ca.txt 30NOV2022 
+06 35070 San Pasqual Valley Unified School District                                   2972      638      189 sd21-ca.txt 30NOV2022 
+06 35090 San Rafael City Elementary School District                                  56167     5093      659 sd21-ca.txt 30NOV2022 
+06 35110 San Rafael City High School District                                        78454     3165      293 sd21-ca.txt 30NOV2022 
+06 35130 San Ramon Valley Unified School District                                   162891    32588      975 sd21-ca.txt 30NOV2022 
+06 35220 San Ysidro Elementary School District                                       42813     3682      845 sd21-ca.txt 30NOV2022 
+06 35250 Sanger Unified School District                                              58715    13108     2375 sd21-ca.txt 30NOV2022 
+06 35310 Santa Ana Unified School District                                          241347    43471     6741 sd21-ca.txt 30NOV2022 
+06 01414 Santa Barbara Unified School District                                      189446    16331     1970 sd21-ca.txt 30NOV2022 
+06 35490 Santa Clara Elementary School District                                        216       37        8 sd21-ca.txt 30NOV2022 
+06 35430 Santa Clara Unified School District                                        166273    20388     1189 sd21-ca.txt 30NOV2022 
+06 35590 Santa Cruz City Elementary School District                                  64619     2785      227 sd21-ca.txt 30NOV2022 
+06 35600 Santa Cruz City High School District                                       120311     5764      433 sd21-ca.txt 30NOV2022 
+06 35670 Santa Maria Joint Union High School District                               155624    10503     1777 sd21-ca.txt 30NOV2022 
+06 05580 Santa Maria-Bonita Elementary School District                              108137    16275     3487 sd21-ca.txt 30NOV2022 
+06 35700 Santa Monica-Malibu Unified School District                                107797    11266     1190 sd21-ca.txt 30NOV2022 
+06 01421 Santa Paula Unified School District                                         32869     5797      945 sd21-ca.txt 30NOV2022 
+06 35790 Santa Rita Union Elementary School District                                 25336     2991      457 sd21-ca.txt 30NOV2022 
+06 35810 Santa Rosa Elementary School District                                       71065     5757      682 sd21-ca.txt 30NOV2022 
+06 35830 Santa Rosa High School District                                            210737    14845     1485 sd21-ca.txt 30NOV2022 
+06 35850 Santa Ynez Valley Union High School District                                22597     1353      118 sd21-ca.txt 30NOV2022 
+06 35880 Santee School District                                                      63734     7003      558 sd21-ca.txt 30NOV2022 
+06 35910 Saratoga Union Elementary School District                                   20160     2302       74 sd21-ca.txt 30NOV2022 
+06 35940 Saucelito Elementary School District                                          181       27        2 sd21-ca.txt 30NOV2022 
+06 35970 Saugus Union Elementary School District                                    114097    11335      698 sd21-ca.txt 30NOV2022 
+06 36000 Sausalito Elementary School District                                        11228      599       77 sd21-ca.txt 30NOV2022 
+06 36030 Savanna Elementary School District                                          29458     2419      338 sd21-ca.txt 30NOV2022 
+06 36100 Scotia Union Elementary School District                                      1093      151       27 sd21-ca.txt 30NOV2022 
+06 00159 Scott Valley Unified School District                                         5262      856      179 sd21-ca.txt 30NOV2022 
+06 00043 Scotts Valley Unified School District                                       18350     3081      109 sd21-ca.txt 30NOV2022 
+06 36180 Sebastopol Union Elementary School District                                 11848     1054      107 sd21-ca.txt 30NOV2022 
+06 36210 Seeley Union Elementary School District                                      2579      368       90 sd21-ca.txt 30NOV2022 
+06 36240 Seiad Elementary School District                                              281       20        8 sd21-ca.txt 30NOV2022 
+06 36270 Selma Unified School District                                               30008     6627     1894 sd21-ca.txt 30NOV2022 
+06 36330 Semitropic Elementary School District                                         196       43       13 sd21-ca.txt 30NOV2022 
+06 36360 Sequoia Union Elementary School District                                     2195      309       66 sd21-ca.txt 30NOV2022 
+06 36390 Sequoia Union High School District                                         251451    11631      606 sd21-ca.txt 30NOV2022 
+06 36420 Shaffer Union Elementary School District                                     9759      301       53 sd21-ca.txt 30NOV2022 
+06 36450 Shandon Joint Unified School District                                        1773      352       44 sd21-ca.txt 30NOV2022 
+06 36570 Shasta Union Elementary School District                                      1370      137       27 sd21-ca.txt 30NOV2022 
+06 36600 Shasta Union High School District                                          103566     5518      817 sd21-ca.txt 30NOV2022 
+06 36660 Shiloh Elementary School District                                             758       96       20 sd21-ca.txt 30NOV2022 
+06 36670 Shoreline Unified School District                                            6039      667       69 sd21-ca.txt 30NOV2022 
+06 36800 Sierra Sands Unified School District                                        35554     6565     1036 sd21-ca.txt 30NOV2022 
+06 36805 Sierra Unified School District                                              10502     1660      297 sd21-ca.txt 30NOV2022 
+06 36780 Sierra-Plumas Joint Unified School District                                  3982      538       81 sd21-ca.txt 30NOV2022 
+06 36810 Silver Fork Elementary School District                                        239       18        3 sd21-ca.txt 30NOV2022 
+06 36820 Silver Valley Unified School District                                       12136     2160      344 sd21-ca.txt 30NOV2022 
+06 36840 Simi Valley Unified School District                                        129093    20677     1756 sd21-ca.txt 30NOV2022 
+06 36940 Siskiyou Union High School District                                         15880      789      145 sd21-ca.txt 30NOV2022 
+06 36960 Snelling-Merced Falls Union Elementary School District                        666       87       29 sd21-ca.txt 30NOV2022 
+06 36970 Snowline Joint Unified School District                                      41932     8455     1351 sd21-ca.txt 30NOV2022 
+06 36990 Solana Beach Elementary School District                                     41234     3606      167 sd21-ca.txt 30NOV2022 
+06 37050 Soledad Unified School District                                             25569     4931      712 sd21-ca.txt 30NOV2022 
+06 37110 Solvang Elementary School District                                           6596      558       74 sd21-ca.txt 30NOV2022 
+06 37140 Somis Union Elementary School District                                       3131      308       36 sd21-ca.txt 30NOV2022 
+06 37200 Sonoma Valley Unified School District                                       37167     4875      483 sd21-ca.txt 30NOV2022 
+06 37230 Sonora Elementary School District                                            9473      793      131 sd21-ca.txt 30NOV2022 
+06 37260 Sonora Union High School District                                           40310     1803      241 sd21-ca.txt 30NOV2022 
+06 37290 Soquel Elementary School District                                           26676     2234      169 sd21-ca.txt 30NOV2022 
+06 37320 Soulsbyville Elementary School District                                      5036      493       58 sd21-ca.txt 30NOV2022 
+06 37350 South Bay Union Elementary School District                                   7082      526      114 sd21-ca.txt 30NOV2022 
+06 37380 South Bay Union School District                                             76108     6750     1200 sd21-ca.txt 30NOV2022 
+06 37470 South Fork Union School District                                             3179      264       87 sd21-ca.txt 30NOV2022 
+06 19650 South Monterey County Joint Union High School District                      38898     2894      481 sd21-ca.txt 30NOV2022 
+06 37500 South Pasadena Unified School District                                      26419     4999      287 sd21-ca.txt 30NOV2022 
+06 37530 South San Francisco Unified School District                                 78108    10441      694 sd21-ca.txt 30NOV2022 
+06 37560 South Whittier Elementary School District                                   27485     3448      605 sd21-ca.txt 30NOV2022 
+06 37590 Southern Humboldt Joint Unified School District                              7972      962      331 sd21-ca.txt 30NOV2022 
+06 37620 Southern Kern Unified School District                                       22233     4804     1011 sd21-ca.txt 30NOV2022 
+06 37630 Southern Trinity Joint Unified School District                                948      102       38 sd21-ca.txt 30NOV2022 
+06 37650 Southside Elementary School District                                         1857      170       14 sd21-ca.txt 30NOV2022 
+06 37680 Spencer Valley Elementary School District                                     478       31        6 sd21-ca.txt 30NOV2022 
+06 37710 Spreckels Union Elementary School District                                   6980      719       46 sd21-ca.txt 30NOV2022 
+06 37770 Springville Union Elementary School District                                 4237      396       67 sd21-ca.txt 30NOV2022 
+06 37830 St. Helena Unified School District                                           9179     1290      108 sd21-ca.txt 30NOV2022 
+06 37890 Standard Elementary School District                                         25321     3414      941 sd21-ca.txt 30NOV2022 
+06 37950 Stanislaus Union Elementary School District                                 31430     3807      735 sd21-ca.txt 30NOV2022 
+06 38010 Stockton Unified School District                                           219945    45622     9632 sd21-ca.txt 30NOV2022 
+06 38040 Stone Corral Elementary School District                                       636       94       37 sd21-ca.txt 30NOV2022 
+06 38070 Stony Creek Joint Unified School District                                     851      163       47 sd21-ca.txt 30NOV2022 
+06 38130 Strathmore Union Elementary School District                                  5515      882      260 sd21-ca.txt 30NOV2022 
+06 38220 Sulphur Springs Union Elementary School District                            65766     6315      907 sd21-ca.txt 30NOV2022 
+06 38250 Summerville Elementary School District                                       4456      481       87 sd21-ca.txt 30NOV2022 
+06 38280 Summerville Union High School District                                      10005      499       71 sd21-ca.txt 30NOV2022 
+06 38340 Sundale Union Elementary School District                                     2252      389       73 sd21-ca.txt 30NOV2022 
+06 38430 Sunnyside Union Elementary School District                                   2165      376      106 sd21-ca.txt 30NOV2022 
+06 38460 Sunnyvale Elementary School District                                        93917     8198      447 sd21-ca.txt 30NOV2022 
+06 00021 Sunol Glen Unified School District                                            939      113       11 sd21-ca.txt 30NOV2022 
+06 38520 Surprise Valley Joint Unified School District                                1106      121       37 sd21-ca.txt 30NOV2022 
+06 38550 Susanville Elementary School District                                       11146     1346      283 sd21-ca.txt 30NOV2022 
+06 38610 Sutter Union High School District                                            7582      531       80 sd21-ca.txt 30NOV2022 
+06 38640 Sweetwater Union High School District                                      489845    43774     5975 sd21-ca.txt 30NOV2022 
+06 38670 Sylvan Union Elementary School District                                     78145    10011     1411 sd21-ca.txt 30NOV2022 
+06 38700 Taft City School District                                                   18574     2517      729 sd21-ca.txt 30NOV2022 
+06 38730 Taft Union High School District                                             19499     1317      337 sd21-ca.txt 30NOV2022 
+06 38770 Tahoe-Truckee Unified School District                                       32765     4804      432 sd21-ca.txt 30NOV2022 
+06 38790 Tamalpais Union High School District                                       117544     5493      237 sd21-ca.txt 30NOV2022 
+06 38880 Tehachapi Unified School District                                           35680     5962      699 sd21-ca.txt 30NOV2022 
+06 00028 Temecula Valley Unified School District                                    164898    34899     2757 sd21-ca.txt 30NOV2022 
+06 38980 Temple City Unified School District                                         34923     5612      795 sd21-ca.txt 30NOV2022 
+06 39000 Templeton Unified School District                                           11405     1992      217 sd21-ca.txt 30NOV2022 
+06 39060 Terra Bella Union Elementary School District                                 5595      893      306 sd21-ca.txt 30NOV2022 
+06 39180 Thermalito Union School District                                            12670     1535      363 sd21-ca.txt 30NOV2022 
+06 39210 Three Rivers Union Elementary School District                                2130      172       46 sd21-ca.txt 30NOV2022 
+06 39300 Tipton Elementary School District                                            3208      563      137 sd21-ca.txt 30NOV2022 
+06 39420 Torrance Unified School District                                           144237    22579     1827 sd21-ca.txt 30NOV2022 
+06 00047 Tracy Unified School District                                              112473    18552     1915 sd21-ca.txt 30NOV2022 
+06 39600 Traver Joint Elementary School District                                      1190      215       64 sd21-ca.txt 30NOV2022 
+06 39630 Travis Unified School District                                              32147     5678      317 sd21-ca.txt 30NOV2022 
+06 39690 Tres Pinos Union Elementary School District                                   833       95        3 sd21-ca.txt 30NOV2022 
+06 39720 Trinidad Union Elementary School District                                    2104      180       43 sd21-ca.txt 30NOV2022 
+06 01331 Trinity Alps Unified School District                                         8661      894      173 sd21-ca.txt 30NOV2022 
+06 39750 Trinity Center Elementary School District                                     392       21        7 sd21-ca.txt 30NOV2022 
+06 39840 Trona Joint Unified School District                                          1699      292       75 sd21-ca.txt 30NOV2022 
+06 39870 Tulare City Elementary School District                                      70139    11406     2233 sd21-ca.txt 30NOV2022 
+06 39930 Tulare Joint Union High School District                                     87877     6392     1162 sd21-ca.txt 30NOV2022 
+06 39940 Tulelake Basin Joint Unified School District                                 2030      421       92 sd21-ca.txt 30NOV2022 
+06 00158 Turlock Unified School District                                             84642    14799     2582 sd21-ca.txt 30NOV2022 
+06 40150 Tustin Unified School District                                             142489    24556     2167 sd21-ca.txt 30NOV2022 
+06 40200 Twain Harte School District                                                  5549      424       70 sd21-ca.txt 30NOV2022 
+06 40230 Twin Hills Union Elementary School District                                  5607      401       30 sd21-ca.txt 30NOV2022 
+06 00012 Twin Ridges Elementary School District                                       2453      185       34 sd21-ca.txt 30NOV2022 
+06 01332 Twin Rivers Unified School District                                        204069    36516     8113 sd21-ca.txt 30NOV2022 
+06 40260 Two Rock Union Elementary School District                                    1513      153        4 sd21-ca.txt 30NOV2022 
+06 40300 Ukiah Unified School District                                               40186     7074     1320 sd21-ca.txt 30NOV2022 
+06 40320 Union Elementary School District                                            45940     6692      212 sd21-ca.txt 30NOV2022 
+06 40380 Union Hill Elementary School District                                        2628      212       36 sd21-ca.txt 30NOV2022 
+06 00016 Upland Unified School District                                              78187    12971     1407 sd21-ca.txt 30NOV2022 
+06 01442 Upper Lake Unified School District                                           9517     1033      271 sd21-ca.txt 30NOV2022 
+06 40590 Vacaville Unified School District                                           88366    14320     1297 sd21-ca.txt 30NOV2022 
+06 91135 Val Verde Unified School District                                           90508    19975     3442 sd21-ca.txt 30NOV2022 
+06 40650 Valle Lindo Elementary School District                                       6206      590      106 sd21-ca.txt 30NOV2022 
+06 40680 Vallecito Union Elementary School District                                   9844      713      111 sd21-ca.txt 30NOV2022 
+06 40710 Vallecitos Elementary School District                                        2335      203       38 sd21-ca.txt 30NOV2022 
+06 40740 Vallejo City Unified School District                                       129149    19360     2983 sd21-ca.txt 30NOV2022 
+06 00069 Valley Center-Pauma Unified School District                                 27312     4464      638 sd21-ca.txt 30NOV2022 
+06 40800 Valley Home Joint Elementary School District                                 1875      217       27 sd21-ca.txt 30NOV2022 
+06 40980 Ventura Unified School District                                            121545    18642     2123 sd21-ca.txt 30NOV2022 
+06 41040 Victor Elementary School District                                          110513    13185     3119 sd21-ca.txt 30NOV2022 
+06 36972 Victor Valley Union High School District                                   184501    19648     4122 sd21-ca.txt 30NOV2022 
+06 41130 Vineland Elementary School District                                          3583      606      251 sd21-ca.txt 30NOV2022 
+06 41160 Visalia Unified School District                                            161815    34794     6013 sd21-ca.txt 30NOV2022 
+06 41190 Vista Unified School District                                              152830    24489     2829 sd21-ca.txt 30NOV2022 
+06 41220 Vista del Mar Union Elementary School District                                553       45       11 sd21-ca.txt 30NOV2022 
+06 41250 Walnut Creek Elementary School District                                     53299     4053      221 sd21-ca.txt 30NOV2022 
+06 41280 Walnut Valley Unified School District                                       55288     9156     1059 sd21-ca.txt 30NOV2022 
+06 00042 Warner Unified School District                                               2184      209       36 sd21-ca.txt 30NOV2022 
+06 41400 Wasco Union Elementary School District                                      27973     4076     1042 sd21-ca.txt 30NOV2022 
+06 41430 Wasco Union High School District                                            31239     2094      472 sd21-ca.txt 30NOV2022 
+06 41460 Washington Colony Elementary School District                                 2727      354       88 sd21-ca.txt 30NOV2022 
+06 01415 Washington Unified School District                                          18047     2745     1022 sd21-ca.txt 30NOV2022 
+06 41580 Washington Unified School District                                          54073     9343     1326 sd21-ca.txt 30NOV2022 
+06 41610 Washington Union Elementary School District                                  7037      505       23 sd21-ca.txt 30NOV2022 
+06 00063 Waterford Unified School District                                           10321     2341      410 sd21-ca.txt 30NOV2022 
+06 41790 Waugh Elementary School District                                             6453      559       29 sd21-ca.txt 30NOV2022 
+06 41820 Waukena Joint Union Elementary School District                                868      162       26 sd21-ca.txt 30NOV2022 
+06 41880 Weaver Union Elementary School District                                     15951     2890     1039 sd21-ca.txt 30NOV2022 
+06 41980 Weed Union Elementary School District                                        3998      383      103 sd21-ca.txt 30NOV2022 
+06 32550 West Contra Costa Unified School District                                  258504    39147     5841 sd21-ca.txt 30NOV2022 
+06 42000 West Covina Unified School District                                         59725     9535     1363 sd21-ca.txt 30NOV2022 
+06 42060 West Park Elementary School District                                         1605      213       95 sd21-ca.txt 30NOV2022 
+06 42270 West Side Union Elementary School District                                    805       30        5 sd21-ca.txt 30NOV2022 
+06 02670 West Sonoma County Union High School District                               47103     2116      214 sd21-ca.txt 30NOV2022 
+06 42140 Western Placer Unified School District                                      58263     9178      660 sd21-ca.txt 30NOV2022 
+06 42150 Westminster School District                                                 84620     8926     1474 sd21-ca.txt 30NOV2022 
+06 42180 Westmorland Union Elementary School District                                 2257      371      117 sd21-ca.txt 30NOV2022 
+06 42210 Westside Elementary School District                                           823      157       49 sd21-ca.txt 30NOV2022 
+06 42120 Westside Union Elementary School District                                   73071     8703     1242 sd21-ca.txt 30NOV2022 
+06 42300 Westwood Unified School District                                             1773      246       58 sd21-ca.txt 30NOV2022 
+06 42330 Wheatland Elementary School District                                         8289     1066      140 sd21-ca.txt 30NOV2022 
+06 42350 Wheatland Union High School District                                        16890      931       77 sd21-ca.txt 30NOV2022 
+06 42420 Whitmore Union Elementary School District                                     726       50        7 sd21-ca.txt 30NOV2022 
+06 42450 Whittier City Elementary School District                                    65580     7141      957 sd21-ca.txt 30NOV2022 
+06 42480 Whittier Union High School District                                        217222    12864     1449 sd21-ca.txt 30NOV2022 
+06 42510 William S. Hart Union High School District                                 281470    25326     2012 sd21-ca.txt 30NOV2022 
+06 42540 Williams Unified School District                                             6259     1358      169 sd21-ca.txt 30NOV2022 
+06 42560 Willits Unified School District                                             13788     2343      482 sd21-ca.txt 30NOV2022 
+06 42600 Willow Creek Elementary School District                                       743       69       18 sd21-ca.txt 30NOV2022 
+06 42630 Willow Grove Union Elementary School District                                 318       36        8 sd21-ca.txt 30NOV2022 
+06 42710 Willows Unified School District                                              9484     1904      386 sd21-ca.txt 30NOV2022 
+06 42750 Wilmar Union Elementary School District                                      3101      201       18 sd21-ca.txt 30NOV2022 
+06 42810 Wilsona Elementary School District                                          10566     1500      513 sd21-ca.txt 30NOV2022 
+06 00034 Windsor Unified School District                                             27927     4697      322 sd21-ca.txt 30NOV2022 
+06 42900 Winship Robbins Elementary School District                                    591       81       18 sd21-ca.txt 30NOV2022 
+06 42930 Winters Joint Unified School District                                        9326     1755      212 sd21-ca.txt 30NOV2022 
+06 42960 Winton School District                                                      12096     2001      702 sd21-ca.txt 30NOV2022 
+06 01428 Wiseburn Unified School District                                            14710     2372      159 sd21-ca.txt 30NOV2022 
+06 01418 Woodlake Unified School District                                            12545     2366      601 sd21-ca.txt 30NOV2022 
+06 43080 Woodland Joint Unified School District                                      66716    11734     1198 sd21-ca.txt 30NOV2022 
+06 43140 Woodside Elementary School District                                          3086      394        9 sd21-ca.txt 30NOV2022 
+06 43170 Woodville Elementary School District                                         2639      463      137 sd21-ca.txt 30NOV2022 
+06 43200 Wright Elementary School District                                           18223     1563      162 sd21-ca.txt 30NOV2022 
+06 00160 Yosemite Unified School District                                            23206     2318      396 sd21-ca.txt 30NOV2022 
+06 43380 Yreka Union Elementary School District                                       9916     1124      245 sd21-ca.txt 30NOV2022 
+06 43410 Yreka Union High School District                                            17898      913      182 sd21-ca.txt 30NOV2022 
+06 43470 Yuba City Unified School District                                           77832    14835     3051 sd21-ca.txt 30NOV2022 
+06 43560 Yucaipa-Calimesa Joint Unified School District                              63351    11595     1281 sd21-ca.txt 30NOV2022 

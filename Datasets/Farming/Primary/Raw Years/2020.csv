@@ -1,0 +1,71 @@
+Value, Category, Count,  Acreage
+1, Corn, 275856, 61348.9
+2, Cotton, 52, 11.6
+3, Rice, 32507, 7229.4
+4, Sorghum, 5273, 1172.7
+6, Sunflowers, 7982, 1775.2
+12, Sweet Corn, 1185, 263.5
+21, Barley, 3440, 765.0
+22, Durum Wheat, 55, 12.2
+23, Spring Wheat, 49, 10.9
+24, Winter Wheat, 123690, 27508.0
+27, Rye, 1565, 348.0
+28, Oats, 17792, 3956.8
+33, Safflower, 62125, 13816.3
+36, Alfalfa, 351690, 78214.0
+37, Other Hay/Non Alfalfa, 60765, 13513.8
+42, Dry Beans, 499, 111.0
+43, Potatoes, 1104, 245.5
+44, Other Crops, 5943, 1321.7
+48, Watermelons, 626, 139.2
+49, Onions, 112, 24.9
+50, Cucumbers, 29133, 6479.0
+51, Chick Peas, 232, 51.6
+53, Peas, 220, 48.9
+54, Tomatoes, 74826, 16640.9
+57, Herbs, 174, 38.7
+58, Clover/Wildflowers, 141977, 31574.9
+59, Sod/Grass Seed, 385, 85.6
+61, Fallow/Idle Cropland, 91406, 20328.2
+66, Cherries, 7959, 1770.0
+67, Peaches, 140, 31.1
+68, Apples, 3449, 767.0
+69, Grapes, 147189, 32734.0
+71, Other Tree Crops, 828, 184.1
+72, Citrus, 1, 0.2
+74, Pecans, 388, 86.3
+75, Almonds, 103759, 23075.4
+76, Walnuts, 36922, 8211.3
+77, Pears, 25119, 5586.3
+111, Open Water, 252852, 56232.9
+121, Developed/Open Space, 28747, 6393.2
+122, Developed/Low Intensity, 17385, 3866.3
+123, Developed/Medium Intensity, 5535, 1231.0
+124, Developed/High Intensity, 1625, 361.4
+131, Barren, 1915, 425.9
+141, Deciduous Forest, 13, 2.9
+142, Evergreen Forest, 308, 68.5
+143, Mixed Forest, 542, 120.5
+152, Shrubland, 6187, 1376.0
+176, Grass/Pasture, 70978, 15785.1
+190, Woody Wetlands, 18077, 4020.2
+195, Herbaceous Wetlands, 87523, 19464.6
+204, Pistachios, 1107, 246.2
+205, Triticale, 60675, 13493.8
+206, Carrots, 1169, 260.0
+208, Garlic, 4646, 1033.2
+209, Cantaloupes, 45, 10.0
+211, Olives, 19219, 4274.2
+212, Oranges, 764, 169.9
+213, Honeydew Melons, 1977, 439.7
+216, Peppers, 1, 0.2
+217, Pomegranates, 70, 15.6
+220, Plums, 957, 212.8
+221, Strawberries, 69, 15.3
+222, Squash, 367, 81.6
+224, Vetch, 40, 8.9
+225, Dbl Crop WinWht/Corn, 4427, 984.5
+226, Dbl Crop Oats/Corn, 655, 145.7
+227, Lettuce, 1, 0.2
+228, Dbl Crop Triticale/Corn, 109, 24.2
+229, Pumpkins, 40, 8.9
