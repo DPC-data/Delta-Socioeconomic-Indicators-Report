@@ -9,8 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A change
-
 This markdown file will be used to clip the datasets we have to include only regions in the delta. For now we will also include the parts of Alameda county that are in the delta region, but we may exclude those later.
 
 We will first load our packages. A secondary goal of this script will be to explain clearly the code being used so that an audience unfamiliar with R and Markdown can follow along easily.
