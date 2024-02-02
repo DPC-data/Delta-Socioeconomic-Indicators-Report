@@ -441,6 +441,8 @@ num_children_in_poverty = poverty_data_delta %>%
 
 ### Fishing Licenses
 
+First we'll acess the CA zip codes, then filter licenses by zip code.
+
 ```{r}
 california_zip_codes = read_csv('California_Zip_Codes.csv')
 zip_codes = read_csv('zipcodes.csv')
