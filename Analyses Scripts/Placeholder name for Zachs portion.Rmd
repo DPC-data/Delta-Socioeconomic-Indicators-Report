@@ -560,6 +560,8 @@ perc_land_farming_primary = perc_land_farming_primary %>%
   summarize(acre = sum(Acreage)) %>%
   ungroup() %>%
   mutate(percentage = acre / sum(acre)) #get percentage of land for farming vs not farming
+percentage of land for farming vs not farming
+
 
 #same as above but for secondary zone:
 
@@ -677,7 +679,7 @@ farmland_conversion_plot
 We can't get the data for the secondary zone, but we can extrapolate this by subtracting the changes in acreage for the primary zone from the changes for the entire delta:
 
 ```{r}
-farmland_conversion_full_delta = read_csv('farmland_conversion_primary_secondary.csv') 
+farmland_conversion_full_delta = read_csv('../Datasets/Farmland Conversion/farmland_conversion_primary_secondary.csv') 
 farmland_conversion_primary = read_csv('../Datasets/Farmland Conversion/cdl_clip_compare_20231031171359_682598908_int.csv') 
   
 conversion_data_secondary = farmland_conversion_full_delta %>%
