@@ -7,13 +7,14 @@ library(dplyr)
 library(stringr)
 
 # Use the census API Key to access data
-census_api_key("7c14e5ef3f0b07dee90eec286a5c4f75ff2fe0b9", install=TRUE)
+# Add your census API Key in ""
+# census_api_key("", install=TRUE)
 
 # Counties in the Delta
 delta_counties = c('Alameda', 'Contra Costa', 'Sacramento', 'San Joaquin', 'Solano', 'Yolo')
 
 # Access Excel data 
-delta_tracts = readxl::read_xlsx('finalctchris.xlsx')
+delta_tracts = readxl::read_xlsx('Datasets/Census Tracts/finalctchris.xlsx')
 delta_tracts_no_leading_zero = pull(delta_tracts[,2])
 
 delta_tracts = delta_tracts %>%
