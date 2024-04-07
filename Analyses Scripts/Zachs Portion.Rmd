@@ -444,8 +444,8 @@ num_children_in_poverty = poverty_data_delta %>%
 First we'll acess the CA zip codes, then filter licenses by zip code.
 
 ```{r}
-california_zip_codes = read_csv('California_Zip_Codes.csv')
-zip_codes = read_csv('zipcodes.csv')
+california_zip_codes = read_csv('../Datasets/California_Zip_Codes.csv')
+zip_codes = read_csv('../Datasets/zipcodes.csv')
 zip_codes$zipcodes = as.character(zip_codes$zipcodes)
 
 fishing_licenses = read_csv('../Datasets/Sport Fishing Licenses/2022 Sport Fishing License Sales By Sales Location Zip.csv') %>%
@@ -467,7 +467,7 @@ sum(fishing_licenses$`Grand Total`) / sum(state_fishing_licenses$total_state)
 
 ```{r}
 
-california_zip_codes = read_csv('California_Zip_Codes.csv')
+california_zip_codes = read_csv('../Datasets/California_Zip_Codes.csv')
 hunting_licenses_delta = read_csv('../Datasets/Hunting Licenses/2022 Hunting License Sales By Sales Location Zip.csv') %>%
   select(`ZipCode/Item`,`Grand Total`) %>%
   filter(`ZipCode/Item` %in% zip_codes$zipcodes) %>%
@@ -708,7 +708,11 @@ conversion_data_plot_secondary = conversion_data_plot_secondary %>%
                names_to = 'Zone', 
                values_to = 'Acres') 
 
-farmland_conversion_plot_full = ggplot(data = conversion_data_plot_secondary) +
+farmland_conversion_data = conversion_data_plot_secondary %>%
+  group_by(Zone, From) %>%
+  summarize(Acres = sum(Acres))
+
+farmland_conversion_plot_full = ggplot(data = farmland_conversion_data) +
   geom_col(aes(x = From, y = Acres, fill = Zone), position = 'dodge') +
   xlab('Category') +
   ylab('Acres') +
@@ -1155,8 +1159,8 @@ less_than_ninth_filtered
 ## Park Use Data
 
 ```{r}
-park_use_data_brennan = read_csv('brannan_island_sra.csv')
-park_use_data_meadows = read_csv('delta_meadows.csv')
+park_use_data_brennan = read_csv('../Datasets/brannan_island_sra.csv')
+park_use_data_meadows = read_csv('../delta_meadows.csv')
 
 park_use_data_brennan = park_use_data_brennan %>%
   group_by(Year) %>%
