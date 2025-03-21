@@ -7,7 +7,7 @@ Datsets contains the data for the analyses.
 
 In this folder are the scripts for all the analyses done in the report. 
 
-In Placeholder name for Zachs Portion, we have the analyses for the following:
+In Zachs-Portion.RMD, we have the analyses for the following:
 
 * population data
 * high school graduation rates
@@ -16,5 +16,4 @@ In Placeholder name for Zachs Portion, we have the analyses for the following:
 * farming and agriculture
 * and park use data.
 
-
-
+In Graces portion.R, we have the remaining analyses in the report.
